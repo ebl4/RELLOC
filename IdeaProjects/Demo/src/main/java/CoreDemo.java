@@ -26,15 +26,21 @@ public class CoreDemo {
         long start = System.currentTimeMillis();
 
         // read some text in the text variable
-        String text = "Obama lives in Washington.";
-        text = "New York City is also the most densely populated major city in the United States";
+        String text = "Obama lives in Washington and George lives in New York.";
+        text = "The City of New York, often called New York City or simply New York, is the most populous city in the United States. " +
+                "With an estimated 2016 population of 8,537,673 distributed over a land area of about 302,6 square miles (784 km2), " +
+                "New York City is also the most densely populated major city in the United States.";
         FetchURLData fetchURLData = new FetchURLData();
         //text = fetchURLData.getData("https://en.wikipedia.org/wiki/New_York_City");
 
         //run annotation relation extractor (openie)
         //annotation_extractor(text);
 
-        annotation_extractor(text.split("\\."), databaseConnection);
+        String[] textSentences = text.split("\\. ");
+
+        for (String textSentence : textSentences) {
+            annotation_extractor(textSentence.split("\\, "), databaseConnection);
+        }
 
         long end = System.currentTimeMillis();
 
@@ -68,18 +74,18 @@ public class CoreDemo {
             for(CoreMap sentence: sentences) {
                 // traversing the words in the current sentence
                 // a CoreLabel is a CoreMap with additional token-specific methods
-            for (CoreLabel token: sentence.get(CoreAnnotations.TokensAnnotation.class)) {
-                // this is the text of the token
-                String word = token.get(CoreAnnotations.TextAnnotation.class);
-                // this is the POS tag of the token
-                //String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
-                // this is the NER label of the token
-                String ne = token.get(CoreAnnotations.NamedEntityTagAnnotation.class);
+                for (CoreLabel token: sentence.get(CoreAnnotations.TokensAnnotation.class)) {
+                    // this is the text of the token
+                    String word = token.get(CoreAnnotations.TextAnnotation.class);
+                    // this is the POS tag of the token
+                    //String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
+                    // this is the NER label of the token
+                    String ne = token.get(CoreAnnotations.NamedEntityTagAnnotation.class);
 
-                //System.out.println("POS: "+pos);
-                //System.out.print("WORD: "+word);
-                //System.out.println(" | NE: "+ne);
-            }
+                    //System.out.println("POS: "+pos);
+                    //System.out.print("WORD: "+word);
+                    //System.out.println(" | NE: "+ne);
+                }
 
                 System.out.printf("Analysing sentence %d\n", +contSent++);
                 relation_mention_extractor(sentence, databaseConnection, contRel);
@@ -137,32 +143,28 @@ public class CoreDemo {
                 // Print the triples
                 List<RelationTriple> withNE = triples.stream()
                         // make sure the subject is entirely named entities
-                        .filter( triple ->
+                        .filter(triple ->
                                 triple.subject.stream().noneMatch(token -> "O".equals(token.ner())))
                         // make sure the object is entirely named entities
-                        .filter( triple ->
+                        .filter(triple ->
                                 triple.object.stream().noneMatch(token -> "O".equals(token.ner())))
                         // Convert the stream back to a list
                         .collect(Collectors.toList());
 
-                int count = 0;
-                for (RelationTriple triple : withNE) {
-                    datas.clear();
-                    /*List<CoreLabel> tokens = triple.allTokens();
+                if (!withNE.isEmpty()) {
+                    RelationTriple selectedTriple = Collections.max(withNE);
 
-                    for (CoreLabel token : tokens){
-                        System.out.println(token);
-                        System.out.println(token.get(CoreAnnotations.NamedEntityTagAnnotation.class));
-                    }*/
+                    int count = 0;
+                    datas.clear();
 
                     System.out.printf("Triple %d\n", ++count);
-                    datas.add(triple.subject.get(0).ner());
-                    datas.add(triple.subjectLemmaGloss());
-                    datas.add(triple.relation.get(0).ner());
-                    datas.add(triple.relationLemmaGloss());
-                    datas.add(triple.object.get(0).ner());
-                    datas.add(triple.objectLemmaGloss());
-                    datas.add(String.valueOf(triple.confidence));
+                    datas.add(selectedTriple.subject.get(0).ner());
+                    datas.add(selectedTriple.subjectLemmaGloss());
+                    datas.add(selectedTriple.relation.get(0).ner());
+                    datas.add(selectedTriple.relationLemmaGloss());
+                    datas.add(selectedTriple.object.get(0).ner());
+                    datas.add(selectedTriple.objectLemmaGloss());
+                    datas.add(String.valueOf(selectedTriple.confidence));
 
                     databaseConnection.prepareStatement(datas);
                 }
@@ -177,9 +179,9 @@ public class CoreDemo {
             for (RelationTriple triple : sent.openieTriples()){
                 //print the triple
                 System.out.println(triple.confidence + "\t" +
-                triple.subjectLemmaGloss() + "\t" +
-                triple.relationLemmaGloss() + "\t" +
-                triple.objectLemmaGloss());
+                        triple.subjectLemmaGloss() + "\t" +
+                        triple.relationLemmaGloss() + "\t" +
+                        triple.objectLemmaGloss());
             }
         }
     }

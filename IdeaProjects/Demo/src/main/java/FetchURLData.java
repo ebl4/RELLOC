@@ -24,7 +24,7 @@ public class FetchURLData {
             }
 
             org.jsoup.nodes.Document document = Jsoup.parse(rawHtml.toString());
-            text = document.body().text();
+            text = textFormat(document.body().text());
 
         } catch (MalformedURLException e){
             e.printStackTrace();
@@ -32,6 +32,10 @@ public class FetchURLData {
             e.printStackTrace();
         }
         return text;
+    }
+
+    public static String textFormat(String text){
+        return text.replaceAll("[\\[[0-9]\\]]", "");
     }
 
     public static void main(String[] args) {

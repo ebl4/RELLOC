@@ -10,8 +10,9 @@ def roundPoints(points):
 # Return que most frequent point in the list	
 def mostFreqPoint(points):
 	points_to_count = [point[0] for point in points]
-	c = Counter(points_to_count)
-	print(c.most_common(1))
+	c = Counter(points_to_count).most_common(1)
+	most_freq_point = [point for point in points if c[0][0] == point[0]]
+	return most_freq_point[0]
 
 
 # Parte referente do acesso ao LOG
@@ -58,7 +59,7 @@ pointsFormat = [point[5:].replace("[", "").replace("]", "").split(',') for point
 
 roundedPoints = roundPoints(pointsFormat)
 
-mostFreqPoint(roundedPoints)
+print(mostFreqPoint(roundedPoints))
 
 # print(round(float(pointsFormat[0][0]), 2))
 

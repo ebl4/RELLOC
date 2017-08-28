@@ -1,0 +1,60 @@
+"id";"subject_type";"subject_value";"relation_type";"relation_value";"object_type";"object_value";"confidence"
+361;"LOCATION";"Jersey City";"O";"be bound by";"LOCATION";"Hudson River";1.0
+362;"LOCATION";"Jersey City";"O";"be";"LOCATION";"Hudson City";1.0
+363;"LOCATION";"Greenville";"O";"merge into";"LOCATION";"Greater Jersey City";1.0
+364;"LOCATION";"Ellis Island";"O";"be into";"LOCATION";"United States";1.0
+365;"LOCATION";"Liberty Island";"O";"be seat of";"LOCATION";"Hudson County";1.0
+366;"LOCATION";"Jersey City";"O";"be border by";"LOCATION";"Hudson River";1.0
+367;"LOCATION";"New Jersey Palisades";"O";"overlook";"LOCATION";"Hoboken";0.5031047837873566
+368;"LOCATION";"Paterson Plank Road";"O";"be in";"LOCATION";"Washington Park";1.0
+369;"ORGANIZATION";"Census Bureau";"O";"have";"ORGANIZATION";"American Community survey";1.0
+370;"LOCATION";"Jersey City";"O";"nd-most-populous city in";"LOCATION";"U.S";1.0
+371;"LOCATION";"Jersey City";"O";"be most densely populated city in";"LOCATION";"United States";1.0
+372;"LOCATION";"India Square";"O";"be in";"LOCATION";"India Square";1.0
+373;"LOCATION";"Jersey City";"O";"have";"LOCATION";"little Manila";1.0
+374;"LOCATION";"East Coast";"O";"be of";"LOCATION";"United States";1.0
+375;"LOCATION";"Manila Avenue";"O";"be in";"LOCATION";"downtown Jersey City";1.0
+376;"LOCATION";"lower Manhattan";"O";"be in";"LOCATION";"New York City";1.0
+377;"LOCATION";"Jersey City";"O";"th-most-artistic city in";"LOCATION";"United States";1.0
+378;"LOCATION";"Upper New York Bay";"O";"be in";"LOCATION";"Port of New York";1.0
+379;"LOCATION";"Ellis Island";"O";"be by";"PERSON";"Andrzej Pitynski";1.0
+380;"ORGANIZATION";"Jersey City Free Public Library";"O";"be exhibitions the of";"LOCATION";"Hudson County";1.0
+381;"LOCATION";"New Jersey";"O";"have";"ORGANIZATION";"Eighth Congressional District";1.0
+382;"LOCATION";"New Jersey";"O";"be represent in";"LOCATION";"United States Senate";1.0
+383;"ORGANIZATION";"General Assembly";"O";"be by";"PERSON";"Nicholas Chiaravalloti";1.0
+384;"ORGANIZATION";"General Assembly";"O";"be by";"PERSON";"Raj Mukherji";1.0
+385;"LOCATION";"West Side";"O";"be of";"ORGANIZATION";"Marion Section and Journal Square";1.0
+386;"ORGANIZATION";"Port Authority";"O";"be of";"LOCATION";"New York";1.0
+387;"LOCATION";"Jersey City";"O";"be home to";"ORGANIZATION";"New Jersey City University";1.0
+388;"ORGANIZATION";"Renaissance Institute";"ORGANIZATION";"academy of";"ORGANIZATION";"Henry Snyder High School Academy of the art";1.0
+389;"ORGANIZATION";"McNair Academic High School";"O";"be high school in";"LOCATION";"New Jersey";1.0
+390;"PERSON";"Peter";"O";"have";"ORGANIZATION";"Preparatory School";1.0
+391;"ORGANIZATION";"Kenmare High School";"O";"be operate through";"ORGANIZATION";"York Street Project";1.0
+392;"ORGANIZATION";"Airedit Newark Liberty International Airport";"O";"be closest of";"ORGANIZATION";"LGA";1.0
+393;"LOCATION";"Jamaica Bay";"O";"be in";"LOCATION";"Queens Teterboro Airport";1.0
+394;"LOCATION";"Newport Helistop Heliport";"O";"be at";"LOCATION";"Hudson River";1.0
+395;"LOCATION";"Kennedy International Airport";"O";"be in";"LOCATION";"New York City";1.0
+396;"LOCATION";"New Jersey";"O";"be to";"LOCATION";"Lower Manhattan";1.0
+397;"LOCATION";"Hudson River Waterfront Walkway Hackensack";"O";"be area railroad of";"LOCATION";"Jersey City";1.0
+398;"ORGANIZATION";"Jersey Riverfront";"O";"be on";"LOCATION";"West Bank";1.0
+399;"LOCATION";"Jersey City";"O";"be in";"LOCATION";"Vintage Postcards";1.0
+400;"LOCATION";"New York";"O";"be extend on";"LOCATION";"West side";1.0
+401;"LOCATION";"Shanghai";"O";"be on";"LOCATION";"Hudson";1.0
+402;"LOCATION";"Kennedy Boulevard";"O";"be on";"LOCATION";"Newark Ave.";1.0
+403;"PERSON";"Obama";"O";"immigrant in";"LOCATION";"Jersey City";0.6205335162305109
+404;"PERSON";"Deborah Hachen";"O";"be in";"LOCATION";"Jersey City";1.0
+405;"ORGANIZATION";"US Army Corp";"O";"^";"PERSON";"Conte";1.0
+406;"ORGANIZATION";"Goya Foods";"O";"new hq-warehouse in";"LOCATION";"Jersey City";0.6084922393808271
+407;"PERSON";"Marcus Lewis";"O";"be outside";"LOCATION";"New York City";1.0
+408;"LOCATION";"Town Square Place";"O";"be in";"LOCATION";"Jersey City";1.0
+409;"ORGANIZATION";"Academy of International Enterprise";"O";"be at";"PERSON";"James J";1.0
+410;"ORGANIZATION";"Academy of Governance and Social Sciences";"O";"be at";"ORGANIZATION";"Lincoln High School";1.0
+411;"ORGANIZATION";"New Jersey School Directory";"O";"be for";"ORGANIZATION";"Jersey City Public Schools";1.0
+412;"ORGANIZATION";"Mary High School";"O";"be in";"LOCATION";"Jersey City";1.0
+413;"ORGANIZATION";"Mary High School";"O";"be in";"LOCATION";"Jersey City";1.0
+414;"ORGANIZATION";"Mercy Academy";"O";"be in";"LOCATION";"Jersey City";1.0
+415;"LOCATION";"Hudson";"O";"be from";"LOCATION";"Manhattan";1.0
+416;"LOCATION";"Hudson Valley";"O";"be in";"LOCATION";"New York";1.0
+417;"ORGANIZATION";"WMFU";"O";"be in";"LOCATION";"Mount Hope";1.0
+418;"ORGANIZATION";"Port Authority";"O";"be of";"LOCATION";"New York";1.0
+419;"LOCATION";"New Jersey Cities";"O";"be in";"LOCATION";"Hudson County";1.0

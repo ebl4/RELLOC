@@ -1,0 +1,126 @@
+"id";"subject_type";"subject_value";"relation_type";"relation_value";"object_type";"object_value";"confidence"
+233;"LOCATION";"New York City";"O";"be from";"ORGANIZATION";"Wikipedia";1.0
+234;"LOCATION";"new Netherland Province";"O";"be of";"LOCATION";"New York";1.0
+235;"PERSON";"Bill de Blasio";"O";"be • mayor of";"ORGANIZATION";"New York City Council";1.0
+236;"ORGANIZATION";"Hudson Valley Capital District North Country Central New York Southern Tier Western New York";"O";"be of";"LOCATION";"Downstate New York";1.0
+237;"LOCATION";"New York City";"O";"be also city in";"LOCATION";"United States";1.0
+238;"ORGANIZATION";"NYC";"O";"have";"ORGANIZATION";"MSA";1.0
+239;"LOCATION";"New York";"O";"be after";"PERSON";"Charles II";1.0
+240;"LOCATION";"Manhattan";"O";"have";"LOCATION";"Chinatown";1.0
+241;"PERSON";"James II";"O";"be of";"LOCATION";"England";1.0
+242;"LOCATION";"Manhattan";"O";"would become";"LOCATION";"Brooklyn";1.0
+243;"LOCATION";"Río de San Antonio";"O";"river 's";"PERSON";"Anthony";1.0
+244;"LOCATION";"England";"O";"rename";"LOCATION";"New York";1.0
+245;"ORGANIZATION";"Stuyvesant";"O";"be of";"LOCATION";"New Amsterdam";1.0
+246;"ORGANIZATION";"Stuyvesant";"O";"surrender";"ORGANIZATION";"New Amsterdam";1.0
+247;"PERSON";"James II";"O";"be of";"LOCATION";"England";1.0
+248;"LOCATION";"Manhattan";"O";"be of";"PERSON";"John Peter Zenger";1.0
+249;"LOCATION";"New York";"O";"be last capital of";"LOCATION";"U.S";1.0
+250;"ORGANIZATION";"Supreme Court";"O";"be of";"LOCATION";"United States";1.0
+251;"LOCATION";"New York";"O";"have surpass";"LOCATION";"Philadelphia";1.0
+252;"LOCATION";"Manhattan";"O";"have";"LOCATION";"Italy";1.0
+253;"LOCATION";"North Tower";"O";"be into";"LOCATION";"South Tower";1.0
+254;"LOCATION";"Manhattan Island";"O";"be at";"LOCATION";"New York City";1.0
+255;"LOCATION";"Hudson River";"O";"flow into";"LOCATION";"New York Bay";1.0
+256;"LOCATION";"Hudson River";"O";"separate city from";"LOCATION";"U.S";1.0
+257;"LOCATION";"East River";"O";"flow from";"LOCATION";"Long Island Sound";1.0
+258;"LOCATION";"Todt Hill";"O";"be on";"LOCATION";"Staten Island";1.0
+259;"LOCATION";"Manhattan";"O";"be ten-mile of";"ORGANIZATION";"NJ South Atlantic Ocean Cityscape";1.0
+260;"LOCATION";"Hudson River";"O";"be in";"LOCATION";"Weehawken";1.0
+261;"LOCATION";"Empire State Building";"O";"be icon of";"LOCATION";"New York";1.0
+262;"PERSON";"Pieter Claesen Wyckoff House";"O";"be in";"LOCATION";"Brooklyn";1.0
+263;"LOCATION";"Ground Zero";"O";"be in";"LOCATION";"Lower Manhattan";1.0
+264;"LOCATION";"Riverdale";"O";"be in";"LOCATION";"Bronx";1.0
+265;"PERSON";"Ditmas Park";"O";"be in";"LOCATION";"Brooklyn";1.0
+266;"LOCATION";"Douglaston";"O";"be in";"LOCATION";"Queens";1.0
+267;"LOCATION";"Manhattan";"O";"density 's";"LOCATION";"New York County";1.0
+268;"LOCATION";"Roosevelt Island";"O";"be in";"LOCATION";"East River";1.0
+269;"LOCATION";"Manhattan";"O";"be divide into";"LOCATION";"Upper East Side";1.0
+270;"ORGANIZATION";"Newark Liberty International Airport";"O";"be in";"LOCATION";"Newark";1.0
+271;"LOCATION";"Staten Island";"O";"be connect to";"LOCATION";"Brooklyn";1.0
+272;"LOCATION";"Pelham Bay Park";"O";"be largest park in";"LOCATION";"New York City";1.0
+273;"LOCATION";"Liberty Island";"O";"be in";"LOCATION";"New York Harbor";1.0
+274;"PERSON";"Parks";"O";"be in";"LOCATION";"New York City New York City";1.0
+275;"LOCATION";"Pelham Bay Park";"O";"be in";"LOCATION";"Bronx";1.0
+276;"LOCATION";"Washington Square Arch";"O";"be symbol of";"ORGANIZATION";"New York University";1.0
+277;"LOCATION";"Prospect Park";"O";"be in";"LOCATION";"Brooklyn";1.0
+278;"LOCATION";"Corona Park";"O";"be in";"LOCATION";"Queens";1.0
+279;"LOCATION";"Manhattan";"O";"have";"LOCATION";"Koreatown";1.0
+280;"LOCATION";"Nassau County";"O";"be on";"LOCATION";"Long Island";1.0
+281;"LOCATION";"Trinidad and Tobago";"O";"be in";"LOCATION";"Caribbean";1.0
+282;"LOCATION";"Nigeria";"O";"be from";"LOCATION";"Africa";1.0
+283;"LOCATION";"Guatemala";"O";"be in";"LOCATION";"Central America";1.0
+284;"LOCATION";"Greenwich Village";"O";"be in";"LOCATION";"Lower Manhattan";1.0
+285;"ORGANIZATION";"islamic Cultural Center";"O";"be of";"LOCATION";"New York";1.0
+286;"LOCATION";"Ganesh Temple";"O";"be in";"LOCATION";"Flushing";1.0
+287;"ORGANIZATION";"Mahayana Buddhist Temple";"O";"be in";"LOCATION";"Chinatown";1.0
+288;"LOCATION";"Fifth Avenue";"O";"be in";"LOCATION";"Midtown Manhattan";1.0
+289;"LOCATION";"Manhattan";"O";"be home to";"ORGANIZATION";"New York Stock Exchange";1.0
+290;"LOCATION";"New York City";"O";"be in";"LOCATION";"New York City Silicon Alley";1.0
+291;"LOCATION";"West Street";"O";"be in";"LOCATION";"Lower Manhattan";1.0
+292;"LOCATION";"New York Botanical Garden";"O";"be in";"LOCATION";"Bronx";1.0
+293;"ORGANIZATION";"Association";"O";"be also base in";"LOCATION";"New York";1.0
+294;"LOCATION";"Los Angeles";"O";"be surpassing of";"LOCATION";"New York";1.0
+295;"ORGANIZATION";"WNET";"O";"source of";"ORGANIZATION";"Public Broadcasting Service";1.0
+296;"ORGANIZATION";"Butler Library";"O";"be at";"ORGANIZATION";"Columbia University";1.0
+297;"ORGANIZATION";"State University of New York";"ORGANIZATION";"of university be";"ORGANIZATION";"SUNY";1.0
+298;"ORGANIZATION";"Cornell University/Technion-Israel Institute of Technology";"O";"be on";"LOCATION";"Roosevelt Island";1.0
+299;"ORGANIZATION";"Brooklyn Public Library";"O";"serve";"LOCATION";"Brooklyn";1.0
+300;"ORGANIZATION";"hhc";"O";"be create in by";"ORGANIZATION";"New York State Legislature";1.0
+301;"ORGANIZATION";"HHC";"O";"have";"ORGANIZATION";"MetroPlus Health Plan";1.0
+302;"ORGANIZATION";"New York Police Department";"O";"be in";"LOCATION";"New York City";1.0
+303;"ORGANIZATION";"MetroTech Center";"O";"be in";"LOCATION";"downtown Brooklyn";1.0
+304;"ORGANIZATION";"FDNY Fire Academy";"O";"be locate on";"LOCATION";"Randalls Island";1.0
+305;"ORGANIZATION";"Metrotech Center";"O";"be in";"LOCATION";"Brooklyn";1.0
+306;"LOCATION";"New York";"O";"by";"PERSON";"Baruch College";1.0
+307;"ORGANIZATION";"Lee Strasberg Theatre";"O";"be in";"LOCATION";"Union Square";1.0
+308;"ORGANIZATION";"Tisch School";"O";"be base at";"ORGANIZATION";"New York University";1.0
+309;"LOCATION";"Broadway";"O";"be from";"LOCATION";"Bowling Green to City Hall Park";1.0
+310;"LOCATION";"New York City";"O";"be represent by";"ORGANIZATION";"New York City FC";1.0
+311;"LOCATION";"New York City";"O";"limit in";"LOCATION";"Hempstead";1.0
+312;"LOCATION";"National tennis Center";"O";"be in";"LOCATION";"Flushing Meadows-Corona Park";1.0
+313;"LOCATION";"Bronx";"O";"be at";"LOCATION";"gaelic park";1.0
+314;"LOCATION";"New York City";"O";"be serve by";"ORGANIZATION";"Amtrak";1.0
+315;"LOCATION";"Pennsylvania Station";"O";"be on";"LOCATION";"West side of Manhattan";1.0
+316;"ORGANIZATION";"Port Authority Trans-Hudson";"O";"link";"LOCATION";"Manhattan";1.0
+317;"PERSON";"JFK";"O";"be";"LOCATION";"u.s";1.0
+318;"LOCATION";"Stewart International Airport";"O";"be near";"LOCATION";"Newburgh";1.0
+319;"ORGANIZATION";"Port Authority";"O";"be of";"LOCATION";"New York";1.0
+320;"LOCATION";"New Jersey";"O";"be across";"LOCATION";"Hudson River";1.0
+321;"LOCATION";"Hudson River";"O";"be between";"LOCATION";"New Jersey";1.0
+322;"LOCATION";"Carey tunnel";"O";"connect";"LOCATION";"Financial District";1.0
+323;"LOCATION";"New York City";"O";"be water supply system of";"LOCATION";"New York City";1.0
+324;"LOCATION";"New York City Government New York City Hall be the oldest city hall";"O";"be in";"LOCATION";"United States";1.0
+325;"LOCATION";"New York County courthouse";"O";"house";"ORGANIZATION";"New York Supreme Court";1.0
+326;"LOCATION";"Manhattan";"O";"host";"ORGANIZATION";"First Department";1.0
+327;"ORGANIZATION";"District Court";"O";"be for";"LOCATION";"Eastern District";1.0
+328;"ORGANIZATION";"US Court";"O";"be base in";"LOCATION";"New York";1.0
+329;"LOCATION";"Foley Square";"O";"be in";"LOCATION";"Manhattan";1.0
+330;"LOCATION";"Africa Accra";"O";"be network of";"LOCATION";"New York City";1.0
+331;"LOCATION";"New York";"O";"of";"LOCATION";"Chinatown";1.0
+332;"ORGANIZATION";"Gradual Abolition of Negro Slavery";"O";"be in";"LOCATION";"New York";1.0
+333;"LOCATION";"Tallest Building";"O";"be in";"LOCATION";"New York City";1.0
+334;"ORGANIZATION";"outside magazine";"O";"have";"LOCATION";"New York City";1.0
+335;"LOCATION";"woolworth building";"O";"be commission by";"PERSON";"Frank W";0.5649787957534737
+336;"ORGANIZATION";"New York Polonia Polish Portal";"O";"be in";"LOCATION";"New York";1.0
+337;"PERSON";"Foderado";"O";"be ^ of";"LOCATION";"NYC Parks";1.0
+338;"LOCATION";"Hudson River";"O";"call";"LOCATION";"Wave Hill";1.0
+339;"ORGANIZATION";"New York City";"ORGANIZATION";"add";"ORGANIZATION";"Holy day";0.5087983713375177
+340;"PERSON";"Hoover";"O";"have";"ORGANIZATION";"Inc";1.0
+341;"ORGANIZATION";"Securities Industry";"O";"be in";"LOCATION";"New York City";1.0
+342;"ORGANIZATION";"New York";"O";"surpass";"LOCATION";"Los Angeles";0.5041355159129871
+343;"ORGANIZATION";"Alper Unveil Plans to develop commercial Bioscience Center";"O";"be in";"LOCATION";"Manhattan";1.0
+344;"ORGANIZATION";"New York";"O";"retake fashion capital title from";"LOCATION";"London";1.0
+345;"ORGANIZATION";"Port Authority";"O";"be of";"LOCATION";"New York";1.0
+346;"ORGANIZATION";"Port Authority";"O";"be of";"LOCATION";"New York";1.0
+347;"ORGANIZATION";"Port Authority";"O";"be of";"LOCATION";"New York";1.0
+348;"ORGANIZATION";"Port Authority";"O";"be of";"LOCATION";"New York";1.0
+349;"ORGANIZATION";"Port Authority";"O";"be of";"LOCATION";"New York";1.0
+350;"ORGANIZATION";"Slim Majority";"ORGANIZATION";"back";"ORGANIZATION";"Food Recycling";1.0
+351;"LOCATION";"Croton Water back";"O";"be to";"LOCATION";"New York City";1.0
+352;"ORGANIZATION";"De Blasio add money for water tunnel";"O";"be in";"LOCATION";"Brooklyn";1.0
+353;"PERSON";"Gibson";"O";"have";"ORGANIZATION";"New York Legal Research Guide";1.0
+354;"PERSON";"Glen Rock Guildford Guttenberg Harrison";"O";"be borough of";"LOCATION";"pa Fairview Franklin Lakes Freehold";1.0
+355;"LOCATION";"Baltimore";"O";"be ? of";"LOCATION";"Philadelphia";1.0
+356;"LOCATION";"Philadelphia";"O";"be city of";"LOCATION";"New York";1.0
+357;"PERSON";"Român? Romani Rumantsch Runa";"O";"be tahiti of";"ORGANIZATION";"Piemontèis Tok Pisin Plattdüütsch Polski Português Qaraqalpaqsha Q?r?mtatarca Reo";1.0

@@ -32,6 +32,9 @@ public class CoreDemo {
                 "New York City is also the most densely populated major city in the United States.";
         FetchURLData fetchURLData = new FetchURLData();
         //text = fetchURLData.getData("https://en.wikipedia.org/wiki/New_York_City");
+        //text = fetchURLData.getData("https://en.wikipedia.org/wiki/Jersey_City,_New_Jersey");
+        text = fetchURLData.getData("https://en.wikipedia.org/wiki/Newark,_New_Jersey");
+
 
         //run annotation relation extractor (openie)
         //annotation_extractor(text);
@@ -157,18 +160,25 @@ public class CoreDemo {
                     int count = 0;
                     datas.clear();
 
-                    System.out.printf("Triple %d\n", ++count);
-                    datas.add(selectedTriple.subject.get(0).ner());
-                    datas.add(selectedTriple.subjectLemmaGloss());
-                    datas.add(selectedTriple.relation.get(0).ner());
-                    datas.add(selectedTriple.relationLemmaGloss());
-                    datas.add(selectedTriple.object.get(0).ner());
-                    datas.add(selectedTriple.objectLemmaGloss());
-                    datas.add(String.valueOf(selectedTriple.confidence));
+                    if(!selectedTriple.subject.isEmpty() && !selectedTriple.relation.isEmpty() && !selectedTriple.object.isEmpty()) {
+                        System.out.printf("Triple %d\n", ++count);
+                        datas.add(selectedTriple.subject.get(0).ner());
+                        datas.add(selectedTriple.subjectLemmaGloss());
+                        datas.add(selectedTriple.relation.get(0).ner());
+                        datas.add(selectedTriple.relationLemmaGloss());
+                        datas.add(selectedTriple.object.get(0).ner());
+                        datas.add(selectedTriple.objectLemmaGloss());
+                        datas.add(String.valueOf(selectedTriple.confidence));
 
-                    databaseConnection.prepareStatement(datas);
+                        databaseConnection.prepareStatement(datas);
+                    }
                 }
             }
+        }
+        try {
+            pipeline.shutdown();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
     }
 

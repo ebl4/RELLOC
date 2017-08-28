@@ -19,6 +19,10 @@
 -- Table structure for table `triple`
 --
 
+-- CREATE SCHEMA extractor;
+
+use extractor;
+
 DROP TABLE IF EXISTS `triple`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;

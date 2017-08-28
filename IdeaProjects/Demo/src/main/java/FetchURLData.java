@@ -52,7 +52,7 @@ public class FetchURLData {
          */
         for (Element link : links){
             if(!containsArgs(link.attr("abs:href"), args))
-                linkSet.add(link.attr("abs:href") +" "+link.attr("rel"));
+                linkSet.add(link.attr("abs:href"));
                 //System.out.println(link.attr("abs:href") +" "+link.attr("rel"));
         }
 

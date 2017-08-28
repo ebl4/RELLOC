@@ -1,0 +1,78 @@
+"id";"subject_type";"subject_value";"relation_type";"relation_value";"object_type";"object_value";"confidence"
+420;"PERSON";"Kenneth Louis Area";"O";"be • municipal clerk of";"PERSON";"Jack Kelly";1.0
+421;"LOCATION";"Newark Liberty International Airport";"O";"be first commercial airport in";"LOCATION";"United States";1.0
+422;"ORGANIZATION";"Panasonic Corporation";"O";"be of";"LOCATION";"North America";1.0
+423;"LOCATION";"New Jersey";"O";"be of";"LOCATION";"Newark";1.0
+424;"LOCATION";"New Jersey Newark";"O";"be settle in by";"ORGANIZATION";"Connecticut Puritans";1.0
+425;"ORGANIZATION";"Legislature";"O";"be 's";"LOCATION";"New Jersey";1.0
+426;"LOCATION";"Newark";"O";"to";"LOCATION";"Vailsburg";1.0
+427;"ORGANIZATION";"Port Authority";"O";"be of";"LOCATION";"New York";1.0
+428;"LOCATION";"Howard Street";"O";"be by";"PERSON";"Nathan Heard";1.0
+429;"LOCATION";"North Ward";"O";"be surround by";"LOCATION";"Branch Brook Park";1.0
+430;"ORGANIZATION";"Census Bureau";"O";"have";"ORGANIZATION";"American Community survey";1.0
+431;"LOCATION";"Newarkedit Port Newark";"O";"be with";"LOCATION";"New Jersey Turnpike";1.0
+432;"ORGANIZATION";"Port Authority";"O";"be of";"LOCATION";"New York";1.0
+433;"LOCATION";"Newark Symphony Hall";"O";"be home to";"LOCATION";"New Jersey Symphony";1.0
+434;"ORGANIZATION";"Paul Robeson Galleries";"O";"be at";"ORGANIZATION";"Rutgers University";1.0
+435;"LOCATION";"McDonald 's Gospelfest";"O";"be at";"ORGANIZATION";"Prudential Center";1.0
+436;"PERSON";"Bamberger";"O";"have";"ORGANIZATION";"wor";1.0
+437;"ORGANIZATION";"NJTV";"O";"be 's";"ORGANIZATION";"PBS";1.0
+438;"ORGANIZATION";"Sundance Channel";"O";"air";"LOCATION";"Brick City";1.0
+439;"PERSON";"Richard Boiardo";"O";"be of";"LOCATION";"Newark";1.0
+440;"PERSON";"Clement Price";"O";"be professor of";"ORGANIZATION";"Rutgers history";1.0
+441;"ORGANIZATION";"NHL";"O";"have";"LOCATION";"New Jersey Devils";1.0
+442;"ORGANIZATION";"National hockey League";"O";"of";"ORGANIZATION";"New Jersey Devils";1.0
+443;"ORGANIZATION";"Giants";"O";"be of";"ORGANIZATION";"NFL";1.0
+444;"ORGANIZATION";"New York Liberty of the Women 's National Basketball Association";"ORGANIZATION";"'s association be";"ORGANIZATION";"WNBA";1.0
+445;"LOCATION";"Newark";"O";"have";"ORGANIZATION";"municipal Council";1.0
+446;"LOCATION";"New Jersey";"O";"have";"ORGANIZATION";"Eighth Congressional District";1.0
+447;"LOCATION";"New Jersey";"O";"be represent in";"LOCATION";"United States Senate";1.0
+448;"ORGANIZATION";"General Assembly";"O";"be by";"PERSON";"Ralph r";1.0
+449;"ORGANIZATION";"General Assembly";"O";"be by";"PERSON";"Eliana Pintor Marin";1.0
+450;"PERSON";"Brendan W";"O";"be vice president of";"ORGANIZATION";"East Orange -rrb- Freeholder";1.0
+451;"LOCATION";"Newark";"O";"have";"LOCATION";"South Ward";1.0
+452;"LOCATION";"Newark";"O";"lean strongly toward";"ORGANIZATION";"Democratic Party";1.0
+453;"PERSON";"Addonizio";"O";"be mayor of";"LOCATION";"Newark";1.0
+454;"ORGANIZATION";"University of Medicine and Dentistry";"O";"be of";"LOCATION";"New Jersey";1.0
+455;"PERSON";"Mark Zuckerberg";"O";"be co-founder of";"ORGANIZATION";"Facebook";1.0
+456;"PERSON";"Benedict";"O";"have";"ORGANIZATION";"Preparatory School";1.0
+457;"ORGANIZATION";"sister of charity";"O";"be of";"PERSON";"Elizabeth";1.0
+458;"LOCATION";"East Coast";"O";"be of";"LOCATION";"United States";1.0
+459;"LOCATION";"Phillipsburg";"O";"be on";"LOCATION";"Delaware river";1.0
+460;"LOCATION";"Newark";"O";"be connect by";"LOCATION";"Pulaski Skyway";1.0
+461;"ORGANIZATION";"Newark Beth Israel Medical Center";"O";"be part of";"PERSON";"Barnabas Health";1.0
+462;"ORGANIZATION";"Children 's hospital";"O";"be of";"LOCATION";"New Jersey";1.0
+463;"ORGANIZATION";"Port Authority";"O";"be of";"LOCATION";"New York";1.0
+464;"LOCATION";"Abilene";"O";"be to";"LOCATION";"Zimbabwe";1.0
+465;"ORGANIZATION";"Port Authority";"O";"be of";"LOCATION";"New York";1.0
+466;"ORGANIZATION";"Port Authority";"O";"be of";"LOCATION";"New York";1.0
+467;"LOCATION";"Newark";"O";"show interest in";"LOCATION";"Newark";0.4794334018310456
+468;"LOCATION";"Newark";"O";"have";"ORGANIZATION";"Prudential Center";1.0
+469;"LOCATION";"Riverfront Stadium";"O";"be in";"PERSON";"Harrison";1.0
+470;"LOCATION";"Newark";"O";"be know as";"LOCATION";"Gateway City";1.0
+471;"ORGANIZATION";"Brick City Development Corporation";"O";"be for";"LOCATION";"Newark";1.0
+472;"ORGANIZATION";"Census Bureau";"O";"final push for";"LOCATION";"N.J";0.5230670669799441
+473;"ORGANIZATION";"Port Authority";"O";"be of";"LOCATION";"New York";1.0
+474;"ORGANIZATION";"Institute";"O";"part of";"ORGANIZATION";"Rutgers University Libraries";1.0
+475;"PERSON";"Janet";"O";"be via";"ORGANIZATION";"Associated Press";1.0
+476;"ORGANIZATION";"NJPAC";"O";"be in";"LOCATION";"Newark";1.0
+477;"ORGANIZATION";"Lotus";"O";"demolish";"LOCATION";"Riverfront Stadium";1.0
+478;"ORGANIZATION";"New Jersey net";"O";"leave for";"LOCATION";"Brooklyn";1.0
+479;"PERSON";"Luis Quintana";"O";"be president of";"ORGANIZATION";"Newark Municipal Council";1.0
+480;"PERSON";"Luis Quintana";"O";"be president of";"ORGANIZATION";"Council";1.0
+481;"PERSON";"ras Baraka";"O";"mayor of";"LOCATION";"Newark";0.7923806651796438
+482;"PERSON";"Addonizio";"O";"be by";"LOCATION";"U.S";1.0
+483;"PERSON";"Addonizio";"O";"be of";"LOCATION";"Newark";1.0
+484;"LOCATION";"Riverview Hospital";"O";"be in";"LOCATION";"Red Bank";1.0
+485;"PERSON";"Sharpe James";"O";"be mayor of";"LOCATION";"Newark";1.0
+486;"ORGANIZATION";"Rutgers Health Sciences";"O";"be at";"LOCATION";"Newark";1.0
+487;"PERSON";"Zuckerberg";"O";"be ceo of";"ORGANIZATION";"Facebook";1.0
+488;"PERSON";"Mark Zuckerberg";"O";"be ceo of";"ORGANIZATION";"Facebook";1.0
+489;"PERSON";"Drummond";"O";"be ^ of";"ORGANIZATION";"YouTube";1.0
+490;"LOCATION";"Newark";"O";"have";"LOCATION";"Broadway";1.0
+491;"ORGANIZATION";"civil society";"O";"be in";"LOCATION";"Newark";1.0
+492;"ORGANIZATION";"Census Bureau State & County QuickFacts";"O";"be for";"LOCATION";"Newark U.S";1.0
+493;"PERSON";"Haynes Lebkuecher Seymour Doremus Haussling Raymond Gillen Archibald Breidenbach Raymond Congleton Ellenstein Murphy Villani Carlin Addonizio Gibson James Booker Quintana Baraka";"O";"be of";"ORGANIZATION";"Newark Halsey Frelinghuysen Miller Halstead Wright Dod Baldwin Vanderpool Miller Quinby Poinier Bigelow Runyon Peddie Ricord Perry Yates Fiedler Lang";1.0
+494;"ORGANIZATION";"Tri?State Region West Hudson Counties Atlantic Bergen Burlington Camden Cape May Cumberland Essex Gloucester Hudson Hunterdon Mercer Middlesex Monmouth Morris Ocean Passaic Salem Somerset Sussex Union";"O";"be metro area of";"LOCATION";"Atlantic Coastal Plain Central Jersey Delaware River Region Delaware Valley Gateway Region Hudson Waterfront Highlands Jersey Shore Meadowlands New York";1.0
+495;"ORGANIZATION";"Albany Annapolis Augusta Boston Concord Dover Hartford Harrisburg Montpelier Providence Trenton";"O";"be capital of";"ORGANIZATION";"Waterbury Wilmington Worcester State";1.0
+496;"LOCATION";"New Jersey Cities";"O";"be in";"LOCATION";"Essex County";1.0

@@ -11,6 +11,7 @@ import edu.stanford.nlp.simple.Sentence;
 import edu.stanford.nlp.util.CoreMap;
 import edu.stanford.nlp.util.PropertiesUtils;
 
+import java.io.IOException;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -18,7 +19,7 @@ import java.util.stream.Collectors;
  * Created by dell on 14/03/2017.
  */
 public class CoreDemo {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         DatabaseConnection databaseConnection = new DatabaseConnection();
 
         System.out.println("test");
@@ -31,23 +32,29 @@ public class CoreDemo {
                 "With an estimated 2016 population of 8,537,673 distributed over a land area of about 302,6 square miles (784 km2), " +
                 "New York City is also the most densely populated major city in the United States.";
         FetchURLData fetchURLData = new FetchURLData();
+
+        //399 links
+        Set<String> linkSet = fetchURLData.getLinks("https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population",
+                new String[]{"https://tools.wmflabs.org/geohack/geohack", "List_of_United_States_cities"});
+
         //text = fetchURLData.getData("https://en.wikipedia.org/wiki/New_York_City");
         //text = fetchURLData.getData("https://en.wikipedia.org/wiki/Jersey_City,_New_Jersey");
-        text = fetchURLData.getData("https://en.wikipedia.org/wiki/Newark,_New_Jersey");
 
 
-        //run annotation relation extractor (openie)
-        //annotation_extractor(text);
+        for (Object link : linkSet) {
+            text = fetchURLData.getData(linkSet.toString());
 
-        String[] textSentences = text.split("\\. ");
+            //run annotation relation extractor (openie)
+            String[] textSentences = text.split("\\. ");
 
-        for (String textSentence : textSentences) {
-            annotation_extractor(textSentence.split("\\, "), databaseConnection);
+            for (String textSentence : textSentences) {
+                annotation_extractor(textSentence.split("\\, "), databaseConnection);
+            }
+
+            long end = System.currentTimeMillis();
+
+            System.out.println("Time: " + (end - start));
         }
-
-        long end = System.currentTimeMillis();
-
-        System.out.println("Time: "+(end - start));
 
     }
 

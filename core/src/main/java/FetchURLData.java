@@ -76,7 +76,7 @@ public class FetchURLData {
 
         FetchURLData fetchURLData = new FetchURLData();
         //fetchURLData.getData("https://en.wikipedia.org/wiki/New_York_City");
-        fetchURLData.getLinks("https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population",
-                new String[]{"https://tools.wmflabs.org/geohack/geohack", "List_of_United_States_cities"});
+        fetchURLData.getLinks("https://en.wikipedia.org/wiki/List_of_social_networking_websites",
+                new String[]{"https://tools.wmflabs.org/geohack/geohack", "List_of_social_networking_websites", "index.php?"});
     }
 }

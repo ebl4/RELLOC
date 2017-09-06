@@ -34,15 +34,15 @@ public class CoreDemo {
         FetchURLData fetchURLData = new FetchURLData();
 
         //399 links
-        Set<String> linkSet = fetchURLData.getLinks("https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population",
-                new String[]{"https://tools.wmflabs.org/geohack/geohack", "List_of_United_States_cities"});
+        Set<String> linkSet = fetchURLData.getLinks("https://en.wikipedia.org/wiki/List_of_social_networking_websites",
+                new String[]{"https://tools.wmflabs.org/geohack/geohack", "List_of_social_networking_websites", "index.php?"});
 
         //text = fetchURLData.getData("https://en.wikipedia.org/wiki/New_York_City");
         //text = fetchURLData.getData("https://en.wikipedia.org/wiki/Jersey_City,_New_Jersey");
 
 
         for (Object link : linkSet) {
-            text = fetchURLData.getData(linkSet.toString());
+            text = fetchURLData.getData(link.toString());
 
             //run annotation relation extractor (openie)
             String[] textSentences = text.split("\\. ");
@@ -136,7 +136,7 @@ public class CoreDemo {
                 "annotators", "tokenize,ssplit,pos,lemma,ner,depparse,natlog,openie",
                 "ner.model", "edu/stanford/nlp/models/ner/english.all.3class.distsim.crf.ser.gz",
                 "ner.useSUTime", "false",
-                "ner.applyNumericClassifiers", "false"), "localhost", 9000, 6);
+                "ner.applyNumericClassifiers", "false"), "localhost", 9000, 10);
 
         // Annotate an example document.
 

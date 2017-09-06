@@ -19,7 +19,6 @@ def mostFreqPoint(points):
 
 # Funcao que percorre a lista de adjacencia a encontra os
 # lugares que casam com o nome passado
-# def matchPlacesAdj(places, placeId):
 
 
 # Parte referente do acesso ao LOG
@@ -81,9 +80,8 @@ data = pymysql_connect.database_connection()
 for row in data:
 	if (row[1] == "LOCATION" and not(row[2] is None)):
 		placeName = row[2]
-	else:
-		if (row[3] == "LOCATION"):
-			placeName = row[4]
+	elif (row[3] == "LOCATION"):
+		placeName = row[4]
 
 	placeName = placeName.replace("/","_").replace("'","_").replace("\\","_")
 
@@ -91,40 +89,44 @@ for row in data:
 
 	# print(urlNamesByPlaceName)
 
-	response = requests.get(urlNamesByPlaceName)
+	try:
+		response = requests.get(urlNamesByPlaceName)
 
-	# Obtem a resposta string JSON em formato Object
-	respObject = json.loads(response.text)
-	results = respObject['results']
+		# Obtem a resposta string JSON em formato Object
+		respObject = json.loads(response.text)
+		results = respObject['results']
 
-	counter += 1
-	print(str(counter) + " " + placeName) 
+		counter += 1
+		print(str(counter) + " " + placeName) 
 
-	for result in results:
+		for result in results:
 
-		if (result['gnFeatureClass'] == 'A'):
-			numAdministrativePlaces += 1
-		elif (result['gnFeatureClass'] == 'P'):
-			numPopulatedPlaces += 1
-		elif (result['gnFeatureClass'] == 'L'):
-			numAreaF += 1
-		elif (result['gnFeatureClass'] == 'H'):
-			numHydroF += 1
+			if (result['gnFeatureClass'] == 'A'):
+				numAdministrativeBoundaryF += 1
+			elif (result['gnFeatureClass'] == 'P'):
+				numPopulatedPlacesF += 1
+			elif (result['gnFeatureClass'] == 'L'):
+				numAreaF += 1
+			elif (result['gnFeatureClass'] == 'H'):
+				numHydroF += 1
 
 
-		if (result['gnFeatureCode'] == 'ADM1'):
-			numFirstAdministrativeDivision += 1
-		elif (result['gnFeatureCode'] == 'ADM2'):
-			numSecondAdministrativeDivision += 1
-		elif (result['gnFeatureCode'] == 'PPL'):
-			numPopulatedPlacesByCode += 1
-		elif (result['gnFeatureCode'] == 'PPLA'):
-			numSeatOfFirstAdmDivision += 1				
+			if (result['gnFeatureCode'] == 'ADM1'):
+				numFirstAdministrativeDivision += 1
+			elif (result['gnFeatureCode'] == 'ADM2'):
+				numSecondAdministrativeDivision += 1
+			elif (result['gnFeatureCode'] == 'PPL'):
+				numPopulatedPlacesByCode += 1
+			elif (result['gnFeatureCode'] == 'PPLA'):
+				numSeatOfFirstAdmDivision += 1
+	except:
+		print("deu erro")
+		pass				
 
 
 
 print(numAdministrativeBoundaryF)
-print((numPopulatedPlacesF)
+print(numPopulatedPlacesF)
 print(numAreaF)
 print(numHydroF)
 

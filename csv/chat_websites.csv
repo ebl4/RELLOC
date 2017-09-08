@@ -1,0 +1,75 @@
+"id";"subject_type";"subject_value";"relation_type";"relation_value";"object_type";"object_value";"confidence"
+17367;"PERSON";"Lardinois";"O";"be ^ of";"PERSON";"Ken Yeung";1.0
+17368;"ORGANIZATION";"MIT";"O";"at";"ORGANIZATION";"Athena";1.0
+17369;"PERSON";"Trevor";"O";"be by";"PERSON";"Sandy";1.0
+17370;"ORGANIZATION";"Quantum Link";"O";"make";"ORGANIZATION";"AOL Instant Messenger";1.0
+17371;"ORGANIZATION";"AOL";"O";"acquire";"PERSON";"Mirabilis";1.0
+17372;"ORGANIZATION";"IBM";"O";"buy";"ORGANIZATION";"Ubique";1.0
+17373;"LOCATION";"United Statesedit";"O";"be in";"LOCATION";"United States";1.0
+17374;"ORGANIZATION";"Facebook";"O";"be through";"ORGANIZATION";"Facebook Messenger";1.0
+17375;"ORGANIZATION";"IBM";"O";"be fetion gadu-gadu groupme of";"ORGANIZATION";"Facebook Messenger FaceTime";1.0
+17376;"ORGANIZATION";"Norsk Norsk";"O";"be ????? ??????? lietuvi? magyar nederlands ??? of";"ORGANIZATION";"Hrvatski Bahasa Indonesia Interlingua Italiano";1.0
+17377;"PERSON";"Kendra Sunderland";"O";"be webcam girl of";"ORGANIZATION";"Oregon State";1.0
+17378;"LOCATION";"Florida";"O";"be south of";"ORGANIZATION";"NBC";1.0
+17379;"PERSON";"Harlan Mills";"O";"be by";"ORGANIZATION";"IBM";1.0
+17380;"PERSON";"Ralph";"O";"be ^ of";"ORGANIZATION";"Wiley-IEEE Computer Society Press";1.0
+17381;"ORGANIZATION";"Category Commons";"O";"be related field computer science computer engineering project management risk management systems engineering of";"PERSON";"Royce James Rumbaugh Mary Shaw Peri Tarr Elaine Weyuker Niklaus Wirth Edward Yourdon";1.0
+17382;"ORGANIZATION";"Digital";"O";"be library computing platform of";"ORGANIZATION";"Digital";1.0
+17383;"PERSON";"Chris Wanstrath";"O";"be ceo of";"PERSON";"Tom Preston-Werner Chris Wanstrath PJ Hyett";1.0
+17384;"PERSON";"Andreessen Horowitz";"O";"be investor of";"ORGANIZATION";"GitHub";1.0
+17385;"PERSON";"GitHub";"O";"open office in";"LOCATION";"Japan";1.0
+17386;"PERSON";"GitHub";"O";"be block in";"LOCATION";"Russia";1.0
+17387;"PERSON";"GitHub";"O";"be block in";"LOCATION";"India";1.0
+17388;"PERSON";"Chris Wanstrath";"O";"be ceo of";"ORGANIZATION";"GitHub";1.0
+17389;"PERSON";"Oxley";"O";"have name";"PERSON";"Octopuss";1.0
+17390;"PERSON";"GitHub";"O";"want";"PERSON";"Octopuss";1.0
+17391;"PERSON";"GitHub";"O";"rename octopuss to";"PERSON";"Octocat";1.0
+17392;"PERSON";"Gitter";"O";"be from";"ORGANIZATION";"Wikipedia";1.0
+17393;"PERSON";"Woolley";"O";"be at";"ORGANIZATION";"University of Illinois";1.0
+17394;"PERSON";"Trevor";"O";"be by";"PERSON";"Sandy";1.0
+17395;"PERSON";"Talkomatic";"O";"be create by";"PERSON";"Doug Brown";1.0
+17396;"PERSON";"Woolley";"O";"be at";"ORGANIZATION";"University of Illinois";1.0
+17397;"ORGANIZATION";"YouTube";"O";"be purchase by";"ORGANIZATION";"Google";1.0
+17398;"PERSON";"Ewalt";"O";"refer as";"ORGANIZATION";"ESPN";1.0
+17399;"ORGANIZATION";"YouTube";"O";"launch";"ORGANIZATION";"YouTube gaming";1.0
+17400;"ORGANIZATION";"Google";"O";"launch";"ORGANIZATION";"YouTube gaming";0.5036467979141762
+17401;"ORGANIZATION";"derivative Android Auto Android thing android tv Android";"ORGANIZATION";"wear";"ORGANIZATION";"Smartphones Google Pixel Pixel";1.0
+17402;"ORGANIZATION";"Google";"O";"introduce";"PERSON";"Google Swiffy";1.0
+17403;"PERSON";"FutureSplash";"O";"be acquire by";"ORGANIZATION";"Macromedia";1.0
+17404;"ORGANIZATION";"Macromedia";"O";"also hire";"LOCATION";"Middlesoft";1.0
+17405;"ORGANIZATION";"Macromedia";"O";"purchase";"PERSON";"Presedia";1.0
+17406;"ORGANIZATION";"Macromedia";"O";"release product as";"PERSON";"breeze";1.0
+17407;"PERSON";"Max Swift";"O";"be animator stencyl swish of";"ORGANIZATION";"Ajax Animator Express";1.0
+17408;"LOCATION";"Iaki Hotel";"O";"be in";"LOCATION";"Mamaia";1.0
+17409;"PERSON";"FlirtFree";"O";"receive award for";"LOCATION";"North America";1.0
+17410;"ORGANIZATION";"KIIROO";"O";"have";"LOCATION";"Pearl";1.0
+17411;"ORGANIZATION";"Atlassian Corporation PLC";"O";"be of";"LOCATION";"UK";1.0
+17412;"LOCATION";"Amsterdam";"O";"be in";"LOCATION";"Netherlands";1.0
+17413;"LOCATION";"Yokohama";"O";"be in";"LOCATION";"Japan";1.0
+17414;"LOCATION";"Sydney";"O";"be in";"LOCATION";"Australia";1.0
+17415;"PERSON";"Ali Moore";"O";"speak with";"PERSON";"Michael Cannon-Brookes";1.0
+17416;"PERSON";"Scott Lomond";"O";"be hose key people of";"PERSON";"Serge Faguet Ron";1.0
+17417;"ORGANIZATION";"SOMA";"LOCATION";"south of";"LOCATION";"South of Market";1.0
+17418;"ORGANIZATION";"Xfire";"O";"be develop by";"LOCATION";"Ultimate Arena";1.0
+17419;"PERSON";"Fong";"O";"be by";"PERSON";"Dennis";1.0
+17420;"ORGANIZATION";"Xfire";"O";"be acquire by";"ORGANIZATION";"Viacom";1.0
+17421;"ORGANIZATION";"Xfire";"O";"be acquire by";"PERSON";"Titan gaming";1.0
+17422;"ORGANIZATION";"Xfire";"O";"join";"ORGANIZATION";"MTV Networks";1.0
+17423;"ORGANIZATION";"IBM";"O";"be fetion gadu-gadu groupme of";"ORGANIZATION";"Facebook Messenger FaceTime";1.0
+17424;"PERSON";"Alexa";"O";"be website airtime.com of";"PERSON";"Sean Parker";1.0
+17425;"ORGANIZATION";"Yahoo!";"O";"have";"PERSON";"Marissa Mayer";1.0
+17426;"ORGANIZATION";"slack";"ORGANIZATION";"set new standard for";"ORGANIZATION";"Team Communication Online";1.0
+17427;"PERSON";"Stewart Butterfield";"O";"have";"ORGANIZATION";"Collaboration Software Startup";1.0
+17428;"ORGANIZATION";"AJAX";"O";"be tool of";"ORGANIZATION";"primer Pixel Play Books Games Movies & TV Music Newsstand Public DNS url Shortener Wallet Wifi Development";1.0
+17429;"PERSON";"Al Gore Alan Eustace Alan Mulally Amit Singhal Ann Mather David Drummond Eric Schmidt Jeff Dean John Doerr John L";"O";"be for";"ORGANIZATION";"Google China Google";1.0
+17430;"ORGANIZATION";"IBM";"O";"be fetion gadu-gadu groupme of";"ORGANIZATION";"Facebook Messenger FaceTime";1.0
+17431;"PERSON";"Seth Sternberg";"O";"be ceo of";"PERSON";"Seth Sternberg";1.0
+17432;"ORGANIZATION";"Google";"O";"acquire";"ORGANIZATION";"Meebo";1.0
+17433;"ORGANIZATION";"Meebo Rooms";"O";"be available from";"ORGANIZATION";"Meebo Messenger";1.0
+17434;"PERSON";"Eric Griffith";"O";"list";"ORGANIZATION";"Entertainment Weekly";1.0
+17435;"ORGANIZATION";"IBM";"O";"be fetion gadu-gadu groupme of";"ORGANIZATION";"Facebook Messenger FaceTime";1.0
+17436;"ORGANIZATION";"available in English headquarters";"ORGANIZATION";"be in";"LOCATION";"Los Angeles";1.0
+17437;"PERSON";"Streamup";"O";"be owner of";"LOCATION";"US";1.0
+17438;"LOCATION";"United States";"O";"be from";"LOCATION";"Germany";1.0
+17439;"PERSON";"Ternovskiy";"O";"tell";"ORGANIZATION";"New York Times";1.0
+17440;"ORGANIZATION";"University of Colorado";"O";"be at";"LOCATION";"Boulder";1.0

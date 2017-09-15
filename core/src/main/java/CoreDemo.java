@@ -21,6 +21,7 @@ import java.util.stream.Collectors;
 public class CoreDemo {
     public static void main(String[] args) throws IOException {
         DatabaseConnection databaseConnection = new DatabaseConnection();
+        int numDocuments = 0, numSentences = 0;
 
         System.out.println("test");
 
@@ -33,28 +34,32 @@ public class CoreDemo {
                 "New York City is also the most densely populated major city in the United States.";
         FetchURLData fetchURLData = new FetchURLData();
 
-        //399 links
-        Set<String> linkSet = fetchURLData.getLinks("https://en.wikipedia.org/wiki/List_of_social_networking_websites",
-                new String[]{"https://tools.wmflabs.org/geohack/geohack", "List_of_social_networking_websites", "index.php?"});
+        //267 links
+        Set<String> linkSet = fetchURLData.getLinks("https://en.wikipedia.org/wiki/List_of_the_100_largest_population_centres_in_Canada",
+                new String[]{"https://tools.wmflabs.org/geohack/geohack", "List_of_the_100_largest_population_centres_in_Canada", "index.php?"});
 
         //text = fetchURLData.getData("https://en.wikipedia.org/wiki/New_York_City");
         //text = fetchURLData.getData("https://en.wikipedia.org/wiki/Jersey_City,_New_Jersey");
 
 
         for (Object link : linkSet) {
+            System.out.println("Document: "+ numDocuments++);
             text = fetchURLData.getData(link.toString());
 
             //run annotation relation extractor (openie)
             String[] textSentences = text.split("\\. ");
 
             for (String textSentence : textSentences) {
+                System.out.println("Sentence: "+ numSentences++);
                 annotation_extractor(textSentence.split("\\, "), databaseConnection);
             }
 
-            long end = System.currentTimeMillis();
 
-            System.out.println("Time: " + (end - start));
         }
+
+        long end = System.currentTimeMillis();
+
+        System.out.println("Time: " + (end - start));
 
     }
 
@@ -65,7 +70,7 @@ public class CoreDemo {
         Properties props = new Properties();
 
         props.setProperty("annotators", "tokenize, ssplit, pos, lemma, ner, parse, relation");
-        StanfordCoreNLPClient pipeline = new StanfordCoreNLPClient(props, "localhost", 9000, 10);
+        StanfordCoreNLPClient pipeline = new StanfordCoreNLPClient(props, "localhost", 9000, 6);
 
         // Annotate an example document.
         String[] sentencesText = text.split("\\.");
@@ -97,7 +102,6 @@ public class CoreDemo {
                     //System.out.println(" | NE: "+ne);
                 }
 
-                System.out.printf("Analysing sentence %d\n", +contSent++);
                 relation_mention_extractor(sentence, databaseConnection, contRel);
 
                 // this is the parse tree of the current sentence
@@ -136,7 +140,7 @@ public class CoreDemo {
                 "annotators", "tokenize,ssplit,pos,lemma,ner,depparse,natlog,openie",
                 "ner.model", "edu/stanford/nlp/models/ner/english.all.3class.distsim.crf.ser.gz",
                 "ner.useSUTime", "false",
-                "ner.applyNumericClassifiers", "false"), "localhost", 9000, 10);
+                "ner.applyNumericClassifiers", "false"), "localhost", 9000, 6);
 
         // Annotate an example document.
 
@@ -168,7 +172,7 @@ public class CoreDemo {
                     datas.clear();
 
                     if(!selectedTriple.subject.isEmpty() && !selectedTriple.relation.isEmpty() && !selectedTriple.object.isEmpty()) {
-                        System.out.printf("Triple %d\n", ++count);
+                        System.out.printf("Triple %d\n", count+1);
                         datas.add(selectedTriple.subject.get(0).ner());
                         datas.add(selectedTriple.subjectLemmaGloss());
                         datas.add(selectedTriple.relation.get(0).ner());

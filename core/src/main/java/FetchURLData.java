@@ -51,9 +51,10 @@ public class FetchURLData {
         Extract only name cites links, not geohack information
          */
         for (Element link : links){
-            if(!containsArgs(link.attr("abs:href"), args))
+            if(!containsArgs(link.attr("abs:href"), args) && containsArgs(link.attr("abs:href"), new String[]{"wikipedia"})) {
                 linkSet.add(link.attr("abs:href"));
-                //System.out.println(link.attr("abs:href") +" "+link.attr("rel"));
+                System.out.println(link.attr("abs:href") + " " + link.attr("rel"));
+            }
         }
 
         return linkSet;
@@ -76,7 +77,7 @@ public class FetchURLData {
 
         FetchURLData fetchURLData = new FetchURLData();
         //fetchURLData.getData("https://en.wikipedia.org/wiki/New_York_City");
-        fetchURLData.getLinks("https://en.wikipedia.org/wiki/List_of_social_networking_websites",
-                new String[]{"https://tools.wmflabs.org/geohack/geohack", "List_of_social_networking_websites", "index.php?"});
+        fetchURLData.getLinks("https://en.wikipedia.org/wiki/List_of_the_100_largest_population_centres_in_Canada",
+                new String[]{"https://tools.wmflabs.org/geohack/geohack", "List_of_the_100_largest_population_centres_in_Canada", "index.php?"});
     }
 }

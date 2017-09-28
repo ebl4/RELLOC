@@ -1,46 +1,65 @@
-import requests, json
+'''Warning: use NumPy for improve loop statements'''
+
+import requests, json, re, unicodedata
 from collections import Counter
 from samples.database import pymysql_connect
 
 # -*- coding: utf-8 -*- 
 
-# Round points function from a list of points (coordenates)
+'''Round points function from a list of points (coordenates)'''
 def roundPoints(points):
 	pointList = [[round(float(point[0]), 1), round(float(point[1]), 1)] for point in points]
 	return pointList
 
-# Return que most frequent point in the list	
+'''Return que most frequent point in the list'''
 def mostFreqPoint(points):
 	points_to_count = [point[0] for point in points]
 	c = Counter(points_to_count).most_common(1)
 	most_freq_point = [point for point in points if c[0][0] == point[0]]
 	return most_freq_point
 
+'''Return a string without accents'''
+def delete_accents(data):
+	return unicodedata.normalize('NFKD', data).encode('ASCII', 'ignore').decode('ASCII')
+
+'''Return a string without special chars and accents'''
+def formatString(string):
+	string = delete_accents(string)
+	return ''.join(e for e in string if e.isalnum() or e == " ")
+
 '''Return results from url request in Object format'''
 def get_data(url):
-	response = requests.get(url)
+	try:
+		response = requests.get(url)
 
-	# Obtem a resposta string JSON em formato Object
-	respObject = json.loads(response.text)
-	results = respObject['results']
+		# Obtem a resposta string JSON em formato Object
+		respObject = json.loads(response.text)
+		results = respObject['results']
+	except:
+		print("requisicao mal sucedida")
+		pass	
 	return results
 
 '''Return non-place entity from triple''' 
 def getPlaceNomPlaceEntities(triple):
-	e = [], l = []
-	if(triple['subject_type'] != 'LOCATION'):
-		e = triple['subject_value']
-		l = triple['object_value']
+	e = []
+	l = []
+	if(triple[1] != 'LOCATION'):
+		e = triple[2]
+		l = triple[4]
 	else:
-		e = triple['object_value']
-		l = triple['subject_value']
+		e = triple[4]
+		l = triple[2]
 	return l, e
 
-def place_from_name(triples):
+def place_from_name(triples, url):
 	Lp = []
 	for t in triples:
-		e, l = getPlaceNomPlaceEntities(t)
-		La = 
+		l, e = getPlaceNomPlaceEntities(t)
+		urlTemp = url + formatString(l)
+		print(urlTemp)
+		La = get_data(urlTemp)
+		print (La)
 
 # Funcao que percorre a lista de adjacencia a encontra os
 # lugares que casam com o nome passado
@@ -73,7 +92,7 @@ apiServiceEntity = "api/place/entity/name/"
 apiServiceLocations = "api/entity/relatedPlace/"
 
 # Nomes e PlaceIds
-placeName = "Lebanon Township of O'Hara Township of Penn Hills City"
+placeName = "São Paulo"
 placeId = ""
 entityName = "Obama"
 
@@ -96,86 +115,25 @@ numSeatOfFirstAdmDivision = 0
 # URLs por serviços
 url = baseUrl + apiServiceEntity + entityName
 urlNamesByPlaceId = baseUrl + apiServiceNamesByPlaceId + placeId
-# urlNamesByPlaceName = baseUrl + apiServicePlacesByName + placeName
+urlNamesByPlaceName = baseUrl + apiServicePlacesByName
 
 
 # Database access to select triples
 data = pymysql_connect.database_connection()
 
-# List of processed names from triples
-Lp = []
+place_from_name(data, urlNamesByPlaceName)
 
-
-for row in data:
-	if (row[1] == "LOCATION" and not(row[2] is None)):
-		placeName = row[2]
-	elif (row[3] == "LOCATION"):
-		placeName = row[4]
-
-	placeName = placeName.replace("/","_").replace("'","_").replace("\\","_")
-
-	urlNamesByPlaceName = baseUrl + apiServicePlacesByName + placeName
-
-	# print(urlNamesByPlaceName)
-
-	try:
-		response = requests.get(urlNamesByPlaceName)
-
-		# Obtem a resposta string JSON em formato Object
-		respObject = json.loads(response.text)
-		results = respObject['results']
-
-		counter += 1
-		print(str(counter) + " " + placeName) 
-
-		for result in results:
-
-			if (result['gnFeatureClass'] == 'A'):
-				numAdministrativeBoundaryF += 1
-			elif (result['gnFeatureClass'] == 'P'):
-				numPopulatedPlacesF += 1
-			elif (result['gnFeatureClass'] == 'L'):
-				numAreaF += 1
-			elif (result['gnFeatureClass'] == 'H'):
-				numHydroF += 1
-
-
-			if (result['gnFeatureCode'] == 'ADM1'):
-				numFirstAdministrativeDivision += 1
-			elif (result['gnFeatureCode'] == 'ADM2'):
-				numSecondAdministrativeDivision += 1
-			elif (result['gnFeatureCode'] == 'PPL'):
-				numPopulatedPlacesByCode += 1
-			elif (result['gnFeatureCode'] == 'PPLA'):
-				numSeatOfFirstAdmDivision += 1
-	except:
-		print("deu erro")
-		pass				
-
-
-
-print(numAdministrativeBoundaryF)
-print(numPopulatedPlacesF)
-print(numAreaF)
-print(numHydroF)
-
-# Feature Codes
-print(numFirstAdministrativeDivision)
-print(numSecondAdministrativeDivision)
-print(numPopulatedPlacesByCode)
-print(numSeatOfFirstAdmDivision)
-
-
-
-# response = requests.get(urlNamesByPlaceName)
+#response = requests.get(urlNamesByPlaceName + placeName)
 
 # ************ Fim do acesso ao LOG ***************
 
 
 # Obtem a resposta string JSON em formato Object
-# respObject = json.loads(response.text)
+#respObject = json.loads(response.text)
 
-# print(respObject['results'])
+
+
+#print(respObject['results'])
 
 # Obtem uma lista de coordenadas
 # points = [result['gnPoint'] for result in respObject['results']]

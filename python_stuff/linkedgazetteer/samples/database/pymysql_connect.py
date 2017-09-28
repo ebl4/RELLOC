@@ -6,7 +6,7 @@ def database_connection():
 
 	cur = conn.cursor()
 
-	cur.execute("SELECT id, subject_type, subject_value, object_type, object_value FROM triple WHERE subject_type = 'LOCATION' OR object_type = 'LOCATION'")
+	cur.execute("SELECT id, subject_type, subject_value, object_type, object_value FROM triples WHERE subject_type = 'LOCATION' OR object_type = 'LOCATION'")
 
 	# for row in cur:
 	#     print(row)

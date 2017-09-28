@@ -1,0 +1,493 @@
+"id";"subject_type";"subject_value";"relation_type";"relation_value";"object_type";"object_value";"confidence"
+20484;"PERSON";"Barack Obama";"O";"be president of";"LOCATION";"US";1.0
+20485;"ORGANIZATION";"Disney";"O";"have";"PERSON";"Alexander";1.0
+20486;"ORGANIZATION";"CSM";"O";"partner with";"ORGANIZATION";"Harvard University";1.0
+20487;"PERSON";"Howard Gardner";"O";"by";"ORGANIZATION";"GoodPlay Project";1.0
+20488;"LOCATION";"sway Calloway";"O";"be anchor of";"ORGANIZATION";"MTV News";1.0
+20489;"PERSON";"Susan Crown";"O";"be philanthropist of";"LOCATION";"Chicago";1.0
+20490;"PERSON";"Edward Markey";"O";"be representative of";"LOCATION";"Massachusetts";1.0
+20491;"PERSON";"Bill";"O";"be of";"ORGANIZATION";"California Senate";1.0
+20492;"ORGANIZATION";"Maternal & Child Health Library";"O";"be at";"ORGANIZATION";"Georgetown University";1.0
+20493;"LOCATION";"London";"O";"in court be";"ORGANIZATION";"Patents Court";1.0
+20494;"LOCATION";"Lik-Sang";"O";"be by";"PERSON";"Nov";1.0
+20495;"PERSON";"Steamworks";"O";"also provide";"PERSON";"Valve Anti-Cheat";1.0
+20496;"PERSON";"valve";"O";"by";"PERSON";"Doug Lombardi";1.0
+20497;"ORGANIZATION";"bfe";"O";"be with";"PERSON";"Steamworks";1.0
+20498;"ORGANIZATION";"BT Group";"O";"file lawsuit against";"ORGANIZATION";"valve";1.0
+20499;"PERSON";"Tom";"O";"have";"LOCATION";"US";1.0
+20500;"PERSON";"Jess Cliffe IceFrog Sam Lantinga Mike Morasky Brad Muir Gabe Newell Robin Walker";"O";"be mod source filmmaker mod of";"ORGANIZATION";"Orange Box Alien Swarm Dota Technology Hardware Steam Controller Steam Machine Steam Link HTC Vive Software GoldSrc";1.0
+20501;"PERSON";"Athene '' Boumaaza";"O";"be with";"PERSON";"Bachir";1.0
+20502;"PERSON";"John";"O";"be game critic of";"ORGANIZATION";"YouTube";1.0
+20503;"ORGANIZATION";"activate gaming community avenger for Humanitarian Emergency All-Out Response Team";"O";"be in";"LOCATION";"Ethiopia";1.0
+20504;"PERSON";"Alok Kejriwal";"O";"be key people of";"LOCATION";"India";1.0
+20505;"ORGANIZATION";"Ltd";"O";"be along with";"PERSON";"Mahesh Khambadkone";1.0
+20506;"ORGANIZATION";"Sega Corporation";"O";"be of";"LOCATION";"Japan";1.0
+20507;"PERSON";"Gameswin";"O";"launch";"PERSON";"appucino";1.0
+20508;"PERSON";"Fulp";"O";"partner with";"ORGANIZATION";"troma";1.0
+20509;"ORGANIZATION";"Cheltenham Curtis Publishing Company Einstein Medical Center Oak Lane";"O";"be holy sepulchre cemetery of";"LOCATION";"Elkins Estate Lynnewood Hall Cheltenham Square mall Newgrounds Tookany Creek";1.0
+20510;"PERSON";"Tom Bramwell";"O";"edit";"PERSON";"Eurogamer";1.0
+20511;"PERSON";"Johnny Minkley";"O";"be editor of";"ORGANIZATION";"Eurogamer TV";1.0
+20512;"LOCATION";"Eurogamer Belgium";"O";"form";"PERSON";"Eurogamer Benelux";1.0
+20513;"PERSON";"Alexa";"O";"be game journalism website www.gametrailers.com of";"ORGANIZATION";"Brandon Jones Industry Video";1.0
+20514;"PERSON";"Jon Slusser";"O";"be as";"ORGANIZATION";"svp";1.0
+20515;"PERSON";"James Rolfe";"O";"be from";"ORGANIZATION";"Cinemassacre Productions";1.0
+20516;"ORGANIZATION";"Magyar Bahasa Melayu";"O";"be ??????? of";"LOCATION";"Bahasa Indonesia";1.0
+20517;"PERSON";"Daniel McNeely";"O";"be key people of";"PERSON";"Daniel McNeely";1.0
+20518;"ORGANIZATION";"Congress Street";"O";"be in";"LOCATION";"Austin";1.0
+20519;"PERSON";"Burns";"O";"meet";"PERSON";"Geoff Ramsey";1.0
+20520;"PERSON";"Rooster Teeth";"O";"be acquire by";"PERSON";"Fullscreen";1.0
+20521;"PERSON";"Rooster Teeth";"O";"office in";"LOCATION";"Los Angeles";0.7150571798861997
+20522;"PERSON";"Jordan Cwierz";"O";"release";"ORGANIZATION";"rtaa";1.0
+20523;"PERSON";"Gavin Free";"O";"be as";"PERSON";"vav";1.0
+20524;"PERSON";"Jessica DiCicco";"O";"be as";"PERSON";"Ash Samaya";1.0
+20525;"PERSON";"Rooster Teeth";"O";"collaborate behind";"PERSON";"mega";1.0
+20526;"PERSON";"Gavin Free";"O";"be of";"PERSON";"Hunter";1.0
+20527;"ORGANIZATION";"Social Disorder";"O";"follow";"PERSON";"Aaron Marquis";1.0
+20528;"PERSON";"Rooster Teeth";"O";"shoot";"PERSON";"Lazer Team";1.0
+20529;"PERSON";"Joel Rubin";"O";"leave";"PERSON";"Funhaus";1.0
+20530;"PERSON";"Geoff Ramsey";"O";"be by";"PERSON";"Rooster Teeth";1.0
+20531;"ORGANIZATION";"Moody Theater";"O";"be in";"LOCATION";"Austin";1.0
+20532;"PERSON";"Nico Audy-Rowland";"O";"be of";"PERSON";"Trocadero";1.0
+20533;"ORGANIZATION";"Disney princess";"O";"be at";"LOCATION";"Walt Disney World";1.0
+20534;"LOCATION";"Philly";"O";"be in";"LOCATION";"Philadelphia";1.0
+20535;"PERSON";"Rooster Teeth";"O";"have";"PERSON";"Burnie Burns";1.0
+20536;"PERSON";"Lazer Team";"O";"cast";"PERSON";"Victoria Pratt";1.0
+20537;"ORGANIZATION";"Vivendi Universal Games";"ORGANIZATION";"select";"ORGANIZATION";"BeSeen Communications";1.0
+20538;"ORGANIZATION";"AT&T SportsNet Northwest";"O";"be channel at&t sports networks of";"ORGANIZATION";"AT&T Business Internet BellSouth FastAccess dsl directory Anywho.com Yellowpages.com Television";1.0
+20539;"PERSON";"Alexa";"O";"be website www.roll.net of";"PERSON";"Richard Zayas";1.0
+20540;"PERSON";"Bruce Baumgart";"O";"win";"PERSON";"Tovar";1.0
+20541;"LOCATION";"United States";"O";"be such as";"ORGANIZATION";"Robert Morris University Illinois";1.0
+20542;"PERSON";"John Skipper";"O";"be president of";"ORGANIZATION";"ESPN";1.0
+20543;"ORGANIZATION";"canadian league of Legends";"ORGANIZATION";"be of";"PERSON";"Le";1.0
+20544;"ORGANIZATION";"Schalke";"O";"be in";"LOCATION";"France";1.0
+20545;"PERSON";"Christian";"O";"be player of";"ORGANIZATION";"league of Legends";1.0
+20546;"PERSON";"Aleksey";"O";"be player of";"PERSON";"Dota";1.0
+20547;"PERSON";"Cheon";"O";"be player of";"ORGANIZATION";"League of Legends";1.0
+20548;"ORGANIZATION";"ESPN";"O";"be streaming service of";"ORGANIZATION";"ESPN";1.0
+20549;"PERSON";"Steve Bornstein";"O";"be executive of";"ORGANIZATION";"NFL Network";1.0
+20550;"PERSON";"Hamari";"O";"be of";"ORGANIZATION";"Professional eSports Association United Kingdom eSports Association References";1.0
+20551;"PERSON";"Erica Tseng";"O";"be manager of";"ORGANIZATION";"Taipei Assassins";1.0
+20552;"PERSON";"Rick Fox";"O";"be player of";"ORGANIZATION";"NBA";1.0
+20553;"PERSON";"Peer Schneider";"O";"be key people of";"PERSON";"Jonathan Simpson-Bint";1.0
+20554;"ORGANIZATION";"IGN";"O";"be rank accord to";"PERSON";"Alexa";1.0
+20555;"LOCATION";"AT&T Park";"O";"be in";"LOCATION";"San Francisco";1.0
+20556;"ORGANIZATION";"IGN Entertainment";"O";"merge with";"ORGANIZATION";"GameSpy Industries";1.0
+20557;"ORGANIZATION";"IGN";"O";"open office outside";"LOCATION";"United States";1.0
+20558;"LOCATION";"Middle East";"O";"be as";"ORGANIZATION";"IGN Movies";1.0
+20559;"LOCATION";"Spain";"O";"be to";"ORGANIZATION";"IGN";1.0
+20560;"ORGANIZATION";"comic Reader Comic Shop News Comics Buyer 's Guide Comics International Comics Scene Hero Illustrated Rocket";"ORGANIZATION";"have";"ORGANIZATION";"Comics Bulletin ComicsAlliance Comics & Cola IGN Newsarama Databases Grand Comics Database INDUCKS";1.0
+20561;"PERSON";"Altaba";"O";"be successor company of";"ORGANIZATION";"Yahoo";1.0
+20562;"PERSON";"Altaba";"O";"be purchase of";"ORGANIZATION";"Verizon";1.0
+20563;"PERSON";"David Filo";"O";"in";"LOCATION";"Louisiana";1.0
+20564;"PERSON";"Carol Bartz";"O";"replace";"PERSON";"Yang";1.0
+20565;"ORGANIZATION";"Yahoo";"O";"outperform";"ORGANIZATION";"Google";1.0
+20566;"ORGANIZATION";"Yahoo";"O";"acquire";"PERSON";"Cooliris";1.0
+20567;"ORGANIZATION";"Wall Street Journal";"O";"have";"PERSON";"Douglas MacMillan";1.0
+20568;"PERSON";"Marissa Mayer";"O";"be ceo of";"ORGANIZATION";"Yahoo";1.0
+20569;"LOCATION";"Russia";"O";"of";"ORGANIZATION";"Federal Security Service";1.0
+20570;"ORGANIZATION";"Yahoo";"O";"purchase";"ORGANIZATION";"GeoCities";1.0
+20571;"PERSON";"Koprol";"O";"be acquire by";"ORGANIZATION";"Yahoo";1.0
+20572;"PERSON";"MyBlogLog";"O";"be discontinue by";"ORGANIZATION";"Yahoo";1.0
+20573;"ORGANIZATION";"World Organization";"O";"sue yahoo on behalf of";"PERSON";"Wang";1.0
+20574;"ORGANIZATION";"Yahoo";"O";"be criticize by";"ORGANIZATION";"electronic Frontier Foundation";1.0
+20575;"ORGANIZATION";"SoftBank";"O";"own in";"LOCATION";"Europe";1.0
+20576;"ORGANIZATION";"Yahoo";"O";"be in";"LOCATION";"USA";1.0
+20577;"PERSON";"Blake Irving";"O";"be chief product officer of";"ORGANIZATION";"Yahoo";1.0
+20578;"ORGANIZATION";"Yahoo";"O";"on";"PERSON";"Marissa Mayer";1.0
+20579;"ORGANIZATION";"Yahoo";"O";"have";"PERSON";"Marissa Mayer";1.0
+20580;"ORGANIZATION";"Verizon";"O";"buy";"ORGANIZATION";"Yahoo";0.5041355159129871
+20581;"LOCATION";"CANADA";"O";"be reuters of";"ORGANIZATION";"THOMSON";1.0
+20582;"ORGANIZATION";"Yahoo";"O";"have";"PERSON";"Mayer";1.0
+20583;"ORGANIZATION";"Yahoo";"O";"have";"PERSON";"Mayer";1.0
+20584;"ORGANIZATION";"Yahoo";"O";"sell % stake to";"ORGANIZATION";"Alibaba";1.0
+20585;"PERSON";"Marissa";"O";"have";"ORGANIZATION";"Tumblr";1.0
+20586;"ORGANIZATION";"UI Library Corporate Oath Verizon Communications Acquisitions Criticism history Timeline Related People David Filo Marissa Mayer Jerry Yang Related Altaba Yahoo! Japan";"O";"be version smart tv development developer network boss query language of";"ORGANIZATION";"Tech TV View Advertising Flurry Panama Communication answer group mail Rivals.com Software Messenger";1.0
+20587;"ORGANIZATION";"Alibaba Group";"O";"be internet search engine of";"LOCATION";"United States";1.0
+20588;"LOCATION";"Whitewater";"O";"be at";"LOCATION";"Bloomington";1.0
+20589;"ORGANIZATION";"University of Wisconsin";"O";"be at";"LOCATION";"Whitewater";1.0
+20590;"ORGANIZATION";"University of Wisconsin";"O";"be at";"LOCATION";"Whitewater";1.0
+20591;"ORGANIZATION";"University of Wisconsin";"O";"be at";"LOCATION";"Whitewater";1.0
+20592;"ORGANIZATION";"University of Wisconsin";"O";"be at";"LOCATION";"Whitewater";1.0
+20593;"PERSON";"Alexa";"O";"be website gamezone.com of";"PERSON";"Kathy Connors";1.0
+20594;"LOCATION";"Michigan";"O";"be by";"PERSON";"Jeff";1.0
+20595;"PERSON";"Alan Cox Amy s";"O";"be the mud connector mythic entertainment plaintext players simutronics skotos xyzzy award people of";"ORGANIZATION";"Areae Iron Realms Entertainment Jagex Lysator Kesmai";1.0
+20596;"PERSON";"Christopher Howard Wolf Edward Castronova Elonka Dunin Espen J";"O";"be cat rambo chip morningstar of";"PERSON";"Bruckman Andrew Gower Ben Laurie Brad McQuaid Brian Green Bruce Woodcock";1.0
+20597;"PERSON";"Ziff Davis";"O";"acquire";"ORGANIZATION";"IGN Entertainment";1.0
+20598;"PERSON";"Jim Sterling";"O";"leave";"PERSON";"Destructoid";1.0
+20599;"PERSON";"Gonzalez";"O";"fly to";"LOCATION";"Costa Rica";1.0
+20600;"LOCATION";"Desura";"O";"be include";"PERSON";"Frozenbyte";1.0
+20601;"PERSON";"Desura";"O";"be buy by";"PERSON";"Linden Lab";1.0
+20602;"PERSON";"Desura";"O";"have";"ORGANIZATION";"USC";1.0
+20603;"PERSON";"Chester";"O";"be po chessmaster challenge d of";"ORGANIZATION";"Backgammon PO Bingo PO Catan D Checkers PO Chess";1.0
+20604;"PERSON";"James Eade";"O";"have recommend";"ORGANIZATION";"Yahoo! Chess";1.0
+20605;"ORGANIZATION";"UI Library Corporate Oath Verizon Communications Acquisitions Criticism history Timeline Related People David Filo Marissa Mayer Jerry Yang Related Altaba Yahoo! Japan";"O";"be version smart tv development developer network boss query language of";"ORGANIZATION";"Tech TV View Advertising Flurry Panama Communication answer group mail Rivals.com Software Messenger";1.0
+20606;"PERSON";"Shaw";"O";"be of";"PERSON";"Alex";1.0
+20607;"PERSON";"Ross";"O";"be along with";"PERSON";"Eric";1.0
+20608;"ORGANIZATION";"fox Sports Club";"O";"be in";"LOCATION";"Seattle";1.0
+20609;"PERSON";"Workman";"O";"be by";"PERSON";"Sean";1.0
+20610;"PERSON";"Rothbart";"O";"have criticize";"PERSON";"Frawlz";1.0
+20611;"PERSON";"Frawlz";"O";"wager to";"PERSON";"Rothbart";1.0
+20612;"PERSON";"esmeralda";"O";"replace";"PERSON";"Lesley";1.0
+20613;"PERSON";"Knuckles Dawson";"O";"be with";"ORGANIZATION";"Respawn Radio";1.0
+20614;"ORGANIZATION";"Respawn Radio";"O";"return with";"PERSON";"Lono";1.0
+20615;"PERSON";"Adams";"O";"be by";"PERSON";"Jeromy";1.0
+20616;"PERSON";"Sutton";"O";"be by";"PERSON";"Mike";1.0
+20617;"PERSON";"Jim Lanzone";"O";"be key people of";"LOCATION";"United States";1.0
+20618;"ORGANIZATION";"CBS Interactive Inc";"O";"be website www.cbsinteractive.com of";"ORGANIZATION";"CBS Corporation";1.0
+20619;"ORGANIZATION";"CBS interactive";"O";"coordinate with";"ORGANIZATION";"CBS Network sale";1.0
+20620;"ORGANIZATION";"CNET Networks";"O";"be acquire by";"ORGANIZATION";"CBS";0.6978008443287541
+20621;"PERSON";"Jim Lanzone";"O";"be hire of";"ORGANIZATION";"CBS interactive";1.0
+20622;"ORGANIZATION";"Major League gaming partner";"O";"be with";"ORGANIZATION";"CBS Interactive";1.0
+20623;"ORGANIZATION";"Wallstrip Channels";"O";"be download.com findarticles gamefaqs gamerankings gooey movietome mp.com versiontracker of";"ORGANIZATION";"CBS Innertube";1.0
+20624;"PERSON";"Natali Morris Rafe Needleman Andrew Nusca Ryan Seacrest Molly Wood Contributors";"O";"be minor of";"PERSON";"Matthew Barzun Veronica Belmont Esther Dyson Ina Fried Richard Hart James Kim Declan McCullagh Tom Merritt Halsey";1.0
+20625;"ORGANIZATION";"Wallstrip Channels";"O";"be download.com findarticles gamefaqs gamerankings gooey movietome mp.com versiontracker of";"ORGANIZATION";"CBS Innertube";1.0
+20626;"PERSON";"Natali Morris Rafe Needleman Andrew Nusca Ryan Seacrest Molly Wood Contributors";"O";"be minor of";"PERSON";"Matthew Barzun Veronica Belmont Esther Dyson Ina Fried Richard Hart James Kim Declan McCullagh Tom Merritt Halsey";1.0
+20627;"PERSON";"Jim Bankoff";"O";"be people of";"PERSON";"Jerome Armstrong Tyler Bleszinski Markos Moulitsas Key";1.0
+20628;"PERSON";"Christopher Grant";"O";"be by";"ORGANIZATION";"Joystiq";1.0
+20629;"PERSON";"Ezra Klein";"O";"be by";"ORGANIZATION";"Washington Post";1.0
+20630;"ORGANIZATION";"Vox";"O";"hire";"PERSON";"Chris Grant";1.0
+20631;"PERSON";"Ezra Klein";"O";"be join";"ORGANIZATION";"Vox Media";0.692763490034341
+20632;"PERSON";"Tom Bramwell";"O";"edit";"PERSON";"Eurogamer";1.0
+20633;"PERSON";"Johnny Minkley";"O";"be editor of";"ORGANIZATION";"Eurogamer TV";1.0
+20634;"LOCATION";"Eurogamer Belgium";"O";"form";"PERSON";"Eurogamer Benelux";1.0
+20635;"ORGANIZATION";"DirectDrive";"O";"have";"PERSON";"Berger";1.0
+20636;"LOCATION";"Europe";"O";"be of";"ORGANIZATION";"CGA";1.0
+20637;"ORGANIZATION";"Oprah Magazine Parents People Prevention Reader 's Digest Real simple Redbook Rolling Stone self seventeen shape Smithsonian Southern live Sports Illustrated taste of Home The American Legion";"ORGANIZATION";"be of";"ORGANIZATION";"day woman 's Health";1.0
+20638;"ORGANIZATION";"GameStop magazine";"O";"be in";"LOCATION";"Minnesota";1.0
+20639;"ORGANIZATION";"Reliance Big Entertainment";"O";"be subsidiary company of";"ORGANIZATION";"Anil Dhirubhai Ambani Group";1.0
+20640;"PERSON";"Zapak";"O";"introduce";"PERSON";"Zapakmail";1.0
+20641;"PERSON";"Zapak Gameplex";"O";"be in";"LOCATION";"Fun Republic Malls";1.0
+20642;"ORGANIZATION";"llc";"O";"base in";"LOCATION";"Los Angeles";0.6371401173977418
+20643;"LOCATION";"Michigan";"O";"be by";"PERSON";"Michael Erlewine";1.0
+20644;"PERSON";"Rovi";"O";"sell consumer access to";"ORGANIZATION";"Media Network";1.0
+20645;"PERSON";"Alexa";"O";"be website www.escapistmagazine.com of";"PERSON";"Tom Kurz";1.0
+20646;"PERSON";"Croshaw";"O";"be by";"PERSON";"Ben";1.0
+20647;"ORGANIZATION";"BioWare Telltale Valve Corporation Firaxis Valve Corporation BioWare Mojang BioWare Valve Corporation BioWare Turbine BioWare Turbine Harmonix dispute";"O";"be with";"PERSON";"James Portnow";1.0
+20648;"PERSON";"Jack Thompson";"O";"contact";"PERSON";"Lou Kerner";1.0
+20649;"PERSON";"GameHouse";"O";"be acquire by";"ORGANIZATION";"RealNetworks";1.0
+20650;"PERSON";"Simon Barton";"O";"be by";"PERSON";"Gameplanet";1.0
+20651;"ORGANIZATION";"News media Newspapers magazine tv";"O";"be of";"ORGANIZATION";"Infotainment Media";1.0
+20652;"PERSON";"Evan Williams";"O";"be at";"ORGANIZATION";"Pyra Labs";1.0
+20653;"PERSON";"Dave Winer";"O";"have";"ORGANIZATION";"Scripting News";1.0
+20654;"PERSON";"Brad Fitzpatrick";"O";"start";"ORGANIZATION";"LiveJournal";1.0
+20655;"PERSON";"Meg Hourihan";"O";"purchase by";"ORGANIZATION";"Google";0.8993045097310753
+20656;"PERSON";"Trent Lott";"O";"be majority leader of";"ORGANIZATION";"Senate";1.0
+20657;"PERSON";"Tom Watson";"O";"be mp of";"ORGANIZATION";"Labour Party";1.0
+20658;"PERSON";"Jonathan Dube";"O";"be of";"ORGANIZATION";"the Charlotte Observer";1.0
+20659;"PERSON";"Richard Carmona";"O";"be 's";"LOCATION";"United States";1.0
+20660;"PERSON";"Monem";"O";"be member of";"ORGANIZATION";"Brotherhood";1.0
+20661;"ORGANIZATION";"Wal-Mart";"O";"have";"PERSON";"Jim";1.0
+20662;"PERSON";"Andy Krieg";"O";"take over list from";"PERSON";"Hank Driskill";1.0
+20663;"PERSON";"Huong Hoang";"O";"be of";"LOCATION";"Texas";1.0
+20664;"ORGANIZATION";"United States Court of Appeals";"O";"be for";"ORGANIZATION";"Ninth Circuit";1.0
+20665;"PERSON";"Rovi";"O";"be roast of";"ORGANIZATION";"Netflix";1.0
+20666;"ORGANIZATION";"Amazon Digital Game Store Technology click Amazon Game Studios Amazon Robotics Carbonado Dynamo Graphiq Gurupa Lab double helix Games Obidos Liquavista Publishing Amazon Publishing Amazon Studios";"O";"be drive echo show video prime kindle kindle fire fire hd fire hdx fire tv fire phone kindle store music reflexive entertainment fire os of";"ORGANIZATION";"ComiXology Amazon";1.0
+20667;"PERSON";"Jay";"PERSON";"be";"PERSON";"Games";1.0
+20668;"ORGANIZATION";"Coast Cartoon Network";"O";"to";"PERSON";"Mike Lazzo";1.0
+20669;"PERSON";"Sedelmaier";"O";"work on";"PERSON";"Harvey Birdman";1.0
+20670;"PERSON";"dust Devil";"O";"be by";"LOCATION";"Melbourne";1.0
+20671;"ORGANIZATION";"Verizon Wireless";"O";"be for";"ORGANIZATION";"Austin Powers";1.0
+20672;"PERSON";"Seth MacFarlane";"O";"have previously create";"PERSON";"Steve";1.0
+20673;"PERSON";"MacFarlane";"O";"have also work on";"ORGANIZATION";"Cartoon Network";1.0
+20674;"ORGANIZATION";"Turner Broadcasting System";"O";"record adult swim nielsen rating from";"ORGANIZATION";"Cartoon Network";1.0
+20675;"PERSON";"Nick";"O";"be at";"ORGANIZATION";"Nite";1.0
+20676;"PERSON";"Ajit Pai";"O";"be chairman of";"ORGANIZATION";"FCC";1.0
+20677;"ORGANIZATION";"Bell";"O";"by";"PERSON";"Dennis Haskins";1.0
+20678;"ORGANIZATION";"Ofcom";"O";"be in";"LOCATION";"United Kingdom";1.0
+20679;"ORGANIZATION";"G Canada Canada";"O";"launch";"ORGANIZATION";"adult Digital Distraction";1.0
+20680;"LOCATION";"Bravo";"O";"own by";"ORGANIZATION";"virgin Media Television";1.0
+20681;"ORGANIZATION";"AT&T";"O";"buy";"ORGANIZATION";"Time Warner";1.0
+20682;"ORGANIZATION";"Childrens Hospital";"PERSON";"peepio 's";"PERSON";"Brad Neely";1.0
+20683;"PERSON";"Decker";"O";"be since";"ORGANIZATION";"dream Corp";1.0
+20684;"ORGANIZATION";"Boing Italy Spain France Africa Pogo Tooncast Category Portal Book";"O";"be of";"ORGANIZATION";"Cartoon Network";1.0
+20685;"ORGANIZATION";"TBS Europe Boing Africa France Italy Spain Boomerang Central";"O";"be cnn international hln nba tv tbs tnt trutv turner classic movies of";"LOCATION";"CNN Airport";1.0
+20686;"PERSON";"Xbox Fanboy";"O";"become";"PERSON";"Joystiq Xbox";1.0
+20687;"PERSON";"Yuji Horii";"O";"be creator of";"ORGANIZATION";"Dragon Quest";1.0
+20688;"PERSON";"GameSetWatch";"O";"be found by";"PERSON";"Simon Carless";1.0
+20689;"PERSON";"Cowan";"O";"blog over at";"ORGANIZATION";"IndieGames.com";1.0
+20690;"PERSON";"Michael Rose";"O";"be editor at";"ORGANIZATION";"IndieGames.com";1.0
+20691;"PERSON";"Powell";"O";"be of";"PERSON";"Joe";1.0
+20692;"PERSON";"Ronald Burkle";"O";"be supermarket billionaire of";"LOCATION";"Southern California";1.0
+20693;"ORGANIZATION";"Shutdownedit GameSpy Industries";"O";"be buy by";"ORGANIZATION";"Glu Mobile";1.0
+20694;"LOCATION";"China";"O";"have";"ORGANIZATION";"Tencent";1.0
+20695;"LOCATION";"Michigan";"O";"be by";"PERSON";"Michael Erlewine";1.0
+20696;"PERSON";"Rovi";"O";"sell consumer access to";"ORGANIZATION";"Media Network";1.0
+20697;"PERSON";"Mathias Oertel";"O";"be";"PERSON";"Jörg Luibl";1.0
+20698;"PERSON";"Oliver Menne";"O";"be founder of";"ORGANIZATION";"Computec Media AG";1.0
+20699;"PERSON";"Petra Fröhlich";"O";"be replace by";"PERSON";"Wolfgang Fischer";1.0
+20700;"LOCATION";"England Area";"O";"serve worldwide key people at_time";"PERSON";"Alec Meer";1.0
+20701;"PERSON";"Quintin Smith";"O";"replace";"PERSON";"Gillen";1.0
+20702;"ORGANIZATION";"GOG";"O";"have";"ORGANIZATION";"Time Machine Sale";1.0
+20703;"ORGANIZATION";"Court of Justice";"O";"be of";"ORGANIZATION";"European Union";1.0
+20704;"LOCATION";"Kotaku";"O";"have";"PERSON";"Luke Plunkett";1.0
+20705;"ORGANIZATION";"Amazon";"O";"be from";"ORGANIZATION";"Wikipedia";1.0
+20706;"ORGANIZATION";"S&P";"O";"be component of";"ORGANIZATION";"S&P";1.0
+20707;"ORGANIZATION";"Amazon";"O";"surpass";"ORGANIZATION";"Walmart";1.0
+20708;"ORGANIZATION";"Amazon";"O";"be 's";"ORGANIZATION";"Amazon";1.0
+20709;"PERSON";"Jeff Bezos";"O";"be founder of";"ORGANIZATION";"history Amazon";1.0
+20710;"PERSON";"Bezos";"O";"incorporate company as";"PERSON";"Cadabra";1.0
+20711;"PERSON";"Bezos";"O";"change name to";"ORGANIZATION";"Amazon.com";1.0
+20712;"PERSON";"John Ingram";"O";"be of";"ORGANIZATION";"Ingram Book";1.0
+20713;"ORGANIZATION";"Noble";"O";"sue";"LOCATION";"Amazon";1.0
+20714;"ORGANIZATION";"Walmart";"O";"sue";"LOCATION";"Amazon";1.0
+20715;"ORGANIZATION";"Amazon";"O";"additional investment in";"LOCATION";"India";0.6421974600929061
+20716;"PERSON";"Bing Gordon";"ORGANIZATION";"be of";"ORGANIZATION";"University of Southern California";1.0
+20717;"PERSON";"Martha";"O";"have";"PERSON";"Wendell p";1.0
+20718;"ORGANIZATION";"Marks & Spencer";"O";"be merchant of";"LOCATION";"UK";1.0
+20719;"ORGANIZATION";"Amazon Digital Game Store Amazon Studios AmazonWireless";"O";"be fire tablet fire tv video kindle store music music unlimited of";"ORGANIZATION";"AmazonFresh Amazon Prime Amazon web Services Alexa Appstore Amazon Drive Echo Kindle";1.0
+20720;"ORGANIZATION";"audible";"O";"subsidiary of";"ORGANIZATION";"Amazon";1.0
+20721;"PERSON";"Michael Snodgrass";"O";"be in";"LOCATION";"Grand Haven";1.0
+20722;"LOCATION";"Europe France";"O";"be amazon.com.sg july of";"LOCATION";"Singapore";1.0
+20723;"ORGANIZATION";"Amazon.com help Amazon";"O";"have";"ORGANIZATION";"Amazon";1.0
+20724;"LOCATION";"University Village";"O";"be in";"LOCATION";"Seattle";1.0
+20725;"ORGANIZATION";"Apple";"O";"file trademark infringement case against";"ORGANIZATION";"Mobile Star LLC";1.0
+20726;"LOCATION";"Amazon";"O";"sell counterfeit apple product on";"LOCATION";"Amazon";1.0
+20727;"ORGANIZATION";"Congress";"O";"be on";"LOCATION";"US";1.0
+20728;"ORGANIZATION";"Amazon.com";"O";"be corporate member of";"ORGANIZATION";"american legislative Exchange Council";1.0
+20729;"ORGANIZATION";"Amazon";"O";"have visit in";"LOCATION";"Washington";1.0
+20730;"LOCATION";"Hulu";"O";"be lead by";"PERSON";"Jason Kilar";1.0
+20731;"ORGANIZATION";"Instacart";"O";"be found by";"ORGANIZATION";"Apoorva Mehtacitation";1.0
+20732;"PERSON";"Opscode";"O";"be co-found by";"PERSON";"Jesse Robbins";1.0
+20733;"PERSON";"Pelago";"O";"be co-found by";"PERSON";"Jeff Holden";1.0
+20734;"PERSON";"Trusera";"O";"be found by";"PERSON";"Keith Schorsch";1.0
+20735;"PERSON";"Twilio";"O";"be found by";"PERSON";"Jeff Lawson";1.0
+20736;"PERSON";"Vittana";"O";"be found by";"PERSON";"Kushal Chakrabarti";1.0
+20737;"ORGANIZATION";"Amazon";"O";"have";"PERSON";"Jeff Bezos";1.0
+20738;"ORGANIZATION";"Amazon";"O";"launch accessory brand in";"LOCATION";"Japan";1.0
+20739;"ORGANIZATION";"Amazon Digital Game Store Technology click Amazon Game Studios Amazon Robotics Carbonado Dynamo Graphiq Gurupa Lab double helix Games Obidos Liquavista Publishing Amazon Publishing Amazon Studios";"O";"be drive echo show video prime kindle kindle fire fire hd fire hdx fire tv fire phone kindle store music reflexive entertainment fire os of";"ORGANIZATION";"ComiXology Amazon";1.0
+20740;"ORGANIZATION";"Safeco T-Mobile US";"O";"be qfc rei of";"LOCATION";"America";1.0
+20741;"ORGANIZATION";"Microsoft Naver";"O";"be iac/interactivecorp of";"ORGANIZATION";"Facebook Google";1.0
+20742;"ORGANIZATION";"Avaya Cisco Systems Ericsson Fujitsu Hewlett Packard Enterprise Huawei Juniper Networks Motorola Solutions NEC Nokia";"O";"be equipment of";"ORGANIZATION";"Microsoft Nokia Panasonic Samsung Sony TCL Corporation true Xiaomi ZTE network";1.0
+20743;"PERSON";"Kitabu Kobo Lektz Lucifox Mantano";"O";"be play books ibooks kindle app of";"ORGANIZATION";"Google";1.0
+20744;"LOCATION";"UK";"O";"be singles chart snep singles chart sverigetopplistan of";"LOCATION";"Africa Oricon Charts New Zealand";1.0
+20745;"PERSON";"Michael Kane";"O";"be writer of";"ORGANIZATION";"New York Post";1.0
+20746;"PERSON";"GotFrag";"O";"subsidiary of";"ORGANIZATION";"Major League gaming";1.0
+20747;"ORGANIZATION";"Major League gaming";"O";"acquire";"PERSON";"Gotfrag";1.0
+20748;"ORGANIZATION";"Microsoft Naver";"O";"be iac/interactivecorp of";"ORGANIZATION";"Facebook Google";1.0
+20749;"ORGANIZATION";"Avaya Cisco Systems Ericsson Fujitsu Hewlett Packard Enterprise Huawei Juniper Networks Motorola Solutions NEC Nokia";"O";"be equipment of";"ORGANIZATION";"Microsoft Nokia Panasonic Samsung Sony TCL Corporation true Xiaomi ZTE network";1.0
+20750;"ORGANIZATION";"Wikipedia";"O";"be article of";"ORGANIZATION";"Wikipedia Good";1.0
+20751;"ORGANIZATION";"ea";"O";"also add sentence to";"ORGANIZATION";"EULA";1.0
+20752;"ORGANIZATION";"FIFA";"O";"be fifa of";"ORGANIZATION";"FIFA";1.0
+20753;"ORGANIZATION";"Referencesedit ^ Electronic Arts";"O";"be game of";"ORGANIZATION";"House";1.0
+20754;"PERSON";"Alexa";"O";"be website shacknews.com of";"PERSON";"Steve Gibson Maarten Goldstein";1.0
+20755;"PERSON";"Gibson";"O";"be by";"PERSON";"Steve";1.0
+20756;"PERSON";"Shacknews";"O";"be acquire by";"ORGANIZATION";"Gamerhub Content Network";0.6866710470164089
+20757;"PERSON";"Gondek";"O";"be of";"PERSON";"Jeff";1.0
+20758;"PERSON";"Orry";"O";"form";"ORGANIZATION";"Pro-G Media Ltd.";1.0
+20759;"PERSON";"Steve Burns";"O";"replace";"PERSON";"Martin Gaston";1.0
+20760;"PERSON";"Samuel James Riley";"O";"announce via";"ORGANIZATION";"Twitter";1.0
+20761;"PERSON";"McGee";"O";"of";"PERSON";"Alice";1.0
+20762;"PERSON";"Sander Schetters";"O";"buy ng-gamer from";"PERSON";"Christian de Jong";1.0
+20763;"PERSON";"McGee";"O";"have";"PERSON";"Alice";1.0
+20764;"PERSON";"Stephen Totilo Slogan";"O";"be editor of";"PERSON";"Brian Crecente";1.0
+20765;"ORGANIZATION";"Univision Communications";"O";"buy";"ORGANIZATION";"Gawker Media";1.0
+20766;"ORGANIZATION";"Gawker Media";"O";"launch";"LOCATION";"Kotaku UK";1.0
+20767;"LOCATION";"Kotaku";"O";"be run by";"PERSON";"Stephen Totilo";1.0
+20768;"PERSON";"Alexa";"O";"be website giantbomb.com of";"PERSON";"Jeff Gerstmann Ryan Davis";1.0
+20769;"ORGANIZATION";"Eidos";"O";"have";"ORGANIZATION";"Lynch";1.0
+20770;"PERSON";"Shelby Bonnie";"O";"with";"ORGANIZATION";"Whiskey Media";1.0
+20771;"PERSON";"Navarro";"O";"join";"ORGANIZATION";"giant bomb";1.0
+20772;"PERSON";"Lloyd Braun";"O";"have";"PERSON";"BermanBraun";1.0
+20773;"PERSON";"Richard Davis";"O";"be father of";"PERSON";"Davis";1.0
+20774;"PERSON";"Austin Walker";"O";"join editorial team at";"ORGANIZATION";"Giant bomb";1.0
+20775;"PERSON";"Scanlon";"O";"joke with";"PERSON";"Gerstmann";1.0
+20776;"ORGANIZATION";"Whiskey Media";"O";"have";"PERSON";"Mike Tatum";1.0
+20777;"PERSON";"Gerstmann";"O";"would join launch giant bomb with";"PERSON";"Davis";1.0
+20778;"PERSON";"Davis";"O";"join";"PERSON";"Gerstmann";1.0
+20779;"PERSON";"Davis";"O";"want";"PERSON";"Garcia";1.0
+20780;"PERSON";"Ryan Davis";"O";"talk";"PERSON";"Gerstmann";1.0
+20781;"PERSON";"Natali Morris Rafe Needleman Andrew Nusca Ryan Seacrest Molly Wood Contributors";"O";"be minor of";"PERSON";"Matthew Barzun Veronica Belmont Esther Dyson Ina Fried Richard Hart James Kim Declan McCullagh Tom Merritt Halsey";1.0
+20782;"PERSON";"Natali Morris Rafe Needleman Andrew Nusca Ryan Seacrest Molly Wood Contributors";"O";"be minor of";"PERSON";"Matthew Barzun Veronica Belmont Esther Dyson Ina Fried Richard Hart James Kim Declan McCullagh Tom Merritt Halsey";1.0
+20783;"PERSON";"Metacritic";"O";"be create by";"PERSON";"Jason Dietz";1.0
+20784;"PERSON";"Nick Wingfield";"O";"be of";"ORGANIZATION";"Wall Street Journal";1.0
+20785;"PERSON";"Nick Wingfield";"O";"be of";"ORGANIZATION";"Wall Street Journal";1.0
+20786;"PERSON";"Jason Hall";"O";"be of";"ORGANIZATION";"Warner Bros";1.0
+20787;"ORGANIZATION";"Wallstrip Channels";"O";"be download.com findarticles gamefaqs gamerankings gooey movietome mp.com versiontracker of";"ORGANIZATION";"CBS Innertube";1.0
+20788;"PERSON";"Natali Morris Rafe Needleman Andrew Nusca Ryan Seacrest Molly Wood Contributors";"O";"be minor of";"PERSON";"Matthew Barzun Veronica Belmont Esther Dyson Ina Fried Richard Hart James Kim Declan McCullagh Tom Merritt Halsey";1.0
+20789;"PERSON";"Bowen";"O";"be by";"PERSON";"Kevin";1.0
+20790;"PERSON";"Seb Hayes";"O";"be between";"LOCATION";"UK";1.0
+20791;"ORGANIZATION";"Namco";"O";"be arcade board of";"PERSON";"Kevin Butler Marcus Rivers";1.0
+20792;"PERSON";"Alexa";"O";"be parent cd projekt website gog.com of";"PERSON";"Piotr Karwowski";1.0
+20793;"PERSON";"Sam";"PERSON";"hit";"PERSON";"Road";1.0
+20794;"ORGANIZATION";"Arte Boutique BBC";"O";"be iview aparat acfun afreecatv all of";"ORGANIZATION";"ABC";1.0
+20795;"PERSON";"Viki Vimeo Viu Voddler";"O";"be tenplay theplatform toon goggles trilulilu tubi tv tudou tvcatchup tv uol tvigle tvnz ondemand tvyo twitch.tv uktv play ultraviolet vbox veoh vevo vidme vidoosh viewster of";"ORGANIZATION";"TalkTalk TV Tank Top tv TAPP TV TeacherTube Teaching Channel Telly Inc";1.0
+20796;"LOCATION";"US";"O";"be www.gamestar.com of";"LOCATION";"Germany";1.0
+20797;"PERSON";"Jörg Langer";"O";"und toni schwaiger with";"ORGANIZATION";"IDG Entertainment Media gmbh";1.0
+20798;"PERSON";"Jörg Langer";"O";"be succeed by";"PERSON";"Gunnar Lott";1.0
+20799;"ORGANIZATION";"International Data Group magazine";"O";"be in";"LOCATION";"Germany";1.0
+20800;"ORGANIZATION";"PS Vita";"O";"be from";"LOCATION";"Amazon";1.0
+20801;"ORGANIZATION";"Amazon Digital Game Store Technology click Amazon Game Studios Amazon Robotics Carbonado Dynamo Graphiq Gurupa Lab double helix Games Obidos Liquavista Publishing Amazon Publishing Amazon Studios";"O";"be drive echo show video prime kindle kindle fire fire hd fire hdx fire tv fire phone kindle store music reflexive entertainment fire os of";"ORGANIZATION";"ComiXology Amazon";1.0
+20802;"PERSON";"Gabe Newell";"O";"be employee of";"ORGANIZATION";"Microsoft";1.0
+20803;"PERSON";"Gabe Newell";"O";"be employee of";"ORGANIZATION";"Microsoft";1.0
+20804;"LOCATION";"Washington";"O";"be on";"LOCATION";"Seattle Eastside";1.0
+20805;"ORGANIZATION";"Valve";"O";"be of";"ORGANIZATION";"Valve Corporation";1.0
+20806;"PERSON";"Valve";"O";"accord to";"PERSON";"Mike Dunkle";1.0
+20807;"ORGANIZATION";"Sierra Entertainment";"O";"be brand of";"PERSON";"Vivendi";1.0
+20808;"PERSON";"Valve";"O";"sue";"ORGANIZATION";"Sierra";1.0
+20809;"PERSON";"Thomas Samuel Zilly";"O";"be of";"LOCATION";"U.S";1.0
+20810;"ORGANIZATION";"Activision";"O";"honor";"ORGANIZATION";"Valve";1.0
+20811;"ORGANIZATION";"valve";"O";"by";"ORGANIZATION";"valve gmbh";1.0
+20812;"ORGANIZATION";"Microsoft Naver";"O";"be iac/interactivecorp of";"ORGANIZATION";"Facebook Google";1.0
+20813;"ORGANIZATION";"Avaya Cisco Systems Ericsson Fujitsu Hewlett Packard Enterprise Huawei Juniper Networks Motorola Solutions NEC Nokia";"O";"be equipment of";"ORGANIZATION";"Microsoft Nokia Panasonic Samsung Sony TCL Corporation true Xiaomi ZTE network";1.0
+20814;"PERSON";"Jess Cliffe IceFrog Sam Lantinga Mike Morasky Brad Muir Gabe Newell Robin Walker";"O";"be mod source filmmaker mod of";"ORGANIZATION";"Orange Box Alien Swarm Dota Technology Hardware Steam Controller Steam Machine Steam Link HTC Vive Software GoldSrc";1.0
+20815;"PERSON";"Paul Sulyok";"O";"be people of";"LOCATION";"United Kingdom Key";1.0
+20816;"ORGANIZATION";"Green Man gaming";"O";"be integrate with";"PERSON";"playfire";1.0
+20817;"PERSON";"Paul Sulyok";"O";"form";"ORGANIZATION";"Green Man gaming";1.0
+20818;"PERSON";"Tim Sawyer";"O";"also join";"ORGANIZATION";"Green Man gaming";1.0
+20819;"PERSON";"Lee Packham";"O";"return to";"ORGANIZATION";"Green Man gaming";1.0
+20820;"PERSON";"Baxter";"O";"be join by";"PERSON";"Darren Cairns";1.0
+20821;"ORGANIZATION";"Green Man gaming";"O";"launch game service in";"LOCATION";"UK";1.0
+20822;"ORGANIZATION";"SVP Publishing and Content";"O";"be at";"ORGANIZATION";"SEGA";1.0
+20823;"ORGANIZATION";"Green Man gaming";"O";"launch";"PERSON";"Bitcoin";1.0
+20824;"ORGANIZATION";"Deloitte Technology fast UK";"O";"be programme of";"ORGANIZATION";"Deloitte Technology fast emea";1.0
+20825;"ORGANIZATION";"NGC Magazine Official Nintendo Magazine Official Xbox Magazine PC answer pc Format";"O";"be gamer of";"ORGANIZATION";"United mega New Computer Express Nintendo";1.0
+20826;"ORGANIZATION";"Great Hill Partners";"O";"be from";"LOCATION";"Boston";1.0
+20827;"PERSON";"Gregory Burns";"O";"be of";"ORGANIZATION";"Sidoti & Company";1.0
+20828;"PERSON";"Wild boy";"O";"be of";"LOCATION";"Congo";1.0
+20829;"PERSON";"Ziff Davis";"O";"sell majority to";"ORGANIZATION";"CBS";1.0
+20830;"ORGANIZATION";"NBC affiliate WROC-TV";"O";"be in";"LOCATION";"Rochester";1.0
+20831;"LOCATION";"New York";"O";"be in";"LOCATION";"Chattanooga";1.0
+20832;"LOCATION";"Georgia";"O";"be in";"LOCATION";"Steubenville";1.0
+20833;"ORGANIZATION";"WJKS-TV";"O";"be affiliate of";"ORGANIZATION";"ABC";1.0
+20834;"ORGANIZATION";"lma";"O";"be by";"ORGANIZATION";"Sinclair Broadcast Group";1.0
+20835;"PERSON";"Ziff Davis";"O";"start";"ORGANIZATION";"ZDTV";1.0
+20836;"PERSON";"Paul Allen";"O";"to";"ORGANIZATION";"Vulcan Inc";1.0
+20837;"ORGANIZATION";"BB Focus";"O";"be to";"PERSON";"Ziff Davis";1.0
+20838;"PERSON";"Ziff Davis";"O";"buy";"ORGANIZATION";"TechBargains.com";1.0
+20839;"PERSON";"Ziff Davis";"O";"acquire";"PERSON";"Ookla";1.0
+20840;"PERSON";"Ziff Davis Tech Ziff Davis";"O";"be emedia of";"ORGANIZATION";"PC Magazine Ookla Techbargains.com Toolbox.com";1.0
+20841;"PERSON";"Vivek Shah";"O";"be by";"ORGANIZATION";"Digital Media Executive";1.0
+20842;"PERSON";"Vivek Shah";"O";"be by";"ORGANIZATION";"Digital Media Executive";1.0
+20843;"ORGANIZATION";"Ziff Davis";"ORGANIZATION";"acquire";"ORGANIZATION";"Focus Research";1.0
+20844;"ORGANIZATION";"Ziff-Davis Publishing Company";"O";"be at";"ORGANIZATION";"Grand Comics Database Ziff-Davis Publishing";1.0
+20845;"PERSON";"Alexa";"O";"be website www.twitch.tv of";"ORGANIZATION";"Amazon.com";1.0
+20846;"ORGANIZATION";"GoodGame Agency";"O";"be divest by";"LOCATION";"Amazon";1.0
+20847;"LOCATION";"Moscone Center";"O";"be in";"LOCATION";"San Francisco";1.0
+20848;"ORGANIZATION";"Arte Boutique BBC";"O";"be iview aparat acfun afreecatv all of";"ORGANIZATION";"ABC";1.0
+20849;"PERSON";"Viki Vimeo Viu Voddler";"O";"be tenplay theplatform toon goggles trilulilu tubi tv tudou tvcatchup tv uol tvigle tvnz ondemand tvyo twitch.tv uktv play ultraviolet vbox veoh vevo vidme vidoosh viewster of";"ORGANIZATION";"TalkTalk TV Tank Top tv TAPP TV TeacherTube Teaching Channel Telly Inc";1.0
+20850;"ORGANIZATION";"Amazon Digital Game Store Technology click Amazon Game Studios Amazon Robotics Carbonado Dynamo Graphiq Gurupa Lab double helix Games Obidos Liquavista Publishing Amazon Publishing Amazon Studios";"O";"be drive echo show video prime kindle kindle fire fire hd fire hdx fire tv fire phone kindle store music reflexive entertainment fire os of";"ORGANIZATION";"ComiXology Amazon";1.0
+20851;"PERSON";"Alexa";"O";"be website polygon.com of";"PERSON";"Christopher Grant";1.0
+20852;"PERSON";"Grant";"O";"leave";"PERSON";"Joystiq";1.0
+20853;"ORGANIZATION";"Vox Media";"O";"be headquarter in";"LOCATION";"Washington";1.0
+20854;"PERSON";"Brian Crecente";"O";"leave";"ORGANIZATION";"Polygon";1.0
+20855;"ORGANIZATION";"Vox";"O";"have";"PERSON";"Bankoff";1.0
+20856;"PERSON";"Tuukka Taarluoto";"O";"be in";"LOCATION";"Finland";1.0
+20857;"ORGANIZATION";"ea Canada ea Digital Illusions CE ea Mobile ea Montreal ea Tiburon Firemonkeys Studios ghost Games Maxis Motive Studios PopCap";"O";"be criterion games of";"ORGANIZATION";"BioWare";1.0
+20858;"ORGANIZATION";"FIFA";"O";"be title of";"ORGANIZATION";"ea Sports";1.0
+20859;"ORGANIZATION";"ea Tiburon";"O";"be in";"LOCATION";"Orlando";1.0
+20860;"ORGANIZATION";"ea Canada";"O";"be in";"LOCATION";"Burnaby";1.0
+20861;"ORGANIZATION";"BioWare";"O";"be in";"LOCATION";"Edmonton";1.0
+20862;"ORGANIZATION";"worst company";"O";"be in";"LOCATION";"America";1.0
+20863;"PERSON";"Frank Gibeau";"O";"be by";"ORGANIZATION";"ea label";1.0
+20864;"PERSON";"Don Valentine";"O";"be of";"ORGANIZATION";"Sequoia Capital";1.0
+20865;"PERSON";"Hawkins";"O";"leave";"ORGANIZATION";"Apple Inc.";1.0
+20866;"PERSON";"David Gardner";"O";"move to";"LOCATION";"UK";1.0
+20867;"PERSON";"trip Hawkins";"O";"leave";"ORGANIZATION";"ea";1.0
+20868;"ORGANIZATION";"svp";"O";"be of";"ORGANIZATION";"ea Mobile";1.0
+20869;"ORGANIZATION";"Games";"O";"be reveal at";"ORGANIZATION";"Electronic Entertainment Expo";1.0
+20870;"ORGANIZATION";"ea Baton Rouge";"O";"be in";"LOCATION";"Baton Rouge";1.0
+20871;"ORGANIZATION";"ea Canada";"O";"be in";"LOCATION";"Burnaby";1.0
+20872;"LOCATION";"China";"O";"be in";"LOCATION";"Shanghai";1.0
+20873;"LOCATION";"Germany ea dice";"O";"be in";"LOCATION";"Stockholm";1.0
+20874;"LOCATION";"France";"O";"be in";"LOCATION";"Lyon";1.0
+20875;"LOCATION";"Madrid";"O";"in eis be";"ORGANIZATION";"european integration studio";1.0
+20876;"LOCATION";"India";"O";"be ea of";"LOCATION";"Spain";1.0
+20877;"LOCATION";"DICE Los Angeles";"O";"be in";"LOCATION";"Los Angeles";1.0
+20878;"LOCATION";"Romania";"O";"be in";"LOCATION";"Bucharest";1.0
+20879;"LOCATION";"Russia";"O";"be in";"LOCATION";"Moscow";1.0
+20880;"ORGANIZATION";"ea Mobile";"O";"be in";"LOCATION";"Los Angeles";1.0
+20881;"ORGANIZATION";"ea Montreal";"O";"be in";"LOCATION";"Montreal";1.0
+20882;"LOCATION";"ea San Francisco";"O";"be in";"LOCATION";"Embarcadero";1.0
+20883;"ORGANIZATION";"ea Sports";"O";"make up in";"LOCATION";"Burnaby";1.0
+20884;"ORGANIZATION";"ea Tiburon";"O";"be in";"LOCATION";"Maitland";1.0
+20885;"LOCATION";"Florida";"O";"found as";"ORGANIZATION";"Tiburon Entertainment";1.0
+20886;"ORGANIZATION";"Motive Studios";"O";"be in";"LOCATION";"Montreal";1.0
+20887;"ORGANIZATION";"ea Capital Games";"O";"be in";"LOCATION";"Sacramento";1.0
+20888;"ORGANIZATION";"Bullfrog Productions";"O";"be in";"LOCATION";"Surrey";1.0
+20889;"ORGANIZATION";"ea Baltimore";"O";"be in";"LOCATION";"Baltimore";1.0
+20890;"ORGANIZATION";"Westwood Studios";"O";"be in";"LOCATION";"Las Vegas";1.0
+20891;"ORGANIZATION";"ea Pacific";"O";"be in";"LOCATION";"Irvine";1.0
+20892;"LOCATION";"DICE Canada";"O";"be in";"LOCATION";"London";1.0
+20893;"ORGANIZATION";"ea UK";"O";"be in";"LOCATION";"Chertsey";1.0
+20894;"ORGANIZATION";"ea Chicago";"O";"be in";"LOCATION";"Hoffman Estates";1.0
+20895;"ORGANIZATION";"pandemic Studios";"O";"be in";"LOCATION";"Los Angeles";1.0
+20896;"ORGANIZATION";"ea black Box";"O";"be in";"LOCATION";"Burnaby";1.0
+20897;"ORGANIZATION";"ea Mobile Brazil";"O";"be in";"LOCATION";"São Paulo";1.0
+20898;"ORGANIZATION";"ea phenomic";"O";"be in";"LOCATION";"Ingelheim";1.0
+20899;"ORGANIZATION";"ea North Carolina";"O";"be in";"LOCATION";"Morrisville";1.0
+20900;"ORGANIZATION";"Maxis";"O";"be in";"LOCATION";"Emeryville";1.0
+20901;"LOCATION";"ea Salt Lake";"O";"be in";"LOCATION";"Salt Lake City";1.0
+20902;"ORGANIZATION";"FIFA";"O";"be group of";"ORGANIZATION";"ea 's high score production";1.0
+20903;"ORGANIZATION";"FIFA";"O";"be titlesedit of";"ORGANIZATION";"ea Digital Illusions CE AB Upcoming";1.0
+20904;"PERSON";"Yves Guillemot";"O";"be ceo of";"ORGANIZATION";"Ubisoft";1.0
+20905;"PERSON";"Evan Wilson";"O";"be analyst of";"ORGANIZATION";"Pacific Crest Securities";1.0
+20906;"LOCATION";"California";"O";"sign contract with";"ORGANIZATION";"NFL Players Association";1.0
+20907;"ORGANIZATION";"ea";"O";"settle with";"PERSON";"Jim Brown";1.0
+20908;"LOCATION";"UK";"O";"have";"ORGANIZATION";"Advertising Standards Authority";1.0
+20909;"ORGANIZATION";"BioWare";"O";"be subsidiary of";"ORGANIZATION";"ea";1.0
+20910;"PERSON";"David Gaider";"O";"be lead writer of";"ORGANIZATION";"BioWare";1.0
+20911;"PERSON";"Jennifer Hepler";"O";"be writer of";"ORGANIZATION";"BioWare";1.0
+20912;"PERSON";"Susana Polo";"O";"be in";"PERSON";"Mary Sue";1.0
+20913;"ORGANIZATION";"worst company";"O";"be in";"LOCATION";"America";1.0
+20914;"ORGANIZATION";"worst company";"O";"be in";"LOCATION";"America";1.0
+20915;"ORGANIZATION";"ea";"O";"regular as";"ORGANIZATION";"AT&T";0.4792727354204139
+20916;"ORGANIZATION";"worst company";"O";"be in";"LOCATION";"America";1.0
+20917;"ORGANIZATION";"ea";"O";"buy";"ORGANIZATION";"Take-Two";1.0
+20918;"PERSON";"Andrew Wilson";"O";"have";"ORGANIZATION";"Vision of gaming";1.0
+20919;"LOCATION";"France";"O";"in";"ORGANIZATION";"Ubisoft";1.0
+20920;"ORGANIZATION";"ea";"ORGANIZATION";"be";"ORGANIZATION";"you company";1.0
+20921;"ORGANIZATION";"electronic art name worst company";"O";"be in";"LOCATION";"America";1.0
+20922;"ORGANIZATION";"ea";"ORGANIZATION";"company in";"ORGANIZATION";"America history";0.6084922393808271
+20923;"PERSON";"Frank Gibeau";"O";"be exec of";"ORGANIZATION";"ea";1.0
+20924;"PERSON";"Bing Gordon Don Mattrick Jeff Green Ralph Guggenheim Robin Hunicke Greg Kasavin Peter Moore John Riccitiello";"O";"be former of";"PERSON";"will Wright Joe Ybarra";1.0
+20925;"ORGANIZATION";"Microsoft Naver";"O";"be iac/interactivecorp of";"ORGANIZATION";"Facebook Google";1.0
+20926;"ORGANIZATION";"Avaya Cisco Systems Ericsson Fujitsu Hewlett Packard Enterprise Huawei Juniper Networks Motorola Solutions NEC Nokia";"O";"be equipment of";"ORGANIZATION";"Microsoft Nokia Panasonic Samsung Sony TCL Corporation true Xiaomi ZTE network";1.0
+20927;"ORGANIZATION";"Norsk Norsk";"O";"be ?????? nederlands ??? of";"ORGANIZATION";"Lietuvi? Magyar ?????????? Bahasa Melayu";1.0
+20928;"PERSON";"Trent Oster Cameron Tofer";"O";"be founder of";"LOCATION";"Canada";1.0
+20929;"PERSON";"Trent Oster";"O";"be co-founder of";"ORGANIZATION";"BioWare";1.0
+20930;"PERSON";"pany haritato";"O";"be by";"ORGANIZATION";"Zynga";1.0
+20931;"ORGANIZATION";"GameStop";"O";"have";"PERSON";"Kongregate";1.0
+20932;"PERSON";"Stephanie Barnes";"O";"be under";"PERSON";"Krystal";1.0
+20933;"ORGANIZATION";"Wallstrip Channels";"O";"be download.com findarticles gamefaqs gamerankings gooey movietome mp.com versiontracker of";"ORGANIZATION";"CBS Innertube";1.0
+20934;"PERSON";"Natali Morris Rafe Needleman Andrew Nusca Ryan Seacrest Molly Wood Contributors";"O";"be minor of";"PERSON";"Matthew Barzun Veronica Belmont Esther Dyson Ina Fried Richard Hart James Kim Declan McCullagh Tom Merritt Halsey";1.0
+20935;"PERSON";"Alexa";"O";"be website nexusmods.com of";"PERSON";"Robin Scott";1.0
+20936;"PERSON";"Mike Thomspon";"O";"be writer of";"ORGANIZATION";"Ars Technica";1.0
+20937;"PERSON";"Mike Masnick";"O";"be of";"PERSON";"Techdirt";1.0
+20938;"ORGANIZATION";"Forbes";"O";"list";"PERSON";"John Graham";1.0
+20939;"PERSON";"Terence Lee";"O";"be of";"PERSON";"Hitbox Team";1.0
+20940;"PERSON";"Alexander Zubov";"O";"be of";"ORGANIZATION";"Kot-in-Action Creative Artel";1.0
+20941;"PERSON";"Ben Kuchera";"O";"be of";"ORGANIZATION";"Penny Arcade Reports";1.0
+20942;"PERSON";"Kyle Orland";"O";"be of";"ORGANIZATION";"Ars Technica";1.0
+20943;"PERSON";"Natali Morris Rafe Needleman Andrew Nusca Ryan Seacrest Molly Wood Contributors";"O";"be minor of";"PERSON";"Matthew Barzun Veronica Belmont Esther Dyson Ina Fried Richard Hart James Kim Declan McCullagh Tom Merritt Halsey";1.0
+20944;"ORGANIZATION";"Magyar Bahasa Melayu Nederlands Norsk Polski";"O";"be ??????? of";"ORGANIZATION";"Hrvatski Bahasa Indonesia Italiano";1.0
+20945;"LOCATION";"New Zealand";"O";"be by";"PERSON";"Chris";1.0
+20946;"PERSON";"Ninja Kiwi";"O";"purchase";"ORGANIZATION";"Dundee";1.0
+20947;"ORGANIZATION";"Mochi Media";"O";"discontinue";"ORGANIZATION";"Mochi coin";1.0
+20948;"PERSON";"Babbage";"O";"as";"LOCATION";"Dallas";1.0
+20949;"PERSON";"Daniel DeMatteo";"O";"be sweden switzerland united states key people of";"LOCATION";"Australia Austria Canada Denmark Finland France Germany Italy Ireland Netherlands New Zealand Norway";1.0
+20950;"PERSON";"James McCurry";"O";"be by";"ORGANIZATION";"Harvard Business School";1.0
+20951;"LOCATION";"Dallas";"O";"in";"LOCATION";"North Park Center";1.0
+20952;"PERSON";"Gary Kusin";"O";"be president of";"PERSON";"Babbage";1.0
+20953;"ORGANIZATION";"Barnes";"O";"acquire";"ORGANIZATION";"Funco";1.0
+20954;"ORGANIZATION";"Barnes";"O";"retain control over";"ORGANIZATION";"GameStop";1.0
+20955;"ORGANIZATION";"Oregon GameStop";"O";"acquire";"ORGANIZATION";"Electronics Boutique";1.0
+20956;"PERSON";"Daniel DeMatteo";"O";"replace";"PERSON";"Richard Fontaine";1.0
+20957;"ORGANIZATION";"GameStop";"O";"acquire";"LOCATION";"Micromania";1.0
+20958;"ORGANIZATION";"GameStop";"O";"acquire";"PERSON";"Kongregate";1.0
+20959;"ORGANIZATION";"GameStop";"O";"acquire";"ORGANIZATION";"Spawn Labs";1.0
+20960;"ORGANIZATION";"GameStop";"O";"close";"ORGANIZATION";"Spawn Labs";1.0
+20961;"ORGANIZATION";"MovieStopedit GameStop";"O";"found";"ORGANIZATION";"MovieStop";1.0
+20962;"ORGANIZATION";"Grapevine Mills";"O";"be in";"LOCATION";"Dallas";1.0
+20963;"PERSON";"Mark Stanley";"O";"be executive of";"ORGANIZATION";"GameStop";1.0
+20964;"ORGANIZATION";"Philadelphia Police";"O";"be in";"LOCATION";"Philadelphia";1.0
+20965;"ORGANIZATION";"Noble";"O";"buy";"ORGANIZATION";"Babbage";1.0
+20966;"ORGANIZATION";"GameStop";"ORGANIZATION";"acquire";"ORGANIZATION";"AT&T Stores";1.0
+20967;"ORGANIZATION";"Holland";"O";"advise";"ORGANIZATION";"GameStop";1.0
+20968;"PERSON";"Alexa";"O";"be website gamespot.com of";"PERSON";"Jon epstein";1.0
+20969;"PERSON";"Vince Broady";"O";"be in";"LOCATION";"San Francisco";1.0
+20970;"PERSON";"Gerstmann";"O";"have previously give";"ORGANIZATION";"Kane";1.0
+20971;"PERSON";"Alex Navarro";"O";"be staffer of";"LOCATION";"Gamespot";1.0
+20972;"ORGANIZATION";"Wallstrip Channels";"O";"be download.com findarticles gamefaqs gamerankings gooey movietome mp.com versiontracker of";"ORGANIZATION";"CBS Innertube";1.0
+20973;"PERSON";"Natali Morris Rafe Needleman Andrew Nusca Ryan Seacrest Molly Wood Contributors";"O";"be minor of";"PERSON";"Matthew Barzun Veronica Belmont Esther Dyson Ina Fried Richard Hart James Kim Declan McCullagh Tom Merritt Halsey";1.0
+20974;"ORGANIZATION";"Wallstrip Channels";"O";"be download.com findarticles gamefaqs gamerankings gooey movietome mp.com versiontracker of";"ORGANIZATION";"CBS Innertube";1.0
+20975;"PERSON";"Natali Morris Rafe Needleman Andrew Nusca Ryan Seacrest Molly Wood Contributors";"O";"be minor of";"PERSON";"Matthew Barzun Veronica Belmont Esther Dyson Ina Fried Richard Hart James Kim Declan McCullagh Tom Merritt Halsey";1.0

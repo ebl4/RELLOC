@@ -19,7 +19,12 @@ import java.util.stream.Collectors;
  * Created by dell on 14/03/2017.
  */
 public class CoreDemo {
-    public static void main(String[] args) throws IOException {
+
+
+
+
+    public static void main(String[] args) throws
+            IOException {
         DatabaseConnection databaseConnection = new DatabaseConnection();
         int numDocuments = 0, numSentences = 0;
 
@@ -34,9 +39,10 @@ public class CoreDemo {
                 "New York City is also the most densely populated major city in the United States.";
         FetchURLData fetchURLData = new FetchURLData();
 
-        //267 links
-        Set<String> linkSet = fetchURLData.getLinks("https://en.wikipedia.org/wiki/List_of_the_100_largest_population_centres_in_Canada",
-                new String[]{"https://tools.wmflabs.org/geohack/geohack", "List_of_the_100_largest_population_centres_in_Canada", "index.php?"});
+        //267 links from canada cities
+        // ?? links from video hosts
+        Set<String> linkSet = fetchURLData.getLinks("https://en.wikipedia.org/wiki/List_of_video_game_websites",
+                new String[]{"https://tools.wmflabs.org/geohack/geohack", "List_of_video_game_websites", "index.php?"});
 
         //text = fetchURLData.getData("https://en.wikipedia.org/wiki/New_York_City");
         //text = fetchURLData.getData("https://en.wikipedia.org/wiki/Jersey_City,_New_Jersey");
@@ -173,6 +179,8 @@ public class CoreDemo {
 
                     if(!selectedTriple.subject.isEmpty() && !selectedTriple.relation.isEmpty() && !selectedTriple.object.isEmpty()) {
                         System.out.printf("Triple %d\n", count+1);
+                        System.out.println(selectedTriple.toString());
+
                         datas.add(selectedTriple.subject.get(0).ner());
                         datas.add(selectedTriple.subjectLemmaGloss());
                         datas.add(selectedTriple.relation.get(0).ner());
@@ -182,6 +190,7 @@ public class CoreDemo {
                         datas.add(String.valueOf(selectedTriple.confidence));
 
                         databaseConnection.prepareStatement(datas);
+
                     }
                 }
             }

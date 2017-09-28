@@ -1,0 +1,430 @@
+"id";"subject_type";"subject_value";"relation_type";"relation_value";"object_type";"object_value";"confidence"
+20055;"LOCATION";"Brazil";"O";"be from";"ORGANIZATION";"Wikipedia";1.0
+20056;"PERSON";"Bandeira Nacional";"O";"be à of";"ORGANIZATION";"Hino";1.0
+20057;"ORGANIZATION";"Supreme Federal Court Cármen Lúcia Legislature National Congress • Upper house Federal Senate";"O";"be from";"LOCATION";"United Kingdom of Portugal";1.0
+20058;"LOCATION";"Brazil";"O";"be found member of";"ORGANIZATION";"United Nations";1.0
+20059;"LOCATION";"Brazil";"O";"be regional power in";"LOCATION";"Latin America";1.0
+20060;"LOCATION";"United Kingdom";"O";"be with";"LOCATION";"Portugal";1.0
+20061;"PERSON";"Dom João III";"O";"be of";"LOCATION";"Portugal";1.0
+20062;"LOCATION";"Portugal";"O";"recognize";"LOCATION";"Brazil";1.0
+20063;"PERSON";"Esplanada";"PERSON";"do";"PERSON";"Ministérios";1.0
+20064;"PERSON";"Rousseff";"O";"be impeach by";"ORGANIZATION";"Congress";1.0
+20065;"PERSON";"Serra";"PERSON";"do";"PERSON";"Órgãos";1.0
+20066;"LOCATION";"Capivara National Park";"O";"be da of";"LOCATION";"Serra";1.0
+20067;"LOCATION";"Brazil";"O";"have";"LOCATION";"Amazon Basin";1.0
+20068;"ORGANIZATION";"Supreme Court";"O";"adopt";"ORGANIZATION";"Twitter";1.0
+20069;"ORGANIZATION";"brazilian Army";"O";"be include";"ORGANIZATION";"Army Aviation command";1.0
+20070;"ORGANIZATION";"Navy";"O";"be include";"ORGANIZATION";"Marine Corps";1.0
+20071;"ORGANIZATION";"Navy";"O";"be base the of";"ORGANIZATION";"Natal Air Force";1.0
+20072;"ORGANIZATION";"navy";"O";"be in";"LOCATION";"Latin America";1.0
+20073;"LOCATION";"Sul Federal District Goiás Minas Gerais São Paulo Rio Janeiro Espírito Santo Paraná Santa Catarina Rio Grande";"O";"do";"ORGANIZATION";"Sul Argentina Bolivia Chile Colombia French Guiana Guyana Paraguay Peru Suriname Uruguay Venezuela States";1.0
+20074;"LOCATION";"Brazil";"O";"be national economy in";"LOCATION";"Latin America";1.0
+20075;"ORGANIZATION";"Rio Doce";"ORGANIZATION";"do acquire";"ORGANIZATION";"Inco";1.0
+20076;"LOCATION";"Itaipu dam";"O";"be on";"LOCATION";"Paraná River";1.0
+20077;"ORGANIZATION";"vls";"O";"be at";"ORGANIZATION";"Alcântara launch Center of brazilian space Agency";1.0
+20078;"ORGANIZATION";"Ford";"O";"arrive in";"LOCATION";"Brazil";1.0
+20079;"LOCATION";"Albert Einstein Hospital";"O";"be in";"LOCATION";"São Paulo";1.0
+20080;"ORGANIZATION";"University";"O";"be best university in";"LOCATION";"Latin America";1.0
+20081;"PERSON";"Dilma Rousseff";"O";"be former president of";"LOCATION";"Brazil";1.0
+20082;"ORGANIZATION";"National Press";"O";"be by";"PERSON";"Regent Dom João";1.0
+20083;"LOCATION";"Brazil";"O";"launch";"ORGANIZATION";"tv Brasil Internacional";1.0
+20084;"LOCATION";"Bahia";"O";"be to";"LOCATION";"Paraíba";1.0
+20085;"LOCATION";"Brazil";"O";"be of";"LOCATION";"Brazil";1.0
+20086;"PERSON";"São José";"PERSON";"do";"PERSON";"Campos São Paulo";1.0
+20087;"LOCATION";"Brazil";"O";"be only nation in";"LOCATION";"Americas";1.0
+20088;"LOCATION";"South";"O";"be of";"LOCATION";"Brazil";1.0
+20089;"PERSON";"Pedro Cabral";"O";"discover";"LOCATION";"Brazil";1.0
+20090;"PERSON";"Heitor Villa-Lobos";"O";"be of";"LOCATION";"Brazil";1.0
+20091;"PERSON";"Nelson Pereira";"PERSON";"do";"PERSON";"Santos";1.0
+20092;"PERSON";"Ricardo";"O";"do";"PERSON";"Pilar da Costa Ataíde";0.5339263481806755
+20093;"PERSON";"Vicente";"O";"do";"PERSON";"Rego Monteiro";1.0
+20094;"ORGANIZATION";"Bandeira Nacional";"O";"be à of";"ORGANIZATION";"Hino";1.0
+20095;"PERSON";"Boxer";"O";"be on";"ORGANIZATION";"Google";1.0
+20096;"PERSON";"Corrado";"O";"be books ^ of";"ORGANIZATION";"Google";1.0
+20097;"PERSON";"Bethell";"O";"be on";"ORGANIZATION";"Google";1.0
+20098;"PERSON";"Boxer";"O";"be on";"ORGANIZATION";"Google";1.0
+20099;"PERSON";"Scott";"O";"be books ^ of";"ORGANIZATION";"Google";1.0
+20100;"PERSON";"Seymour Drescher";"O";"be isbn of";"ORGANIZATION";"Duke University Press";1.0
+20101;"ORGANIZATION";"Greenwood Publishing Group";"O";"be of";"LOCATION";"Brazil";1.0
+20102;"ORGANIZATION";"Cambridge University Press";"O";"be in";"LOCATION";"Turn-of-the-Century Rio de Janeiro";1.0
+20103;"PERSON";"Bradford Burns";"O";"be chapter page ^ of";"ORGANIZATION";"Columbia University Press";1.0
+20104;"ORGANIZATION";"Columbia University Press Page ISBN";"O";"be of";"LOCATION";"Brazil";1.0
+20105;"LOCATION";"Latin America";"O";"be during";"ORGANIZATION";"Rowman & Littlefield Publishers Inc";1.0
+20106;"PERSON";"Laurence Burgorgue-Larsen";"O";"be books ^ of";"ORGANIZATION";"Google";1.0
+20107;"PERSON";"Michel Temer";"O";"be of";"LOCATION";"Brazil";1.0
+20108;"LOCATION";"Brazil";"O";"have";"ORGANIZATION";"Senate";1.0
+20109;"LOCATION";"Bolivia";"O";"resell gas to";"LOCATION";"Chile";1.0
+20110;"LOCATION";"Brazil";"O";"be lead mission to";"LOCATION";"Haiti";0.4875075047368334
+20111;"PERSON";"Cabral";"O";"be ^ of";"ORGANIZATION";"Overseas Development Institute";1.0
+20112;"PERSON";"Sydney Alberto Latini";"O";"be ^ of";"ORGANIZATION";"transporte rodoviário no Brasil";1.0
+20113;"LOCATION";"Portugal";"O";"be in";"LOCATION";"Transitn";1.0
+20114;"PERSON";"Sevcenko";"O";"be ^ of";"PERSON";"Rocha";1.0
+20115;"LOCATION";"Brazil";"O";"be world cup of";"ORGANIZATION";"FIFA";1.0
+20116;"LOCATION";"Brazil";"O";"be world cup of";"ORGANIZATION";"FIFA";1.0
+20117;"PERSON";"Uma História";"PERSON";"do";"PERSON";"Brasil";1.0
+20118;"ORGANIZATION";"municipality";"O";"be in";"LOCATION";"Brazil";1.0
+20119;"ORGANIZATION";"Wikiversity Data";"O";"be from";"ORGANIZATION";"Wikidata Government brazilian Federal Government Official Tourist Guide of Brazil brazilian Institute of Geography and Statistics General";1.0
+20120;"LOCATION";"Brazil";"O";"be at";"ORGANIZATION";"UCB Libraries";1.0
+20121;"ORGANIZATION";"Sports Television Outline Index Category Portal";"O";"be holiday sculpture science fiction of";"ORGANIZATION";"Welfare Youth Culture Arts Animation Carnaval Cinema Comics Cuisine Literature Malandragem Music Newspapers Painting Public";1.0
+20122;"PERSON";"kitt";"ORGANIZATION";"renounce";"ORGANIZATION";"Venezuela Organization Secretariat";1.0
+20123;"PERSON";"Român? Romani Rumantsch Runa";"O";"be tahiti of";"ORGANIZATION";"Picard Piemontèis Tok Pisin Plattdüütsch Polski Português Qaraqalpaqsha Q?r?mtatarca Reo";1.0
+20124;"LOCATION";"Japan";"O";"be from";"ORGANIZATION";"Wikipedia";1.0
+20125;"LOCATION";"sea of Okhotsk";"O";"be to";"LOCATION";"East China Sea";1.0
+20126;"LOCATION";"Japan";"O";"be member of";"ORGANIZATION";"UN";1.0
+20127;"PERSON";"Tendai";"O";"be by";"PERSON";"K?kai";1.0
+20128;"PERSON";"Nobunaga";"O";"be assassinate in by";"PERSON";"Akechi Mitsuhide";1.0
+20129;"PERSON";"Tokugawa Ieyasu";"O";"shogun in";"LOCATION";"Tokyo";1.0
+20130;"LOCATION";"Japan";"O";"sign anti-comintern pact with";"LOCATION";"Germany";1.0
+20131;"ORGANIZATION";"Imperial Japanese Army";"O";"conduct";"LOCATION";"Nanking Massacre";1.0
+20132;"LOCATION";"United States";"O";"place oil embargo on";"LOCATION";"Japan";1.0
+20133;"LOCATION";"Singapore";"O";"be on";"LOCATION";"United States";1.0
+20134;"ORGANIZATION";"NGO climate Action Network";"O";"announce";"LOCATION";"Japan";1.0
+20135;"PERSON";"Akihito Emperor";"O";"be of";"LOCATION";"Japan";1.0
+20136;"PERSON";"Shinz? Abe";"O";"replace";"PERSON";"Yoshihiko Noda";1.0
+20137;"LOCATION";"Japan";"O";"be active member of";"ORGANIZATION";"UN";1.0
+20138;"LOCATION";"Russia";"O";"be contest of";"LOCATION";"Japan";1.0
+20139;"LOCATION";"Japan";"O";"have strain relation with";"LOCATION";"people 's republic of China";1.0
+20140;"ORGANIZATION";"Ground Self-Defense Force";"O";"be of";"LOCATION";"Japan";1.0
+20141;"LOCATION";"Japan";"O";"emerge in";"LOCATION";"Asia";1.0
+20142;"ORGANIZATION";"UNESCO World Heritage site Fushimi Inari-taisha";"O";"be in";"LOCATION";"Kyoto Hiroshima Peace Memorial Japan";1.0
+20143;"ORGANIZATION";"Japan Aerospace Exploration Agency";"O";"be the of";"LOCATION";"International Space Station";1.0
+20144;"PERSON";"SELENE";"O";"be also know as";"PERSON";"kaguya";1.0
+20145;"PERSON";"Kenichi Fukui";"O";"be of";"ORGANIZATION";"Kyoto University";1.0
+20146;"LOCATION";"Japan Tokuyama dam";"O";"be in";"LOCATION";"Gifu Prefecture";1.0
+20147;"LOCATION";"Taoism";"O";"be from";"LOCATION";"China";1.0
+20148;"ORGANIZATION";"OECD";"O";"be after";"LOCATION";"South Korea";1.0
+20149;"PERSON";"Natsume S?seki";"O";"be novelist of";"LOCATION";"Japan";1.0
+20150;"PERSON";"Hadaka";"O";"be in";"LOCATION";"Okayama";1.0
+20151;"LOCATION";"Tokyo NHK Broadcasting Building";"O";"be in";"ORGANIZATION";"Osaka Television";1.0
+20152;"PERSON";"Kimi Ga Yo";"O";"be flag of";"LOCATION";"Japan";1.0
+20153;"ORGANIZATION";"legislative bureau";"O";"be of";"ORGANIZATION";"House of Councillors";1.0
+20154;"LOCATION";"Japan";"O";"be";"LOCATION";"Japan";1.0
+20155;"LOCATION";"Japan";"O";"become";"LOCATION";"Japan";1.0
+20156;"ORGANIZATION";"Judgment International Military Tribunal";"O";"be for";"LOCATION";"Far East";1.0
+20157;"LOCATION";"UK";"O";"back";"LOCATION";"Japan";1.0
+20158;"LOCATION";"Japan";"O";"be cut of";"ORGANIZATION";"Moody";1.0
+20159;"PERSON";"Dickie";"O";"be ^ of";"ORGANIZATION";"Japan National Tourism Organization";1.0
+20160;"ORGANIZATION";"UN Economic Commission";"O";"be for";"LOCATION";"Europe";1.0
+20161;"ORGANIZATION";"Stanford encyclopedia of philosophy";"O";"be via";"ORGANIZATION";"Stanford Encyclopedia of Philosophy";1.0
+20162;"ORGANIZATION";"IOC";"O";"select";"LOCATION";"Tokyo";1.0
+20163;"LOCATION";"usa";"O";"be edge of";"LOCATION";"Japan";1.0
+20164;"LOCATION";"Sámegiella Gagana Samoa";"O";"be tahiti român? rumantsch runa simi ?????????? ??????? ???? ???? of";"ORGANIZATION";"Picard Piemontèis Tok Pisin Plattdüütsch Polski Português Qaraqalpaqsha Q?r?mtatarca Reo";1.0
+20165;"PERSON";"Michael Eisner";"O";"have";"ORGANIZATION";"Tornante Company";1.0
+20166;"ORGANIZATION";"Veoh";"O";"make";"LOCATION";"Africa";1.0
+20167;"ORGANIZATION";"Veoh";"O";"reinstate";"PERSON";"Dmitry Shapiro";1.0
+20168;"ORGANIZATION";"Veoh";"O";"be available in";"LOCATION";"Latvia";1.0
+20169;"ORGANIZATION";"Veoh";"O";"also block";"LOCATION";"Czech Republic";1.0
+20170;"ORGANIZATION";"Veoh";"O";"be block in";"LOCATION";"Saudi Arabia";1.0
+20171;"ORGANIZATION";"Veoh";"O";"be available in";"LOCATION";"MACAO";1.0
+20172;"PERSON";"Kafka";"O";"be with";"ORGANIZATION";"YouTube";1.0
+20173;"ORGANIZATION";"Arte Boutique BBC";"O";"be iview aparat acfun afreecatv all of";"ORGANIZATION";"ABC";1.0
+20174;"PERSON";"Viki Vimeo Viu Voddler";"O";"be tenplay theplatform toon goggles trilulilu tubi tv tudou tvcatchup tv uol tvigle tvnz ondemand tvyo twitch.tv uktv play ultraviolet vbox veoh vevo vidme vidoosh viewster of";"ORGANIZATION";"TalkTalk TV Tank Top tv TAPP TV TeacherTube Teaching Channel Telly Inc";1.0
+20175;"LOCATION";"China Area";"O";"serve";"LOCATION";"China";1.0
+20176;"ORGANIZATION";"Leshi Internet Information and Technology";"O";"be by";"PERSON";"Hanyu Pinyin Lèshì W?ng Xìnx? Jìshù";1.0
+20177;"ORGANIZATION";"LeEco";"O";"inject";"ORGANIZATION";"Le Vision Pictures";1.0
+20178;"PERSON";"Leshi Zhixin";"O";"would issue % share to";"ORGANIZATION";"Tianjin Jiarui";1.0
+20179;"ORGANIZATION";"Arte Boutique BBC";"O";"be iview aparat acfun afreecatv all of";"ORGANIZATION";"ABC";1.0
+20180;"PERSON";"Viki Vimeo Viu Voddler";"O";"be tenplay theplatform toon goggles trilulilu tubi tv tudou tvcatchup tv uol tvigle tvnz ondemand tvyo twitch.tv uktv play ultraviolet vbox veoh vevo vidme vidoosh viewster of";"ORGANIZATION";"TalkTalk TV Tank Top tv TAPP TV TeacherTube Teaching Channel Telly Inc";1.0
+20181;"PERSON";"Luiz Frias";"O";"be key people of";"LOCATION";"Brazil";1.0
+20182;"PERSON";"Ryan";"PERSON";"be";"PERSON";"hungry";1.0
+20183;"PERSON";"Daum";"O";"be from";"ORGANIZATION";"Wikipedia";1.0
+20184;"ORGANIZATION";"Chosun Ilbo Donga Ilbo JoongAng Ilbo Hankook Ilbo Kyunghyang Shinmun";"O";"be of";"LOCATION";"North Korea";1.0
+20185;"PERSON";"Daum";"O";"sell";"ORGANIZATION";"Lycos";1.0
+20186;"PERSON";"Daum";"O";"form";"PERSON";"Daum Kakao";1.0
+20187;"LOCATION";"South Korea";"O";"of";"PERSON";"Servicesedit Daum";1.0
+20188;"PERSON";"Lee Jae-woong Kim";"O";"be melon tistory tvpot subsidiaries loen entertainment people of";"ORGANIZATION";"Daum Daum Knowledge Daum View KakaoTalk";1.0
+20189;"LOCATION";"Asia";"O";"be bound by";"LOCATION";"Pacific Ocean";1.0
+20190;"LOCATION";"Asia";"O";"have exhibit";"LOCATION";"East Asia";1.0
+20191;"LOCATION";"Maluku Islands";"O";"be in";"LOCATION";"Indonesia";1.0
+20192;"LOCATION";"Asia";"O";"be larger than";"LOCATION";"Europe";1.0
+20193;"LOCATION";"Asia";"O";"be constituent with";"LOCATION";"Europe";1.0
+20194;"ORGANIZATION";"islamic caliphate";"O";"take over";"LOCATION";"Central Asia";1.0
+20195;"LOCATION";"Manchu";"O";"conquer";"LOCATION";"China";1.0
+20196;"LOCATION";"Gobi Desert";"O";"be in";"LOCATION";"Mongolia";1.0
+20197;"LOCATION";"Yangtze River";"O";"be in";"LOCATION";"China";1.0
+20198;"ORGANIZATION";"International Crops Research Institute";"O";"be for";"ORGANIZATION";"Semi-Arid Tropics";1.0
+20199;"LOCATION";"Japan";"O";"be economy in";"LOCATION";"Asia";1.0
+20200;"LOCATION";"China";"O";"overtake";"LOCATION";"Japan";1.0
+20201;"LOCATION";"India";"O";"overtake";"LOCATION";"Japan";1.0
+20202;"ORGANIZATION";"Citigroup";"O";"come from";"LOCATION";"Asia";1.0
+20203;"LOCATION";"Asia";"O";"have topple";"LOCATION";"Europe";1.0
+20204;"PERSON";"Phra Kaeo";"O";"be in";"LOCATION";"Grand Palace";1.0
+20205;"ORGANIZATION";"MasterCard";"O";"be dominate by";"LOCATION";"Asia";1.0
+20206;"LOCATION";"Kaabah";"O";"be in";"LOCATION";"Mecca";1.0
+20207;"PERSON";"Buddha";"O";"be in";"LOCATION";"Lushan County";1.0
+20208;"ORGANIZATION";"Islam";"O";"originate in";"LOCATION";"West Asia";1.0
+20209;"PERSON";"Thomas christian";"O";"be in";"LOCATION";"India";1.0
+20210;"LOCATION";"Sikhism";"O";"originate in";"LOCATION";"India";1.0
+20211;"ORGANIZATION";"Mahayana Buddhism";"O";"be easily syncretize with";"LOCATION";"Taoism";1.0
+20212;"LOCATION";"Jainism";"O";"be find in";"LOCATION";"India";1.0
+20213;"LOCATION";"Sikhism";"O";"be find in";"LOCATION";"India";1.0
+20214;"LOCATION";"Taoism";"O";"be find mainly in";"LOCATION";"Mainland China";1.0
+20215;"LOCATION";"US";"O";"be conflict of";"LOCATION";"Turkey Modern";1.0
+20216;"LOCATION";"India";"O";"be of";"LOCATION";"Iran";1.0
+20217;"PERSON";"Aung San Suu Kyi";"O";"be from";"LOCATION";"burma";1.0
+20218;"PERSON";"Kailash Satyarthi";"O";"be from";"LOCATION";"India";1.0
+20219;"LOCATION";"Japan";"O";"follow by";"LOCATION";"India";1.0
+20220;"PERSON";"José Ramos-Horta";"O";"be of";"PERSON";"Timor Leste";1.0
+20221;"PERSON";"Muhammad Yunus";"O";"be of";"LOCATION";"Bangladesh";1.0
+20222;"ORGANIZATION";"Buddhist Society";"O";"be in";"LOCATION";"United Kingdom";1.0
+20223;"ORGANIZATION";"Leventhal Map Center";"O";"be at";"ORGANIZATION";"Boston Public Library";1.0
+20224;"PERSON";"Român? Romani Rumantsch Runa";"O";"be ???????? português qaraqalpaqsha q?r?mtatarca reo tahiti of";"ORGANIZATION";"Picard Piemontèis Tok Pisin Plattdüütsch Polski";1.0
+20225;"ORGANIZATION";"CTO";"O";"be at";"ORGANIZATION";"Pronto";1.0
+20226;"PERSON";"Draper Fisher Jurvetson";"O";"be fund of";"LOCATION";"West Coast";1.0
+20227;"PERSON";"Pete Blackshaw";"O";"be of";"ORGANIZATION";"Nielsen Online Digital Strategic Services";1.0
+20228;"PERSON";"Ora Media";"O";"be owner of";"LOCATION";"New York City";1.0
+20229;"ORGANIZATION";"Historyedit Ora tv";"O";"be found by";"PERSON";"Larry King";1.0
+20230;"PERSON";"Dave Rubin";"O";"be the rubin report of";"PERSON";"Mikey McManus";1.0
+20231;"ORGANIZATION";"YouTube";"O";"be ban in";"LOCATION";"China";1.0
+20232;"PERSON";"Youku";"O";"partner in";"LOCATION";"China";1.0
+20233;"PERSON";"Youku";"O";"be list at";"ORGANIZATION";"New York Stock Exchange";1.0
+20234;"PERSON";"Victor Koo";"O";"be once employee of";"ORGANIZATION";"Bain";1.0
+20235;"ORGANIZATION";"Amblin Partners Amblin Entertainment Amblin Television DreamWorks";"O";"be ucweb youku tudou youku tudou heyi pictures alipay alisports world electronic sports games of";"ORGANIZATION";"Alibaba Digital Media & Entertainment Group Alibaba Digital Entertainment Alibaba gaming Alibaba Literature Alibaba Music Alibaba Pictures";1.0
+20236;"ORGANIZATION";"Arte Boutique BBC";"O";"be iview aparat acfun afreecatv all of";"ORGANIZATION";"ABC";1.0
+20237;"PERSON";"Viki Vimeo Viu Voddler";"O";"be tenplay theplatform toon goggles trilulilu tubi tv tudou tvcatchup tv uol tvigle tvnz ondemand tvyo twitch.tv uktv play ultraviolet vbox veoh vevo vidme vidoosh viewster of";"ORGANIZATION";"TalkTalk TV Tank Top tv TAPP TV TeacherTube Teaching Channel Telly Inc";1.0
+20238;"PERSON";"Maxime Saada";"O";"be key people of";"LOCATION";"France";1.0
+20239;"LOCATION";"malesherbe";"O";"be in";"LOCATION";"Paris Dailymotion";1.0
+20240;"PERSON";"Dailymotion";"O";"extend into";"LOCATION";"U.S";1.0
+20241;"PERSON";"dailymotion";"O";"be ban in";"LOCATION";"India";1.0
+20242;"PERSON";"dailymotion";"O";"be unblock in";"LOCATION";"India";1.0
+20243;"PERSON";"dailymotion";"O";"be find by";"ORGANIZATION";"Paris High Court";1.0
+20244;"ORGANIZATION";"Arte Boutique BBC";"O";"be iview aparat acfun afreecatv all of";"ORGANIZATION";"ABC";1.0
+20245;"PERSON";"Viki Vimeo Viu Voddler";"O";"be tenplay theplatform toon goggles trilulilu tubi tv tudou tvcatchup tv uol tvigle tvnz ondemand tvyo twitch.tv uktv play ultraviolet vbox veoh vevo vidme vidoosh viewster of";"ORGANIZATION";"TalkTalk TV Tank Top tv TAPP TV TeacherTube Teaching Channel Telly Inc";1.0
+20246;"ORGANIZATION";"Eagle Rock Entertainment PolyGram Entertainment Universal Music tv Canal";"O";"be unit of";"ORGANIZATION";"Records Verve Forecast Records Film/TV";1.0
+20247;"PERSON";"Hiroyuki Nishimura";"O";"together serve at";"LOCATION";"Niwango";1.0
+20248;"ORGANIZATION";"Dwango Publishing ASCII Media Works Enterbrain Fujimi Shobo Kadokawa Shoten Media Factory Digital";"O";"be ? of";"ORGANIZATION";"Kadokawa Dwango Kadokawa";1.0
+20249;"ORGANIZATION";"Arte Boutique BBC";"O";"be iview aparat acfun afreecatv all of";"ORGANIZATION";"ABC";1.0
+20250;"ORGANIZATION";"Microsoft Movies & TV";"O";"be iflix itunes store of";"LOCATION";"Hulu";1.0
+20251;"LOCATION";"South Korea";"O";"be member of";"ORGANIZATION";"United Nations";1.0
+20252;"ORGANIZATION";"Dutch East India Company";"O";"of";"PERSON";"Hendrick Hamel";1.0
+20253;"PERSON";"Goryeo";"O";"be replace by";"PERSON";"Joseon";1.0
+20254;"LOCATION";"Joseon";"O";"be to";"PERSON";"Daehan Jeguk";1.0
+20255;"LOCATION";"korean Peninsula";"O";"be of";"LOCATION";"Manchuria";1.0
+20256;"PERSON";"Samhan";"O";"occupy";"LOCATION";"Manchuria";1.0
+20257;"LOCATION";"Phoenicia";"O";"be of";"LOCATION";"East Asia";1.0
+20258;"PERSON";"Baekje";"O";"be once power on";"LOCATION";"korean Peninsula";1.0
+20259;"LOCATION";"Manchuria";"O";"be of";"LOCATION";"Russian Far East";1.0
+20260;"LOCATION";"Phoenicia";"O";"be of";"LOCATION";"East Asia";1.0
+20261;"PERSON";"Balhae";"O";"have fall to";"LOCATION";"Khitan Empire";1.0
+20262;"LOCATION";"Korea";"O";"be occupy by";"LOCATION";"Japan";1.0
+20263;"ORGANIZATION";"UN Temporary Commission";"O";"be on";"LOCATION";"Korea";1.0
+20264;"LOCATION";"North Korea";"O";"invade";"LOCATION";"South Korea";1.0
+20265;"LOCATION";"Soviet Union";"O";"have boycott";"ORGANIZATION";"United Nations";1.0
+20266;"LOCATION";"Soviet Union";"O";"back";"LOCATION";"North Korea";1.0
+20267;"PERSON";"Chun Doo-hwan";"O";"force";"ORGANIZATION";"Cabinet";1.0
+20268;"PERSON";"Chun";"O";"subsequently create";"ORGANIZATION";"National Defense Emergency Policy Committee";1.0
+20269;"PERSON";"Chun";"O";"hold";"LOCATION";"South Korea";1.0
+20270;"ORGANIZATION";"Organization for Economic co-operation";"ORGANIZATION";"for organization be";"ORGANIZATION";"OECD";1.0
+20271;"PERSON";"Nelson Mandela";"O";"be of";"LOCATION";"Asia";1.0
+20272;"ORGANIZATION";"National Assembly";"O";"impeach";"PERSON";"Park";1.0
+20273;"LOCATION";"Marado Rock";"O";"be island of";"LOCATION";"South Korea";1.0
+20274;"PERSON";"Lee Nak-yeon";"O";"be president of";"LOCATION";"South Korea Moon Jae-in";1.0
+20275;"ORGANIZATION";"National Assembly";"O";"be of";"LOCATION";"South Korea";1.0
+20276;"ORGANIZATION";"Organization for Economic and Cooperation and Development";"ORGANIZATION";"for organization be";"ORGANIZATION";"OECD";1.0
+20277;"ORGANIZATION";"Organization for Economic Cooperation and Development";"ORGANIZATION";"for organization be";"ORGANIZATION";"OECD";1.0
+20278;"PERSON";"Lee Jong-wook";"O";"be in";"LOCATION";"South Korea";1.0
+20279;"LOCATION";"South Korea";"O";"conclude";"ORGANIZATION";"fta";1.0
+20280;"LOCATION";"South Korea";"O";"be negotiate free trade agreement with";"LOCATION";"Canada";1.0
+20281;"LOCATION";"Seoul";"O";"cut trade with";"LOCATION";"North Korea";1.0
+20282;"LOCATION";"South Korea";"O";"relation with";"LOCATION";"United States";0.4916063454734436
+20283;"LOCATION";"PRC";"O";"assist";"LOCATION";"North Korea";1.0
+20284;"LOCATION";"Republic";"O";"gain relation with";"LOCATION";"people 's republic";1.0
+20285;"LOCATION";"Japan";"O";"sign treaty between";"LOCATION";"Japan";1.0
+20286;"ORGANIZATION";"fta";"O";"be with";"LOCATION";"Korea";1.0
+20287;"LOCATION";"Soviet Union";"O";"engage in";"LOCATION";"North Korea";1.0
+20288;"ORGANIZATION";"Naval Forces Korea";"O";"be station in";"LOCATION";"South Korea";1.0
+20289;"LOCATION";"United States";"O";"station contingent by";"ORGANIZATION";"Hanjin Heavy Industries";1.0
+20290;"ORGANIZATION";"Eighth United States Army";"O";"be of";"ORGANIZATION";"US Army";1.0
+20291;"ORGANIZATION";"LG";"ORGANIZATION";"display";"ORGANIZATION";"Seoul";1.0
+20292;"LOCATION";"Singapore";"O";"after index be";"ORGANIZATION";"NRI";1.0
+20293;"LOCATION";"South Korea";"O";"lead";"ORGANIZATION";"OECD";1.0
+20294;"LOCATION";"Yangdong Village";"O";"be of";"LOCATION";"Gyeongju";1.0
+20295;"ORGANIZATION";"UNESCO World Heritage Sites";"O";"be in";"LOCATION";"South Korea";1.0
+20296;"LOCATION";"Sajik Baseball Stadium";"O";"be in";"LOCATION";"Busan Baseball";1.0
+20297;"LOCATION";"South Korea";"O";"host games in";"LOCATION";"Seoul";1.0
+20298;"LOCATION";"South Korea";"O";"host summer olympics in";"LOCATION";"Seoul";1.0
+20299;"LOCATION";"Seoul Olympic Museum";"O";"be museum in";"LOCATION";"Seoul";1.0
+20300;"LOCATION";"Pyeongchang";"O";"be choose by";"ORGANIZATION";"IOC";1.0
+20301;"LOCATION";"Korea";"O";"strong affinity to";"LOCATION";"China";0.4417029106447579
+20302;"LOCATION";"Sui China";"O";"war against";"PERSON";"Kogury?";1.0
+20303;"PERSON";"?lchi Mund?k";"O";"be of";"PERSON";"Kogury?";1.0
+20304;"ORGANIZATION";"Truth Commission";"O";"be under";"LOCATION";"imperialism republic of Korea";1.0
+20305;"ORGANIZATION";"Moody";"O";"have";"LOCATION";"Raises Korea";1.0
+20306;"PERSON";"Chung Ah-young";"O";"be ^ of";"ORGANIZATION";"asian Info Organization";1.0
+20307;"PERSON";"Martin";"O";"have";"PERSON";"Griffin";1.0
+20308;"PERSON";"Syngman Rhee";"O";"have";"ORGANIZATION";"Quest for Independence -lrb- University of Hawai'i Press";1.0
+20309;"LOCATION";"South Korea";"O";"be from";"ORGANIZATION";"Dean Peter Krogh Foreign Affairs Digital Archives";1.0
+20310;"ORGANIZATION";"Military National Assembly Politics Elections political";"O";"be south korea constitution foreign relation government president prime minister human rights of";"ORGANIZATION";"worker ' Party of Korea Supreme People 's assembly";1.0
+20311;"LOCATION";"Sámegiella Gagana Samoa";"O";"be português qaraqalpaqsha q?r?mtatarca român? romani rumantsch runa simi ?????????? ??????? ???? ???? of";"ORGANIZATION";"Picard Piemontèis Tok Pisin Plattdüütsch Polski";1.0
+20312;"PERSON";"Susan Wojcicki";"O";"be ceo of";"PERSON";"Steve Chen Chad Hurley Jawed Karim";1.0
+20313;"ORGANIZATION";"YouTube";"O";"headquarter in";"LOCATION";"San Bruno";0.691563884814279
+20314;"PERSON";"Hurley";"O";"have study design at";"ORGANIZATION";"Indiana University";1.0
+20315;"PERSON";"Karim";"O";"study computer science together at";"ORGANIZATION";"University";1.0
+20316;"PERSON";"Jawed Karim";"O";"be at";"LOCATION";"San Diego Zoo";1.0
+20317;"PERSON";"SimilarWeb";"O";"list";"ORGANIZATION";"YouTube";1.0
+20318;"PERSON";"Susan Wojcicki";"O";"ceo of";"ORGANIZATION";"YouTube";1.0
+20319;"ORGANIZATION";"YouTube";"O";"launch";"ORGANIZATION";"YouTube gaming";1.0
+20320;"PERSON";"Barack Obama";"O";"be president of";"LOCATION";"US";1.0
+20321;"ORGANIZATION";"YouTube";"O";"launch";"ORGANIZATION";"YouTube";1.0
+20322;"LOCATION";"Los Angeles";"O";"be at";"ORGANIZATION";"YouTube Space";1.0
+20323;"PERSON";"Iman Crosson";"O";"be impersonator of";"PERSON";"Obama";1.0
+20324;"ORGANIZATION";"YouTube";"O";"have";"ORGANIZATION";"Google";1.0
+20325;"ORGANIZATION";"YouTube YouTube";"O";"be by";"ORGANIZATION";"Google";1.0
+20326;"ORGANIZATION";"House of Commons";"O";"be of";"LOCATION";"United Kingdom";1.0
+20327;"PERSON";"Jawed Karim";"O";"be co-founder of";"ORGANIZATION";"YouTube";1.0
+20328;"LOCATION";"Silicon Island";"O";"be blog of";"ORGANIZATION";"Newsday";1.0
+20329;"LOCATION";"Iran";"O";"block";"ORGANIZATION";"YouTube";1.0
+20330;"ORGANIZATION";"YouTube";"O";"be once again allow in";"LOCATION";"Libya";1.0
+20331;"ORGANIZATION";"University of Illinois";"O";"be at";"ORGANIZATION";"Urbana-Champaign";1.0
+20332;"ORGANIZATION";"Google";"O";"launch";"ORGANIZATION";"YouTube gaming";0.5036467979141762
+20333;"PERSON";"Rajeev Tiwari";"O";"be ^ of";"ORGANIZATION";"YouTube";1.0
+20334;"ORGANIZATION";"YouTube Launches";"O";"be in";"LOCATION";"Australia";1.0
+20335;"ORGANIZATION";"YouTube";"O";"launch in";"LOCATION";"Argentina";1.0
+20336;"ORGANIZATION";"Google";"O";"launch youtube in";"LOCATION";"Kenya";0.4794334018310456
+20337;"ORGANIZATION";"Google";"O";"launch";"ORGANIZATION";"YouTube";1.0
+20338;"ORGANIZATION";"YouTube";"O";"launch portal in";"LOCATION";"Senegal";1.0
+20339;"ORGANIZATION";"YouTube";"O";"come in";"LOCATION";"Ukraine";1.0
+20340;"ORGANIZATION";"YouTube";"O";"launch";"LOCATION";"Nepal";1.0
+20341;"ORGANIZATION";"YouTube";"O";"launch homepage for";"LOCATION";"Pakistan";1.0
+20342;"ORGANIZATION";"YouTube Stars talk Health Care";"O";"be at";"LOCATION";"White House";1.0
+20343;"ORGANIZATION";"Obama";"ORGANIZATION";"enlist";"ORGANIZATION";"YouTube Personalities";0.511883680552422
+20344;"ORGANIZATION";"NBCU";"O";"be in";"LOCATION";"Hulu";1.0
+20345;"ORGANIZATION";"YouTube Launches Revenue";"ORGANIZATION";"share";"ORGANIZATION";"partner program";0.4880724924918134
+20346;"ORGANIZATION";"Viacom";"O";"will sue";"ORGANIZATION";"YouTube";1.0
+20347;"ORGANIZATION";"US Military";"ORGANIZATION";"ban";"ORGANIZATION";"YouTube";1.0
+20348;"ORGANIZATION";"YouTube";"O";"cut in";"LOCATION";"Iran";1.0
+20349;"ORGANIZATION";"YouTube Blocked";"O";"be in";"LOCATION";"Turkey";1.0
+20350;"ORGANIZATION";"YouTube Banned";"O";"be in";"LOCATION";"Turkey";1.0
+20351;"ORGANIZATION";"YouTube";"O";"block in";"LOCATION";"Bangladesh";1.0
+20352;"ORGANIZATION";"Facebook";"O";"be to";"ORGANIZATION";"Twitter";1.0
+20353;"PERSON";"Steve Chen Chad Hurley Jawed Karim";"O";"be founders of";"ORGANIZATION";"YouTube";1.0
+20354;"ORGANIZATION";"AJAX";"O";"be tool of";"ORGANIZATION";"primer Pixel Play Books Games Movies & TV Music Newsstand Public DNS url Shortener Wallet Wifi Development";1.0
+20355;"PERSON";"Al Gore Alan Eustace Alan Mulally Amit Singhal Ann Mather David Drummond Eric Schmidt Jeff Dean John Doerr John L";"O";"be for";"ORGANIZATION";"Google China Google";1.0
+20356;"PERSON";"Larry Page Sergey Brin";"O";"be founder of";"PERSON";"Tilghman Sundar Pichai Susan Wojcicki Urs Hölzle Vint Cerf Hal Varian Gayglers";1.0
+20357;"PERSON";"Arthur D";"O";"be gv jigsaw nest sidewalk verily x waymo people of";"ORGANIZATION";"Google";1.0
+20358;"ORGANIZATION";"Arte Boutique BBC";"O";"be iview aparat acfun afreecatv all of";"ORGANIZATION";"ABC";1.0
+20359;"PERSON";"Viki Vimeo Viu Voddler";"O";"be tenplay theplatform toon goggles trilulilu tubi tv tudou tvcatchup tv uol tvigle tvnz ondemand tvyo twitch.tv uktv play ultraviolet vbox veoh vevo vidme vidoosh viewster of";"ORGANIZATION";"TalkTalk TV Tank Top tv TAPP TV TeacherTube Teaching Channel Telly Inc";1.0
+20360;"ORGANIZATION";"Google";"O";"be os software of";"ORGANIZATION";"Firefox";1.0
+20361;"ORGANIZATION";"Nowcom";"O";"'s co. be";"ORGANIZATION";"Ltd";1.0
+20362;"ORGANIZATION";"Afreeca";"O";"of";"ORGANIZATION";"Nowcom";1.0
+20363;"ORGANIZATION";"Arte Boutique BBC";"O";"be iview aparat acfun afreecatv all of";"ORGANIZATION";"ABC";1.0
+20364;"PERSON";"Viki Vimeo Viu Voddler";"O";"be tenplay theplatform toon goggles trilulilu tubi tv tudou tvcatchup tv uol tvigle tvnz ondemand tvyo twitch.tv uktv play ultraviolet vbox veoh vevo vidme vidoosh viewster of";"ORGANIZATION";"TalkTalk TV Tank Top tv TAPP TV TeacherTube Teaching Channel Telly Inc";1.0
+20365;"LOCATION";"Romania";"O";"be from";"ORGANIZATION";"Wikipedia";1.0
+20366;"ORGANIZATION";"Legislature Parliament • Upper house Senate";"O";"be • prime minister of";"PERSON";"Klaus Iohannis";1.0
+20367;"LOCATION";"Romania";"O";"join";"ORGANIZATION";"European Union";1.0
+20368;"LOCATION";"Romania";"O";"into";"LOCATION";"Danube Delta";1.0
+20369;"LOCATION";"Romania";"O";"be ally against";"LOCATION";"Soviet Union";1.0
+20370;"LOCATION";"Romania";"O";"socialist republic of";"ORGANIZATION";"Warsaw Pact";1.0
+20371;"LOCATION";"Wallachia";"O";"be mention as";"PERSON";"?eara Rumâneasc?";0.5592498652387803
+20372;"LOCATION";"Moldavia";"O";"be under";"PERSON";"Michael the Brave";1.0
+20373;"LOCATION";"Transylvania";"O";"part of";"LOCATION";"Kingdom";1.0
+20374;"PERSON";"Alexander";"PERSON";"good in";"LOCATION";"Moldavia";1.0
+20375;"PERSON";"Neagoe Basarab";"O";"be in";"LOCATION";"Wallachia";1.0
+20376;"PERSON";"John Hunyadi";"O";"be in";"LOCATION";"Transylvania";1.0
+20377;"LOCATION";"Banat";"O";"be from";"LOCATION";"Hungary";1.0
+20378;"LOCATION";"Romania";"O";"rank in";"LOCATION";"Europe";1.0
+20379;"LOCATION";"Dobruja";"O";"be cede to";"LOCATION";"Bulgaria";1.0
+20380;"LOCATION";"Hungary";"O";"receive";"LOCATION";"Transylvania";1.0
+20381;"LOCATION";"Germany";"O";"be to";"ORGANIZATION";"Nazi";1.0
+20382;"LOCATION";"Soviet Union";"O";"annex";"LOCATION";"Bessarabia";1.0
+20383;"LOCATION";"Bulgaria";"O";"retain";"PERSON";"Southern Dobruja";1.0
+20384;"LOCATION";"Romania";"O";"do regain";"LOCATION";"northern Transylvania";1.0
+20385;"PERSON";"Nicolae Ceau?escu";"O";"rule";"LOCATION";"Romania";1.0
+20386;"LOCATION";"Romania";"O";"play role in";"LOCATION";"Israel";1.0
+20387;"PERSON";"Klaus Iohannis";"O";"be mayor of";"LOCATION";"Sibiu";1.0
+20388;"LOCATION";"Romania";"O";"have";"PERSON";"Victor Ponta";1.0
+20389;"LOCATION";"Romania";"O";"join";"ORGANIZATION";"European Union";1.0
+20390;"LOCATION";"Rodna mountain";"O";"be in";"LOCATION";"Maramure? County The Danube Delta";1.0
+20391;"LOCATION";"Romania";"O";"be largest country in";"LOCATION";"Southeastern Europe";1.0
+20392;"LOCATION";"Danube Delta";"O";"be largest marshland in";"LOCATION";"Europe";1.0
+20393;"PERSON";"Clima României";"O";"be from";"PERSON";"Administra?ia Na?ional? de Meteorologie";1.0
+20394;"ORGANIZATION";"PNL -rrb- save Romania Union";"O";"be in";"LOCATION";"Romania";1.0
+20395;"PERSON";"Klaus Iohannis";"O";"be of";"LOCATION";"Romania";1.0
+20396;"ORGANIZATION";"romanian Armed Forces";"O";"be of";"LOCATION";"Romania";1.0
+20397;"LOCATION";"Bucharest";"O";"through";"LOCATION";"Henri Coand? International Airport";1.0
+20398;"ORGANIZATION";"Orthodox Church Romania";"O";"religion in";"LOCATION";"Romania";0.48576274027914873
+20399;"ORGANIZATION";"Orthodox Church";"O";"be";"ORGANIZATION";"Eastern Orthodox Church";1.0
+20400;"LOCATION";"Romania";"O";"be in";"LOCATION";"Romania";1.0
+20401;"LOCATION";"Bucharest";"O";"city in";"LOCATION";"Romania";1.0
+20402;"ORGANIZATION";"Healthcare";"O";"be in";"LOCATION";"Romania Romania";1.0
+20403;"PERSON";"Mihai Eminescu";"O";"be poet of";"LOCATION";"Romania";1.0
+20404;"PERSON";"Simona Halep";"O";"be in";"LOCATION";"Romania";1.0
+20405;"ORGANIZATION";"Roma";"O";"be in";"LOCATION";"Romania";1.0
+20406;"ORGANIZATION";"UNDP";"O";"have";"ORGANIZATION";"Regional Bureau";1.0
+20407;"PERSON";"Epistolae";"O";"be et of";"PERSON";"Acta";1.0
+20408;"LOCATION";"Europe";"O";"be before";"LOCATION";"Rome";1.0
+20409;"PERSON";"Ion Antonescu";"O";"be regal privind investirea generaluluus of";"PERSON";"Decret";1.0
+20410;"LOCATION";"Romania";"O";"have";"PERSON";"Basescu";1.0
+20411;"ORGANIZATION";"Ponta";"O";"be pm of";"LOCATION";"Romania";1.0
+20412;"ORGANIZATION";"EU";"O";"approve";"LOCATION";"Romania";1.0
+20413;"PERSON";"Gheorghe Stoica";"O";"be ^ of";"ORGANIZATION";"IMF";1.0
+20414;"LOCATION";"Romania";"O";"be relation with";"LOCATION";"republic";0.6200715430188065
+20415;"ORGANIZATION";"Ministry of National Defense";"O";"be of";"LOCATION";"Romania";1.0
+20416;"PERSON";"Regele Ferdinand";"O";"be va trimite fregata of";"LOCATION";"Romania";1.0
+20417;"LOCATION";"Targu Jiu";"O";"be din of";"PERSON";"Constantin Brancusi";1.0
+20418;"ORGANIZATION";"Eurostat";"O";"be ^ of";"ORGANIZATION";"Central Intelligence Agency";1.0
+20419;"ORGANIZATION";"romanian information Center";"O";"be in";"LOCATION";"Brussels";1.0
+20420;"PERSON";"Hagi";"O";"snub";"PERSON";"Maradona";1.0
+20421;"LOCATION";"Romania";"O";"be at";"ORGANIZATION";"DMOZ Wikimedia Atlas of Romania Geographic";1.0
+20422;"LOCATION";"Guernsey Isle";"O";"be sovereign base area gibraltar british overseas territory of";"LOCATION";"Dhekelia";1.0
+20423;"PERSON";"YouPorn";"O";"be highest-ranked adult website accord to";"PERSON";"Alexa";1.0
+20424;"PERSON";"Nishantha Hapuarachchi";"O";"be chief magistrate of";"LOCATION";"Sri Lanka";1.0
+20425;"ORGANIZATION";"Hangzhou Huandian Technology";"O";"base in";"LOCATION";"Hangzhou";1.0
+20426;"ORGANIZATION";"Arte Boutique BBC";"O";"be iview aparat acfun afreecatv all of";"ORGANIZATION";"ABC";1.0
+20427;"ORGANIZATION";"Microsoft Movies & TV";"O";"be iflix itunes store of";"LOCATION";"Hulu";1.0
+20428;"PERSON";"Mark Zuckerberg";"O";"be key people of";"PERSON";"Mark Zuckerberg Eduardo Saverin Andrew McCollum Dustin Moskovitz Chris Hughes";1.0
+20429;"PERSON";"Zuckerberg";"O";"attend";"ORGANIZATION";"Harvard University";1.0
+20430;"PERSON";"Zuckerberg";"O";"tell";"ORGANIZATION";"Crimson";1.0
+20431;"ORGANIZATION";"crimson";"O";"be about";"PERSON";"Facemash";1.0
+20432;"PERSON";"Cameron Winklevoss";"O";"be senior of";"ORGANIZATION";"Harvard";1.0
+20433;"PERSON";"Divya Narendra";"O";"accuse";"PERSON";"Zuckerberg";1.0
+20434;"PERSON";"Chris Hughes";"O";"join";"PERSON";"Zuckerberg";1.0
+20435;"ORGANIZATION";"Facebook";"O";"move to";"LOCATION";"Palo Alto";0.15377660881103794
+20436;"PERSON";"Peter Thiel";"O";"be co-founder of";"ORGANIZATION";"PayPal";1.0
+20437;"ORGANIZATION";"eBay";"O";"become after";"ORGANIZATION";"Google";1.0
+20438;"ORGANIZATION";"Facebook";"O";"second-most website in";"LOCATION";"U.S";1.0
+20439;"ORGANIZATION";"Facebook";"O";"announce";"PERSON";"App Center";1.0
+20440;"ORGANIZATION";"Facebook";"O";"unveil";"ORGANIZATION";"Facebook Home";1.0
+20441;"ORGANIZATION";"Poor";"O";"placement of";"ORGANIZATION";"Facebook";0.9190224900887743
+20442;"ORGANIZATION";"Tsinghua University";"O";"be in";"LOCATION";"Beijing";1.0
+20443;"ORGANIZATION";"Facebook";"O";"be ban in";"LOCATION";"China";1.0
+20444;"ORGANIZATION";"Facebook";"O";"announce";"PERSON";"text";1.0
+20445;"ORGANIZATION";"Facebook";"O";"of";"ORGANIZATION";"ctr";1.0
+20446;"LOCATION";"Dublin";"O";"be in";"LOCATION";"Ireland";1.0
+20447;"LOCATION";"Fitzrovia";"O";"be in";"LOCATION";"London";1.0
+20448;"ORGANIZATION";"Facebook";"O";"launch";"ORGANIZATION";"Facebook Pages";1.0
+20449;"ORGANIZATION";"Facebook";"O";"launch facebook stories in";"LOCATION";"Ireland";1.0
+20450;"ORGANIZATION";"Facebook";"O";"launch";"ORGANIZATION";"Facebook Beacon";1.0
+20451;"ORGANIZATION";"Facebook";"O";"be company of";"ORGANIZATION";"Facebook";1.0
+20452;"ORGANIZATION";"Facebook";"O";"file paperwork with";"ORGANIZATION";"Federal Election Commission";1.0
+20453;"ORGANIZATION";"Facebook";"O";"team up with";"ORGANIZATION";"ABC";1.0
+20454;"PERSON";"Ben Mezrich";"O";"be pride american author of";"LOCATION";"San Francisco";1.0
+20455;"PERSON";"Cristiano Ronaldo";"O";"surpass";"PERSON";"Shakira";1.0
+20456;"ORGANIZATION";"Facebook";"O";"have";"PERSON";"Mark Zuckerberg";1.0
+20457;"ORGANIZATION";"Facebook user";"O";"be broke into a of";"PERSON";"Mark Zuckerberg";1.0
+20458;"ORGANIZATION";"Microsoft";"O";"invest m in";"ORGANIZATION";"Facebook";0.4794334018310456
+20459;"ORGANIZATION";"HTC";"O";"announce first smartphone with";"ORGANIZATION";"AT&T";0.6078708670645983
+20460;"ORGANIZATION";"Facebook";"ORGANIZATION";"introduce";"ORGANIZATION";"hashtag";0.5087983713375177
+20461;"ORGANIZATION";"ACLU";"O";"expose";"ORGANIZATION";"Facebook";1.0
+20462;"ORGANIZATION";"Facebook";"O";"office in";"LOCATION";"India";0.5500381657992293
+20463;"ORGANIZATION";"Facebook";"O";"have";"ORGANIZATION";"Hyderabad Office inaugurate";1.0
+20464;"ORGANIZATION";"Facebook";"O";"be in";"LOCATION";"Los Lunas";1.0
+20465;"PERSON";"Zuckerberg";"O";"be in";"LOCATION";"Moscow";1.0
+20466;"LOCATION";"Russia";"O";"push";"ORGANIZATION";"Facebook";0.5227004968274923
+20467;"ORGANIZATION";"Facebook";"ORGANIZATION";"help";"ORGANIZATION";"Center";1.0
+20468;"ORGANIZATION";"Facebook";"O";"have";"PERSON";"Zuckerberg";1.0
+20469;"LOCATION";"Syria";"O";"block";"ORGANIZATION";"Facebook";0.4794334018310456
+20470;"ORGANIZATION";"Yahoo";"O";"sue";"ORGANIZATION";"Facebook";0.7259694799456706
+20471;"ORGANIZATION";"Facebook";"ORGANIZATION";"want";"ORGANIZATION";"piece";1.0
+20472;"ORGANIZATION";"Facebook";"O";"be tag of";"PERSON";"Romney";1.0
+20473;"LOCATION";"Colombia";"O";"have";"ORGANIZATION";"farc";1.0
+20474;"ORGANIZATION";"Facebook Back-To-Back debate";"O";"be in";"LOCATION";"New Hampshire";1.0
+20475;"LOCATION";"Colorado";"O";"be 's";"PERSON";"Justin Smith";1.0
+20476;"PERSON";"Kevin Poulsen";"O";"be | of";"PERSON";"Ben Collins";1.0
+20477;"LOCATION";"Russia";"O";"use";"ORGANIZATION";"Facebook event";1.0
+20478;"ORGANIZATION";"Facebook";"ORGANIZATION";"enable";"ORGANIZATION";"advertiser";1.0
+20479;"PERSON";"Gideon Resnick";"O";"be | of";"PERSON";"Ben Collins";1.0
+20480;"PERSON";"Cristiano Ronaldo";"O";"be person on";"ORGANIZATION";"Facebook";1.0
+20481;"ORGANIZATION";"Facebook";"O";"be diplomacy of";"ORGANIZATION";"Facebook";1.0
+20482;"ORGANIZATION";"ning Wall.fm Tools Social";"O";"be lunarstorm meday meerkat mobli netlog orkut sixdegrees.com so.cl tvtag wretch yik yak white-label service of";"LOCATION";"Jaiku";1.0
+20483;"ORGANIZATION";"Avaya Cisco Systems Ericsson Fujitsu Hewlett Packard Enterprise Huawei Juniper Networks Motorola Solutions NEC Nokia";"O";"be equipment of";"ORGANIZATION";"Microsoft Nokia Panasonic Samsung Sony TCL Corporation true Xiaomi ZTE network";1.0

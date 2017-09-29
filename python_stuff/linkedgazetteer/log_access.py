@@ -84,12 +84,12 @@ apiServicePlacesByName = "api/place/name/"
 
 # Busca todas todos os lugares
 # que estão relacionadas à entidade (entityName = placeName)
-apiServiceEntity = "api/place/entity/name/"
+apiServiceLocation = "api/place/entity/name/"
 
 
 # Busca todas as entidades não classificadas como lugar
 # que estão relacionadas ao lugar (placeId)
-apiServiceLocations = "api/entity/relatedPlace/"
+apiServiceEntity = "api/entity/relatedPlace/"
 
 # Nomes e PlaceIds
 placeName = "São Paulo"

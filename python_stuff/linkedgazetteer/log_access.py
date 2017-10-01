@@ -54,11 +54,18 @@ def getPlaceNomPlaceEntities(triple):
 		l = triple[2]
 	return l, e
 
+'''Return a string with url encoded format parsed''' 
 def parse_url_encode(string):
 	return unquote(unquote(string))
 
+'''Return a list of values (columns) from results'''
 def get_column_from_result(results):
 	return [parse_url_encode(result['dbpediaId']) for result in results if result['dbpediaId'] is not None]
+
+'''Return the element most frequent in the list'''
+def most_freq_value(list):
+	return Counter(list).most_common()
+
 
 def place_from_name(triples, url):
 	Lp = []
@@ -68,7 +75,7 @@ def place_from_name(triples, url):
 		print(urlTemp)
 		La = get_data(urlTemp)
 
-		print (get_column_from_result(La))
+		print (most_freq_value(get_column_from_result(La)))
 
 # Funcao que percorre a lista de adjacencia a encontra os
 # lugares que casam com o nome passado

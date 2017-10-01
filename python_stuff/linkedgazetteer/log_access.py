@@ -1,7 +1,9 @@
 '''Warning: use NumPy for improve loop statements'''
 
+
 import requests, json, re, unicodedata
 from collections import Counter
+from urllib.parse import unquote
 from samples.database import pymysql_connect
 
 # -*- coding: utf-8 -*- 
@@ -52,6 +54,12 @@ def getPlaceNomPlaceEntities(triple):
 		l = triple[2]
 	return l, e
 
+def parse_url_encode(string):
+	return unquote(unquote(string))
+
+def get_column_from_result(results):
+	return [parse_url_encode(result['dbpediaId']) for result in results if result['dbpediaId'] is not None]
+
 def place_from_name(triples, url):
 	Lp = []
 	for t in triples:
@@ -59,7 +67,8 @@ def place_from_name(triples, url):
 		urlTemp = url + formatString(l)
 		print(urlTemp)
 		La = get_data(urlTemp)
-		print (La)
+
+		print (get_column_from_result(La))
 
 # Funcao que percorre a lista de adjacencia a encontra os
 # lugares que casam com o nome passado
@@ -92,9 +101,9 @@ apiServiceLocation = "api/place/entity/name/"
 apiServiceEntity = "api/entity/relatedPlace/"
 
 # Nomes e PlaceIds
-placeName = "São Paulo"
-placeId = ""
-entityName = "Obama"
+placeName = "US"
+placeId = "9682956"
+entityName = "Edward h"
 
 counter = 0
 
@@ -116,6 +125,8 @@ numSeatOfFirstAdmDivision = 0
 url = baseUrl + apiServiceEntity + entityName
 urlNamesByPlaceId = baseUrl + apiServiceNamesByPlaceId + placeId
 urlNamesByPlaceName = baseUrl + apiServicePlacesByName
+urlLocationsByEntity = baseUrl + apiServiceLocation + entityName
+urlEntitiesByLocation = baseUrl + apiServiceEntity + placeId
 
 
 # Database access to select triples
@@ -123,15 +134,16 @@ data = pymysql_connect.database_connection()
 
 place_from_name(data, urlNamesByPlaceName)
 
-#response = requests.get(urlNamesByPlaceName + placeName)
+
+#response = requests.get(urlLocationsByEntity)
+#response = requests.get(urlNamesByPlaceId)
+#response = requests.get(urlNamesByPlaceName)
 
 # ************ Fim do acesso ao LOG ***************
 
 
 # Obtem a resposta string JSON em formato Object
 #respObject = json.loads(response.text)
-
-
 
 #print(respObject['results'])
 

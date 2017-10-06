@@ -96,20 +96,31 @@ def all_countries():
 def is_abbreviation(word):
 	return True if word.isupper() else False
 
+'''Return first result from an abbreviated country name using pcountry
+(can be more elegant with python!!, list compreension, etc)'''
+def name_from_country_abbreviation(abrevname):
+	countries = all_countries()
+	resp = ""
+	for c in countries:
+		uppercase = all_uppercase_from_word(c.name)
+		if(uppercase == abrevname):
+			resp = c.name
+			break
+	return resp
+
 '''Return specific country name according your abbreviation name'''
 def specific_country(country):
 	try:
 		a = pycountry.countries.get(alpha_2=country)
-		#print('abbreviated')
 		return a.name
 	except:
 		try:
 			a = pycountry.countries.get(alpha_3=country)
-			#print('abbreviated')
 			return a.name
 		except:
-			#print('non abbreviated')
-			return country
+			# Finally, return the first name that is an abbreviation of uppercase chars from a country name
+			# Ex.: UK corresponde to United Kingdom (in pycountry is GB)
+			return name_from_country_abbreviation(country)
 
 '''Verify if a locations list contains a specific location name (abbreviated or not)'''
 def containsLocation(locations, l):
@@ -171,16 +182,6 @@ apiServiceEntity = "api/entity/relatedPlace/"
 placeName = "US"
 placeId = "72178544"
 
-# 1640
-
-# 463356
-
-# 72178544
-
-# 1640
-
-# 41440
-
 entityName = "Barack Obama"
 
 counter = 0
@@ -213,8 +214,6 @@ data = pymysql_connect.database_connection()
 #place_from_name(data, urlLocationsByEntity)
 
 #print(containsLocation(["United_States", "Other"], "UK"))
-
-print(all_uppercase_from_word("United_States"))
 
 #response = requests.get(urlLocationsByEntity)
 #response = requests.get(urlNamesByPlaceId)

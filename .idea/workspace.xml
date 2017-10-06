@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cf2f6e2-3f40-4786-be5e-ca8705bae4ae" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_game_websites.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video_host_services.csv" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python_stuff/linkedgazetteer/log_access.py" afterPath="$PROJECT_DIR$/python_stuff/linkedgazetteer/log_access.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python_stuff/linkedgazetteer/samples/database/pymysql_connect.py" afterPath="$PROJECT_DIR$/python_stuff/linkedgazetteer/samples/database/pymysql_connect.py" />
-    </list>
+    <list default="true" id="8cf2f6e2-3f40-4786-be5e-ca8705bae4ae" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/core/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,8 +25,8 @@
       <file leaf-file-name="CoreDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/CoreDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+            <state relative-caret-position="133">
+              <caret line="41" column="38" lean-forward="false" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
               <folding>
                 <element signature="method#process_sentences_core#0;class#CoreDemo#0" expanded="false" />
                 <element signature="e#5267#5275#0" expanded="true" />
@@ -78,7 +73,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="981" />
@@ -283,7 +278,7 @@
       <updated>1504724552356</updated>
       <workItem from="1504724561150" duration="11047000" />
       <workItem from="1506546345595" duration="2035000" />
-      <workItem from="1507230838883" duration="479000" />
+      <workItem from="1507230838883" duration="579000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing URLs linkSet">
       <created>1504725763130</created>
@@ -296,7 +291,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13561000" />
+    <option name="totallyTimeSpent" value="13661000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -308,7 +303,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="981" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="981" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -408,8 +403,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/CoreDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        <state relative-caret-position="133">
+          <caret line="41" column="38" lean-forward="false" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
           <folding>
             <element signature="method#process_sentences_core#0;class#CoreDemo#0" expanded="false" />
             <element signature="e#5267#5275#0" expanded="true" />

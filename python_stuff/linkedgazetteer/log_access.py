@@ -126,16 +126,12 @@ def specific_country(country):
 def containsLocation(locations, l):
 	# Too verify if l is a abbriviated name and return the name
 	print(l)
-<<<<<<< HEAD
-	s = specific_country(l)
-=======
 	if (is_abbreviation(l)):
 		print("Is abbrev")
 		l = l.replace(".", "")
 		s = specific_country(l)
 	else:
 		s = l
->>>>>>> 83597e8bd28dec56815ad624c9b4840da590d9f9
 	s = s.replace(" ", "_")
 	print(s)
 	return True if (s in locations) else False

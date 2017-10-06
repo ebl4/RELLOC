@@ -107,20 +107,27 @@ def containsLocation(locations, l):
 	# Too verify if l is a abbriviated name and return the name
 	print(l)
 	s = specific_country(l)
-	print(s.replace(" ", "_"))
-	return True if (l in locations) else False
+	s = s.replace(" ", "_")
+	print(s)
+	return True if (s in locations) else False
 
 
 def place_from_name(triples, url):
 	Lp = []
+	contTriples = 0
+	cont = 0
 	for t in triples:
+		contTriples += 1
 		l, e = getPlaceNomPlaceEntities(t)
 		urlTemp = url + formatString(e)
 		print(urlTemp)
 		La = get_data(urlTemp)
 		Lb = get_column_from_result(La)
 		if (containsLocation(Lb, l)):
+			cont = cont+1
 			print("Opa contains")
+	print(contTriples)
+	print(cont)
 
 # Funcao que percorre a lista de adjacencia a encontra os
 # lugares que casam com o nome passado

@@ -85,9 +85,14 @@ def get_column_from_result(results):
 def most_freq_value(list):
 	return Counter(list).most_common()
 
+'''Return all upper case characters from a word'''
+def all_uppercase_from_word(word):
+	return re.sub('[^A-Z]', '', word)
+
 def all_countries():
 	return list(pycountry.countries)
 
+'''Verify if a word is a name abbreviation'''
 def is_abbreviation(word):
 	return True if word.isupper() else False
 
@@ -207,7 +212,9 @@ data = pymysql_connect.database_connection()
 
 #place_from_name(data, urlLocationsByEntity)
 
-print(containsLocation(["United_States", "Other"], "U.S.A."))
+#print(containsLocation(["United_States", "Other"], "UK"))
+
+print(all_uppercase_from_word("United_States"))
 
 #response = requests.get(urlLocationsByEntity)
 #response = requests.get(urlNamesByPlaceId)

@@ -26,23 +26,6 @@ from samples.database import pymysql_connect
 
 # -*- coding: utf-8 -*- 
 
-def all_countries():
-	return list(pycountry.countries)
-
-'''Return specific country name according your abbreviation name'''
-def specific_country(country):
-	try:
-		a = pycountry.countries.get(alpha_2=country)
-		#print('abbreviated')
-		return a.name
-	except:
-		try:
-			a = pycountry.countries.get(alpha_3=country)
-			#print('abbreviated')
-			return a.name
-		except:
-			#print('non abbreviated')
-			return country
 
 '''Round points function from a list of points (coordenates)'''
 def roundPoints(points):
@@ -102,11 +85,57 @@ def get_column_from_result(results):
 def most_freq_value(list):
 	return Counter(list).most_common()
 
+'''Return all upper case characters from a word'''
+def all_uppercase_from_word(word):
+	return re.sub('[^A-Z]', '', word)
+
+def all_countries():
+	return list(pycountry.countries)
+
+'''Verify if a word is a name abbreviation'''
+def is_abbreviation(word):
+	return True if word.isupper() else False
+
+'''Return first result from an abbreviated country name using pcountry
+(can be more elegant with python!!, list compreension, etc)'''
+def name_from_country_abbreviation(abrevname):
+	countries = all_countries()
+	resp = ""
+	for c in countries:
+		uppercase = all_uppercase_from_word(c.name)
+		if(uppercase == abrevname):
+			resp = c.name
+			break
+	return resp
+
+'''Return specific country name according your abbreviation name'''
+def specific_country(country):
+	try:
+		a = pycountry.countries.get(alpha_2=country)
+		return a.name
+	except:
+		try:
+			a = pycountry.countries.get(alpha_3=country)
+			return a.name
+		except:
+			# Finally, return the first name that is an abbreviation of uppercase chars from a country name
+			# Ex.: UK corresponde to United Kingdom (in pycountry is GB)
+			return name_from_country_abbreviation(country)
+
 '''Verify if a locations list contains a specific location name (abbreviated or not)'''
 def containsLocation(locations, l):
 	# Too verify if l is a abbriviated name and return the name
 	print(l)
+<<<<<<< HEAD
 	s = specific_country(l)
+=======
+	if (is_abbreviation(l)):
+		print("Is abbrev")
+		l = l.replace(".", "")
+		s = specific_country(l)
+	else:
+		s = l
+>>>>>>> 83597e8bd28dec56815ad624c9b4840da590d9f9
 	s = s.replace(" ", "_")
 	print(s)
 	return True if (s in locations) else False
@@ -163,16 +192,6 @@ apiServiceEntity = "api/entity/relatedPlace/"
 placeName = "US"
 placeId = "72178544"
 
-# 1640
-
-# 463356
-
-# 72178544
-
-# 1640
-
-# 41440
-
 entityName = "Barack Obama"
 
 counter = 0
@@ -202,9 +221,9 @@ urlEntitiesByLocation = baseUrl + apiServiceEntity + placeId
 # Database access to select triples
 data = pymysql_connect.database_connection()
 
-place_from_name(data, urlLocationsByEntity)
+#place_from_name(data, urlLocationsByEntity)
 
-#print(all_countries())
+#print(containsLocation(["United_States", "Other"], "UK"))
 
 #response = requests.get(urlLocationsByEntity)
 #response = requests.get(urlNamesByPlaceId)

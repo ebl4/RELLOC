@@ -26,23 +26,6 @@ from samples.database import pymysql_connect
 
 # -*- coding: utf-8 -*- 
 
-def all_countries():
-	return list(pycountry.countries)
-
-'''Return specific country name according your abbreviation name'''
-def specific_country(country):
-	try:
-		a = pycountry.countries.get(alpha_2=country)
-		#print('abbreviated')
-		return a.name
-	except:
-		try:
-			a = pycountry.countries.get(alpha_3=country)
-			#print('abbreviated')
-			return a.name
-		except:
-			#print('non abbreviated')
-			return country
 
 '''Round points function from a list of points (coordenates)'''
 def roundPoints(points):
@@ -102,13 +85,40 @@ def get_column_from_result(results):
 def most_freq_value(list):
 	return Counter(list).most_common()
 
+def all_countries():
+	return list(pycountry.countries)
+
+def is_abbreviation(word):
+	return True if word.isupper() else False
+
+'''Return specific country name according your abbreviation name'''
+def specific_country(country):
+	try:
+		a = pycountry.countries.get(alpha_2=country)
+		#print('abbreviated')
+		return a.name
+	except:
+		try:
+			a = pycountry.countries.get(alpha_3=country)
+			#print('abbreviated')
+			return a.name
+		except:
+			#print('non abbreviated')
+			return country
+
 '''Verify if a locations list contains a specific location name (abbreviated or not)'''
 def containsLocation(locations, l):
 	# Too verify if l is a abbriviated name and return the name
 	print(l)
-	s = specific_country(l)
-	print(s.replace(" ", "_"))
-	return True if (l in locations) else False
+	if (is_abbreviation(l)):
+		print("Is abbrev")
+		l = l.replace(".", "")
+		s = specific_country(l)
+	else:
+		s = l
+	s = s.replace(" ", "_")
+	print(s)
+	return True if (s in locations) else False
 
 
 def place_from_name(triples, url):
@@ -195,9 +205,9 @@ urlEntitiesByLocation = baseUrl + apiServiceEntity + placeId
 # Database access to select triples
 data = pymysql_connect.database_connection()
 
-place_from_name(data, urlLocationsByEntity)
+#place_from_name(data, urlLocationsByEntity)
 
-#print(all_countries())
+print(containsLocation(["United_States", "Other"], "U.S.A."))
 
 #response = requests.get(urlLocationsByEntity)
 #response = requests.get(urlNamesByPlaceId)

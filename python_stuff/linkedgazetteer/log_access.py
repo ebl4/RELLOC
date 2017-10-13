@@ -26,6 +26,45 @@ from samples.database import pymysql_connect
 
 # -*- coding: utf-8 -*- 
 
+# Nomes e PlaceIds
+placeName = "US"
+placeId = "72178544"
+entityName = "Barack Obama"
+
+# Parte referente do acesso ao LOG
+
+baseUrl = "http://sandwich.lbd.dcc.ufmg.br:8080/linkedOntoGazetteerWeb/"
+
+# Busca todos os lugares que estao associados ao nome passado
+# como parametro e os lugares pertencentes a lista de adjacencia 
+# dele
+apiServicePlaceAdjacentListByName = "api/place/name/adjacentList/"
+
+# Busca todos os nomes dados um lugar (placeId)
+apiServiceNamesByPlaceId = "api/name/place/"
+
+# Busca por todos os lugares que 
+# estao associados ao nome informado
+apiServicePlacesByName = "api/place/name/"
+
+
+# Busca todas todos os lugares
+# que estao relacionadas a entidade (entityName = placeName)
+apiServiceLocation = "api/place/entity/name/"
+
+
+# Busca todas as entidades nao classificadas como lugar
+# que estao relacionadas ao lugar (placeId)
+apiServiceEntity = "api/entity/relatedPlace/"
+
+
+# URLs por servicos
+url = baseUrl + apiServiceEntity + entityName
+urlNamesByPlaceId = baseUrl + apiServiceNamesByPlaceId
+urlNamesByPlaceName = baseUrl + apiServicePlacesByName
+urlLocationsByEntity = baseUrl + apiServiceLocation
+urlEntitiesByLocation = baseUrl + apiServiceEntity + placeId
+
 
 '''Round points function from a list of points (coordenates)'''
 def roundPoints(points):
@@ -78,8 +117,14 @@ def parse_url_encode(string):
 	return unquote(unquote(string))
 
 '''Return a list of values (columns) from results'''
-def get_column_from_result(results):
-	return [parse_url_encode(result['dbpediaId']) for result in results if result['dbpediaId'] is not None]
+def get_column_from_result(results, column):
+	if(len(results) != 0):
+		if(type(results[0][column]) is not int):
+			return [parse_url_encode(result[column]) for result in results if result[column] is not None]
+		else:
+			return [result[column] for result in results if result[column] is not None]
+	else:
+		return []
 
 '''Return the element most frequent in the list'''
 def most_freq_value(list):
@@ -125,15 +170,13 @@ def specific_country(country):
 '''Verify if a locations list contains a specific location name (abbreviated or not)'''
 def containsLocation(locations, l):
 	# Too verify if l is a abbriviated name and return the name
-	print(l)
 	if (is_abbreviation(l)):
 		print("Is abbrev")
 		l = l.replace(".", "")
 		s = specific_country(l)
 	else:
 		s = l
-	s = s.replace(" ", "_")
-	print(s)
+	#s = s.replace(" ", "_") # this is used only for dbpediaId match
 	return True if (s in locations) else False
 
 
@@ -147,10 +190,27 @@ def place_from_name(triples, url):
 		urlTemp = url + formatString(e)
 		print(urlTemp)
 		La = get_data(urlTemp)
-		Lb = get_column_from_result(La)
-		if (containsLocation(Lb, l)):
-			cont = cont+1
-			print("Opa contains")
+		Lb = get_column_from_result(La, 'dbpediaId')
+		Lpid = get_column_from_result(La, '_id')
+		print(Lpid)
+		for pid in Lpid:
+		 	urlTemp = urlNamesByPlaceId + str(pid)
+		 	print(urlTemp)
+		 	Ln = get_data(urlTemp) # obtain all names from a pid
+		 	Lnames = get_column_from_result(Ln, 'name')
+
+		 	print(Lnames)
+		 	if(containsLocation(Lnames, l)):
+		 		print("Related places contains location")
+		 		cont = cont+1
+		 		Lp = Lp + [(pid, Ln)]
+		# if (containsLocation(Lb, l)):
+		# 	cont = cont+1
+		# 	print("Opa contains")
+
+	print("Most freq")
+	print(most_freq_value(Lpid))
+
 	print(contTriples)
 	print(cont)
 
@@ -158,68 +218,13 @@ def place_from_name(triples, url):
 # lugares que casam com o nome passado
 
 
-# Parte referente do acesso ao LOG
-
-baseUrl = "http://sandwich.lbd.dcc.ufmg.br:8080/linkedOntoGazetteerWeb/"
-
-# Busca todos os lugares que estao associados ao nome passado
-# como parametro e os lugares pertencentes a lista de adjacencia 
-# dele
-apiServicePlaceAdjacentListByName = "api/place/name/adjacentList/"
-
-# Busca todos os nomes dados um lugar (placeId)
-apiServiceNamesByPlaceId = "api/name/place/"
-
-# Busca por todos os lugares que 
-# estao associados ao nome informado
-apiServicePlacesByName = "api/place/name/"
-
-
-# Busca todas todos os lugares
-# que estao relacionadas a entidade (entityName = placeName)
-apiServiceLocation = "api/place/entity/name/"
-
-
-# Busca todas as entidades nao classificadas como lugar
-# que estao relacionadas ao lugar (placeId)
-apiServiceEntity = "api/entity/relatedPlace/"
-
-# Nomes e PlaceIds
-placeName = "US"
-placeId = "72178544"
-
-entityName = "Barack Obama"
-
-counter = 0
-
-# Feature Classes
-numAdministrativeBoundaryF = 0
-numPopulatedPlacesF = 0
-numAreaF = 0
-numHydroF = 0
-
-# Feature Codes
-numFirstAdministrativeDivision = 0
-numSecondAdministrativeDivision = 0
-numPopulatedPlacesByCode = 0
-numSeatOfFirstAdmDivision = 0
-
-
-
-# URLs por servicos
-url = baseUrl + apiServiceEntity + entityName
-urlNamesByPlaceId = baseUrl + apiServiceNamesByPlaceId + placeId
-urlNamesByPlaceName = baseUrl + apiServicePlacesByName
-urlLocationsByEntity = baseUrl + apiServiceLocation
-urlEntitiesByLocation = baseUrl + apiServiceEntity + placeId
-
 
 # Database access to select triples
 data = pymysql_connect.database_connection()
 
-#place_from_name(data, urlLocationsByEntity)
+place_from_name(data, urlLocationsByEntity)
 
-#print(containsLocation(["United_States", "Other"], "UK"))
+#print(containsLocation(["United_Kingdom", "Other"], "UK"))
 
 #response = requests.get(urlLocationsByEntity)
 #response = requests.get(urlNamesByPlaceId)

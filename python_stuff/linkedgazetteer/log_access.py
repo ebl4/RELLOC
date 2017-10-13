@@ -19,7 +19,7 @@ de dados como pontencial candidato.
 
 '''
 
-import requests, json, re, unicodedata, pycountry
+import requests, json, re, unicodedata, pycountry, numpy
 from collections import Counter
 from urllib.parse import unquote
 from samples.database import pymysql_connect
@@ -180,6 +180,11 @@ def containsLocation(locations, l):
 	return True if (s in locations) else False
 
 
+def find_element(results, column, value):
+	for element in results:
+		if (element[column] == value):
+			return element
+
 def place_from_name(triples, url):
 	Lp = []
 	contTriples = 0
@@ -192,30 +197,34 @@ def place_from_name(triples, url):
 		La = get_data(urlTemp)
 		Lb = get_column_from_result(La, 'dbpediaId')
 		Lpid = get_column_from_result(La, '_id')
+		npLpid = numpy.array(Lpid)
+
 		print(Lpid)
 		for pid in Lpid:
-		 	urlTemp = urlNamesByPlaceId + str(pid)
-		 	print(urlTemp)
-		 	Ln = get_data(urlTemp) # obtain all names from a pid
-		 	Lnames = get_column_from_result(Ln, 'name')
+			if(pid is not None):
+			 	urlTemp = urlNamesByPlaceId + str(pid)
+			 	print(urlTemp)
+			 	Ln = get_data(urlTemp) # obtain all names from a pid
+			 	Lnames = get_column_from_result(Ln, 'name')
 
-		 	print(Lnames)
-		 	if(containsLocation(Lnames, l)):
-		 		print("Related places contains location")
-		 		cont = cont+1
-		 		Lp = Lp + [(pid, Ln)]
-		# if (containsLocation(Lb, l)):
-		# 	cont = cont+1
-		# 	print("Opa contains")
+			 	if(containsLocation(Lnames, l)):
+			 		print("Related places contains location")
+			 		cont = cont+1
+			 		#index = int(numpy.where(npLpid == pid)[0])
+			 		element = find_element(La, '_id', pid)['gnPoint']
+			 		if (element is not None):
+			 			Lp = Lp + [(e, l, pid, element)]
+			 		else:
+			 			Lp = Lp + [(e, l, pid)]
 
-	print("Most freq")
-	print(most_freq_value(Lpid))
+			# if (containsLocation(Lb, l)):
+			# 	cont = cont+1
+			# 	print("Opa contains")
+
+	print(Lp)
 
 	print(contTriples)
 	print(cont)
-
-# Funcao que percorre a lista de adjacencia a encontra os
-# lugares que casam com o nome passado
 
 
 

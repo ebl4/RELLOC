@@ -247,7 +247,10 @@ def place_from_name(triples, url):
 			 			Lp = Lp + [(e, l, pid, [])]
 		print("Lp result:")
 		## Store on database all the correspondences
-		print(disambiguate(Lp))
+		resp = disambiguate(Lp)
+		if(resp != []):		
+			pymysql_connect.database_write(str(resp[0]),str(resp[1]),str(resp[2]),str(resp[3]))
+		#print(disambiguate(Lp))
 
 
 

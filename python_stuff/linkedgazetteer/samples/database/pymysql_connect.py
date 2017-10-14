@@ -15,3 +15,22 @@ def database_connection():
 	conn.close()
 
 	return cur
+
+def database_write(e,l,p,geof):
+	conn = pymysql.connect(host='localhost', port=3306, user='root', passwd='1234', db='extractor')
+
+	cur = conn.cursor()
+
+	print("writing to db")
+
+	try:
+		cur.execute("""INSERT INTO corresp(entity_name,location_name,pid,geo_feature) VALUES (%s,%s,%s,%s)""", (e,l,p,geof))
+		print("wrote to db")
+		conn.commit()
+	except:
+		print("deu rollback")
+		conn.rollback()
+
+	cur.close()
+	conn.close()
+

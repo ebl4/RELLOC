@@ -179,6 +179,33 @@ def containsLocation(locations, l):
 	#s = s.replace(" ", "_") # this is used only for dbpediaId match
 	return True if (s in locations) else False
 
+'''Find the first name from a list according to param'''
+def find_by_param(Lp, param):
+	for element in Lp:
+		if(element[3] != []):
+			if(element[3]['gnFeatureClass'] == param):
+				return element
+	return []
+
+def find_by_feature(Lp):
+	resp = find_by_param(Lp, 'P')
+	if(resp == []):
+		resp = find_by_param(Lp, 'A')
+	if(resp == []):
+		resp = find_by_param(Lp, 'L')
+	return resp
+
+def disambiguate(Lp):
+	if(len(Lp) > 1):
+		LidTemp = get_column_from_result(Lp, 2)
+		print(LidTemp)
+		Ltemp = most_freq_value(LidTemp)
+		if(len(Ltemp) > 1): # then disambiguate by geoname feature class
+			print("entrou aki")
+			return find_by_feature(Lp)
+		else:
+			return find_element(Lp, 2, Ltemp[0][0])
+	return []
 
 def find_element(results, column, value):
 	for element in results:
@@ -211,11 +238,11 @@ def place_from_name(triples, url):
 			 		print("Related places contains location")
 			 		cont = cont+1
 			 		#index = int(numpy.where(npLpid == pid)[0])
-			 		element = find_element(La, '_id', pid)['gnPoint']
+			 		element = find_element(La, '_id', pid) # find the first element (can optimize)
 			 		if (element is not None):
 			 			Lp = Lp + [(e, l, pid, element)]
 			 		else:
-			 			Lp = Lp + [(e, l, pid)]
+			 			Lp = Lp + [(e, l, pid, [])]
 
 			# if (containsLocation(Lb, l)):
 			# 	cont = cont+1
@@ -229,9 +256,14 @@ def place_from_name(triples, url):
 
 
 # Database access to select triples
-data = pymysql_connect.database_connection()
+#data = pymysql_connect.database_connection()
 
-place_from_name(data, urlLocationsByEntity)
+#place_from_name(data, urlLocationsByEntity)
+
+testList = [("test",2,123,{'_id':1,'gnFeatureClass':'A'}),("test",2,123,{'_id':2,'gnFeatureClass':'A'}),
+			("test",2,124,{'_id':3,'gnFeatureClass':'P'}),("test",2,124,{'_id':4,'gnFeatureClass':'P'})]
+
+print(disambiguate(testList))
 
 #print(containsLocation(["United_Kingdom", "Other"], "UK"))
 

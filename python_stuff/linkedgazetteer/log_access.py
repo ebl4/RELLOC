@@ -201,11 +201,13 @@ def disambiguate(Lp):
 		print(LidTemp)
 		Ltemp = most_freq_value(LidTemp)
 		if(len(Ltemp) > 1): # then disambiguate by geoname feature class
-			print("entrou aki")
 			return find_by_feature(Lp)
 		else:
 			return find_element(Lp, 2, Ltemp[0][0])
-	return []
+	elif (len(Lp) == 1):
+		return Lp[0]
+	else:
+		return []
 
 def find_element(results, column, value):
 	for element in results:
@@ -243,27 +245,21 @@ def place_from_name(triples, url):
 			 			Lp = Lp + [(e, l, pid, element)]
 			 		else:
 			 			Lp = Lp + [(e, l, pid, [])]
-
-			# if (containsLocation(Lb, l)):
-			# 	cont = cont+1
-			# 	print("Opa contains")
-
-	print(Lp)
-
-	print(contTriples)
-	print(cont)
+		print("Lp result:")
+		## Store on database all the correspondences
+		print(disambiguate(Lp))
 
 
 
 # Database access to select triples
-#data = pymysql_connect.database_connection()
+data = pymysql_connect.database_connection()
 
-#place_from_name(data, urlLocationsByEntity)
+place_from_name(data, urlLocationsByEntity)
 
-testList = [("test",2,123,{'_id':1,'gnFeatureClass':'A'}),("test",2,123,{'_id':2,'gnFeatureClass':'A'}),
-			("test",2,124,{'_id':3,'gnFeatureClass':'P'}),("test",2,124,{'_id':4,'gnFeatureClass':'P'})]
+#testList = [("test",2,123,{'_id':1,'gnFeatureClass':'A'}),("test",2,123,{'_id':2,'gnFeatureClass':'A'}),
+#			("test",2,124,{'_id':3,'gnFeatureClass':'P'}),("test",2,124,{'_id':4,'gnFeatureClass':'P'})]
 
-print(disambiguate(testList))
+#print(disambiguate(testList))
 
 #print(containsLocation(["United_Kingdom", "Other"], "UK"))
 

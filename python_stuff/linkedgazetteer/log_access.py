@@ -215,10 +215,10 @@ def find_element(results, column, value):
 			return element
 
 def place_from_name(triples, url):
-	Lp = []
 	contTriples = 0
 	cont = 0
 	for t in triples:
+		Lp = []
 		contTriples += 1
 		l, e = getPlaceNomPlaceEntities(t)
 		urlTemp = url + formatString(e)
@@ -248,8 +248,14 @@ def place_from_name(triples, url):
 		print("Lp result:")
 		## Store on database all the correspondences
 		resp = disambiguate(Lp)
-		if(resp != []):		
-			pymysql_connect.database_write(str(resp[0]),str(resp[1]),str(resp[2]),str(resp[3]))
+		if(resp != []):
+			gnPoint = resp[3]['gnPoint']
+			dbpPoint = resp[3]['dbpPoint']
+			if(gnPoint == None):
+				gnPoint = ""
+			if(dbpPoint == None):
+				dbpPoint = ""
+			pymysql_connect.database_write(str(resp[0]),str(resp[1]),str(resp[2]), str(gnPoint), str(dbpPoint), str(resp[3]))
 		#print(disambiguate(Lp))
 
 

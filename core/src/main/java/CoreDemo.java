@@ -34,34 +34,35 @@ public class CoreDemo {
 
         // read some text in the text variable
         String text = "Obama lives in Washington and George lives in New York.";
-        text = "The City of New York, often called New York City or simply New York, is the most populous city in the United States. " +
-                "With an estimated 2016 population of 8,537,673 distributed over a land area of about 302,6 square miles (784 km2), " +
-                "New York City is also the most densely populated major city in the United States.";
+        text = "Academia was founded by Richard Price, who raised $600,000 from Spark Ventures, Brent Hoberman, and others";
         FetchURLData fetchURLData = new FetchURLData();
 
         //267 links from canada cities
         // ?? links from video hosts
-        Set<String> linkSet = fetchURLData.getLinks("https://en.wikipedia.org/wiki/List_of_video_game_websites",
-                new String[]{"https://tools.wmflabs.org/geohack/geohack", "List_of_video_game_websites", "index.php?"});
+//        Set<String> linkSet = fetchURLData.getLinks("https://en.wikipedia.org/wiki/List_of_video_game_websites",
+//                new String[]{"https://tools.wmflabs.org/geohack/geohack", "List_of_video_game_websites", "index.php?"});
 
         //text = fetchURLData.getData("https://en.wikipedia.org/wiki/New_York_City");
         //text = fetchURLData.getData("https://en.wikipedia.org/wiki/Jersey_City,_New_Jersey");
 
 
-        for (Object link : linkSet) {
-            System.out.println("Document: "+ numDocuments++);
-            text = fetchURLData.getData(link.toString());
+        //for (Object link : linkSet) {
+           // System.out.println("Document: "+ numDocuments++);
+            text = fetchURLData.getData("https://en.wikipedia.org/wiki/Academia.edu");
+
+            System.out.println(text);
 
             //run annotation relation extractor (openie)
             String[] textSentences = text.split("\\. ");
 
+
             for (String textSentence : textSentences) {
                 System.out.println("Sentence: "+ numSentences++);
-                annotation_extractor(textSentence.split("\\, "), databaseConnection);
+                process_sentences_core(textSentence.split("\\, "));
             }
 
 
-        }
+        //}
 
         long end = System.currentTimeMillis();
 
@@ -70,16 +71,18 @@ public class CoreDemo {
     }
 
 
-    public static void process_sentences_core(String text){
+    public static void process_sentences_core(String[] text){
         int contSent = 0, contRel = 0;
         DatabaseConnection databaseConnection = new DatabaseConnection();
-        Properties props = new Properties();
 
-        props.setProperty("annotators", "tokenize, ssplit, pos, lemma, ner, parse, relation");
-        StanfordCoreNLPClient pipeline = new StanfordCoreNLPClient(props, "localhost", 9000, 6);
+        StanfordCoreNLPClient pipeline = new StanfordCoreNLPClient(PropertiesUtils.asProperties(
+                "annotators", "tokenize,ssplit,pos,lemma,ner",
+                "ner.model", "edu/stanford/nlp/models/ner/english.all.3class.distsim.crf.ser.gz",
+                "ner.useSUTime", "false",
+                "ner.applyNumericClassifiers", "false"), "localhost", 9000, 6);
 
         // Annotate an example document.
-        String[] sentencesText = text.split("\\.");
+        String[] sentencesText = text;
 
         for (String sentenceText : sentencesText){
 
@@ -104,11 +107,11 @@ public class CoreDemo {
                     String ne = token.get(CoreAnnotations.NamedEntityTagAnnotation.class);
 
                     //System.out.println("POS: "+pos);
-                    //System.out.print("WORD: "+word);
-                    //System.out.println(" | NE: "+ne);
+                    System.out.print("WORD: "+word);
+                    System.out.println(" | NE: "+ne);
                 }
 
-                relation_mention_extractor(sentence, databaseConnection, contRel);
+                // relation_mention_extractor(sentence, databaseConnection, contRel);
 
                 // this is the parse tree of the current sentence
                 //Tree tree = sentence.get(TreeCoreAnnotations.TreeAnnotation.class);
@@ -138,6 +141,7 @@ public class CoreDemo {
             System.out.printf("Storing Relation extraction %d\n", +contRel++);
         }
     }
+
 
     public static void annotation_extractor(String[] textSentences, DatabaseConnection databaseConnection){
         ArrayList<String> datas = new ArrayList<String>();
@@ -214,5 +218,6 @@ public class CoreDemo {
                         triple.objectLemmaGloss());
             }
         }
+
     }
 }

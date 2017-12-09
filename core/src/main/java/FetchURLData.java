@@ -16,7 +16,7 @@ import java.util.Set;
 public class FetchURLData {
 
     public String getData(String URL){
-        String text = "";
+        StringBuilder text = new StringBuilder();
         try {
             URL url = new URL(URL);
             BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
@@ -28,14 +28,19 @@ public class FetchURLData {
             }
 
             org.jsoup.nodes.Document document = Jsoup.parse(rawHtml.toString());
-            text = textFormat(document.body().text());
+            Elements paragraphs = document.select("p");
+            for (Element p : paragraphs){
+                text.append(p.text().replaceAll("\\[\\d*\\d\\]", ""));
+                text.append("\n");
+            }
+            //text = textFormat(document.body().text());
 
         } catch (MalformedURLException e){
             e.printStackTrace();
         } catch (IOException e){
             e.printStackTrace();
         }
-        return text;
+        return text.toString();
     }
 
     /*
@@ -77,7 +82,11 @@ public class FetchURLData {
 
         FetchURLData fetchURLData = new FetchURLData();
         //fetchURLData.getData("https://en.wikipedia.org/wiki/New_York_City");
-        fetchURLData.getLinks("https://en.wikipedia.org/wiki/List_of_video_hosting_services",
-                new String[]{"https://tools.wmflabs.org/geohack/geohack", "List_of_video_hosting_services", "index.php?"});
+//        fetchURLData.getLinks("https://en.wikipedia.org/wiki/List_of_video_hosting_services",
+//                new String[]{"https://tools.wmflabs.org/geohack/geohack", "List_of_video_hosting_services", "index.php?"});
+
+        String text = fetchURLData.getData("https://en.wikipedia.org/wiki/Academia.edu");
+        System.out.println(text);
+
     }
 }

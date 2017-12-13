@@ -21,8 +21,6 @@ import java.util.stream.Collectors;
 public class CoreDemo {
 
 
-
-
     public static void main(String[] args) throws
             IOException {
         DatabaseConnection databaseConnection = new DatabaseConnection();
@@ -34,21 +32,21 @@ public class CoreDemo {
 
         // read some text in the text variable
         String text = "Obama lives in Washington and George lives in New York.";
-        text = "Academia was founded by Richard Price, who raised $600,000 from Spark Ventures, Brent Hoberman, and others";
+        //text = "Academia was founded by Richard Price, who raised $600,000 from Spark Ventures, Brent Hoberman, and others";
         FetchURLData fetchURLData = new FetchURLData();
 
         //267 links from canada cities
         // ?? links from video hosts
-//        Set<String> linkSet = fetchURLData.getLinks("https://en.wikipedia.org/wiki/List_of_video_game_websites",
-//                new String[]{"https://tools.wmflabs.org/geohack/geohack", "List_of_video_game_websites", "index.php?"});
+        Set<String> linkSet = fetchURLData.getLinks("https://en.wikipedia.org/wiki/List_of_most_popular_websites",
+                new String[]{"https://tools.wmflabs.org/geohack/geohack", "List_of_video_game_websites", "index.php?"});
 
-        //text = fetchURLData.getData("https://en.wikipedia.org/wiki/New_York_City");
-        //text = fetchURLData.getData("https://en.wikipedia.org/wiki/Jersey_City,_New_Jersey");
+//        text = fetchURLData.getData("https://en.wikipedia.org/wiki/New_York_City");
+//        text = fetchURLData.getData("https://en.wikipedia.org/wiki/Jersey_City,_New_Jersey");
 
 
-        //for (Object link : linkSet) {
-           // System.out.println("Document: "+ numDocuments++);
-            text = fetchURLData.getData("https://en.wikipedia.org/wiki/Academia.edu");
+        for (Object link : linkSet) {
+            System.out.println("Document: "+ numDocuments++);
+            text = fetchURLData.getData(link.toString());
 
             System.out.println(text);
 
@@ -62,7 +60,7 @@ public class CoreDemo {
             }
 
 
-        //}
+        }
 
         long end = System.currentTimeMillis();
 

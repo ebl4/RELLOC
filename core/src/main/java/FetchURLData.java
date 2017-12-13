@@ -6,9 +6,7 @@ import org.jsoup.select.Elements;
 import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Created by dell on 05/08/2017.
@@ -47,10 +45,10 @@ public class FetchURLData {
     Get the links of a web page removing ones that matches some args
      */
     public Set<String> getLinks(String URL, String[] args) throws IOException {
-        Set linkSet = new HashSet<String>();
+        Set<String> linkSet = new HashSet<String>();
         org.jsoup.nodes.Document document = Jsoup.connect(URL).get();
         Elements links = document.body().
-                getElementsByClass("wikitable").select("a[href]");
+                getElementsByClass("wikitable").select("td:eq(0)").select("a[href]");
 
         /*
         Extract only name cites links, not geohack information
@@ -58,11 +56,11 @@ public class FetchURLData {
         for (Element link : links){
             if(!containsArgs(link.attr("abs:href"), args) && containsArgs(link.attr("abs:href"), new String[]{"wikipedia"})) {
                 linkSet.add(link.attr("abs:href"));
-                System.out.println(link.attr("abs:href") + " " + link.attr("rel"));
+                //System.out.println("test");
             }
         }
 
-        return linkSet;
+         return linkSet;
     }
 
     public boolean containsArgs(String link, String[] args){
@@ -82,11 +80,11 @@ public class FetchURLData {
 
         FetchURLData fetchURLData = new FetchURLData();
         //fetchURLData.getData("https://en.wikipedia.org/wiki/New_York_City");
-//        fetchURLData.getLinks("https://en.wikipedia.org/wiki/List_of_video_hosting_services",
-//                new String[]{"https://tools.wmflabs.org/geohack/geohack", "List_of_video_hosting_services", "index.php?"});
+        fetchURLData.getLinks("https://en.wikipedia.org/wiki/List_of_most_popular_websites",
+                new String[]{"https://tools.wmflabs.org/geohack/geohack", "List_of_most_popular_websites", "index.php?"});
 
-        String text = fetchURLData.getData("https://en.wikipedia.org/wiki/Academia.edu");
-        System.out.println(text);
+//        String text = fetchURLData.getData("https://en.wikipedia.org/wiki/Academia.edu");
+//        System.out.println(text);
 
     }
 }

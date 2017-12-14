@@ -1,0 +1,625 @@
+"id";"subject_type";"subject_value";"relation_type";"relation_value";"object_type";"object_value";"confidence"
+16366;"ORGANIZATION";"Bulletin Board Systems";"O";"be 's";"PERSON";"Edie";1.0
+16367;"ORGANIZATION";"Association";"ORGANIZATION";"advocate";"ORGANIZATION";"Child Protection";1.0
+16368;"PERSON";"Williams";"O";"later ascribe to";"PERSON";"Noah Glass";1.0
+16369;"ORGANIZATION";"Newsweek";"O";"have";"PERSON";"Steven Levy";1.0
+16370;"ORGANIZATION";"News Corp.";"O";"from";"ORGANIZATION";"Fox Audience Network";1.0
+16371;"PERSON";"Omid Kordestani";"O";"be chief business officer of";"ORGANIZATION";"Google";1.0
+16372;"PERSON";"Nicola Stott";"O";"be astronaut of";"LOCATION";"US";1.0
+16373;"ORGANIZATION";"Twitter";"O";"lead";"ORGANIZATION";"Facebook";1.0
+16374;"ORGANIZATION";"Twitter";"O";"be back by";"LOCATION";"Union Square Ventures";1.0
+16375;"PERSON";"Barack Obama";"O";"be president of";"LOCATION";"US";1.0
+16376;"PERSON";"Dzhokhar Tsarnaev";"O";"be of";"LOCATION";"Boston Marathon";1.0
+16377;"PERSON";"Milo Yiannopoulos";"O";"be of";"ORGANIZATION";"Breitbart News";1.0
+16378;"PERSON";"Dvorak";"O";"describe";"ORGANIZATION";"Twitter";1.0
+16379;"PERSON";"Steve Dotto";"O";"be columnist of";"ORGANIZATION";"Vancouver Sun";1.0
+16380;"PERSON";"Andy Carvin";"O";"give";"PERSON";"Schorr";1.0
+16381;"LOCATION";"United Kingdom";"O";"have";"ORGANIZATION";"GCHQ";1.0
+16382;"PERSON";"Matt groen";"O";"be with";"PERSON";"Simpsons";1.0
+16383;"ORGANIZATION";"Walmart";"O";"be in";"LOCATION";"United States";1.0
+16384;"LOCATION";"Centroamérica";"O";"be as";"ORGANIZATION";"Walmart de México";1.0
+16385;"ORGANIZATION";"Asda";"O";"be in";"LOCATION";"United Kingdom";1.0
+16386;"ORGANIZATION";"Seiyu Group";"O";"be in";"LOCATION";"Japan";1.0
+16387;"ORGANIZATION";"Walmart";"O";"be profitable retailer in";"LOCATION";"U.S.";1.0
+16388;"LOCATION";"Walnut Street";"O";"be in";"ORGANIZATION";"Rogers";1.0
+16389;"PERSON";"Walton";"O";"be replace by";"PERSON";"David Glass";1.0
+16390;"ORGANIZATION";"Walmart Supercenter";"O";"open in";"LOCATION";"Washington";1.0
+16391;"ORGANIZATION";"Lawrence University";"O";"find";"ORGANIZATION";"Walmart";1.0
+16392;"ORGANIZATION";"Walmart";"O";"have";"LOCATION";"U.S";1.0
+16393;"LOCATION";"Crossgates Commons";"O";"be in";"LOCATION";"Albany";1.0
+16394;"LOCATION";"Midtown Center";"O";"be in";"LOCATION";"Bentonville";1.0
+16395;"PERSON";"Sam";"O";"have";"ORGANIZATION";"Club";1.0
+16396;"ORGANIZATION";"WMS Supermercados";"O";"do";"PERSON";"Brasil";1.0
+16397;"ORGANIZATION";"Walmart";"O";"be in";"LOCATION";"Mexico";1.0
+16398;"ORGANIZATION";"Walmart";"O";"have operate in";"LOCATION";"Canada";1.0
+16399;"LOCATION";"Mexico";"O";"be of";"ORGANIZATION";"Walmart";1.0
+16400;"ORGANIZATION";"Walmart";"O";"be partner with";"ORGANIZATION";"Dell";1.0
+16401;"LOCATION";"United States";"O";"located in";"LOCATION";"California";0.5042369960287225
+16402;"ORGANIZATION";"Walmart";"O";"buy";"PERSON";"Vudu";1.0
+16403;"LOCATION";"Great Value";"O";"be in";"LOCATION";"U.S";1.0
+16404;"ORGANIZATION";"Walmart";"O";"acquire";"LOCATION";"Moosejaw";1.0
+16405;"ORGANIZATION";"Walmart";"O";"have";"LOCATION";"U.S";1.0
+16406;"ORGANIZATION";"Walmart";"O";"do in";"LOCATION";"UK";1.0
+16407;"PERSON";"Alex Grigoryan";"O";"be of";"ORGANIZATION";"Walmart Labs";1.0
+16408;"ORGANIZATION";"Tuck School of Business";"O";"be at";"ORGANIZATION";"Dartmouth College";1.0
+16409;"ORGANIZATION";"Walmart";"O";"be largest employer in";"LOCATION";"United States";1.0
+16410;"ORGANIZATION";"Wal-Mart";"O";"be name for";"ORGANIZATION";"female executive";1.0
+16411;"PERSON";"Wayne Pacelle";"O";"be president of";"ORGANIZATION";"hsus";1.0
+16412;"LOCATION";"Zhejiang";"O";"be by";"ORGANIZATION";"Alibaba Group";1.0
+16413;"ORGANIZATION";"Taobao Marketplace";"O";"be launch by";"ORGANIZATION";"Alibaba";1.0
+16414;"ORGANIZATION";"Alibaba Group";"O";"open store in";"LOCATION";"Beijing";1.0
+16415;"ORGANIZATION";"Alibaba";"O";"launch weibo for";"LOCATION";"Taobao";1.0
+16416;"PERSON";"Ma";"O";"introduce";"LOCATION";"Taobao";1.0
+16417;"ORGANIZATION";"Microsoft";"O";"by";"ORGANIZATION";"Macintosh Business Unit";1.0
+16418;"ORGANIZATION";"Alibaba";"O";"launch";"ORGANIZATION";"Tmall Global";1.0
+16419;"ORGANIZATION";"Costco";"O";"be from";"LOCATION";"USA";1.0
+16420;"ORGANIZATION";"Amazon";"O";"surpass";"ORGANIZATION";"Walmart";1.0
+16421;"PERSON";"Bezos";"O";"incorporate company as";"PERSON";"Cadabra";1.0
+16422;"PERSON";"Bezos";"O";"change name to";"ORGANIZATION";"Amazon.com";1.0
+16423;"PERSON";"John Ingram";"O";"be of";"ORGANIZATION";"Ingram Book";1.0
+16424;"ORGANIZATION";"Noble";"O";"sue";"LOCATION";"Amazon";1.0
+16425;"ORGANIZATION";"Walmart";"O";"sue";"LOCATION";"Amazon";1.0
+16426;"ORGANIZATION";"Marks & Spencer";"O";"be merchant of";"LOCATION";"UK";1.0
+16427;"ORGANIZATION";"audible";"O";"subsidiary of";"LOCATION";"Amazon";1.0
+16428;"ORGANIZATION";"Beijing Century Joyo Courier Services";"O";"be subsidiary of";"LOCATION";"Amazon";1.0
+16429;"PERSON";"Michael Snodgrass";"O";"be in";"LOCATION";"Grand Haven";1.0
+16430;"LOCATION";"University Village";"O";"be in";"LOCATION";"Seattle";1.0
+16431;"ORGANIZATION";"Apple";"O";"sell counterfeit apple product to";"ORGANIZATION";"Amazon";1.0
+16432;"ORGANIZATION";"Mobile Star LLC";"O";"settle with";"ORGANIZATION";"Apple";1.0
+16433;"ORGANIZATION";"Amazon.com";"O";"be corporate member of";"ORGANIZATION";"american legislative Exchange Council";1.0
+16434;"ORGANIZATION";"Amazon";"O";"have visit in";"LOCATION";"Washington";1.0
+16435;"PERSON";"Hiroyuki Nishimura";"O";"together serve at";"LOCATION";"Niwango";1.0
+16436;"ORGANIZATION";"Google";"O";"be found by";"PERSON";"Larry Page";1.0
+16437;"PERSON";"Sundar Pichai";"O";"ceo of";"ORGANIZATION";"Google";1.0
+16438;"LOCATION";"Menlo Park";"O";"in friend be";"PERSON";"Susan Wojcicki";1.0
+16439;"PERSON";"Jeff Bezos";"O";"be founder of";"ORGANIZATION";"Amazon.com";1.0
+16440;"PERSON";"David Cheriton";"O";"be computer science professor of";"ORGANIZATION";"Stanford University";1.0
+16441;"PERSON";"Eric Schmidt";"O";"work together at";"ORGANIZATION";"Google";1.0
+16442;"ORGANIZATION";"Google";"O";"have";"ORGANIZATION";"IPO";1.0
+16443;"LOCATION";"Amphitheatre Parkway";"O";"be in";"LOCATION";"Mountain View";1.0
+16444;"ORGANIZATION";"Google";"O";"buy property from";"ORGANIZATION";"SGI";1.0
+16445;"PERSON";"Rachel Potvin";"O";"be engineering manager of";"ORGANIZATION";"Google";1.0
+16446;"ORGANIZATION";"Google";"O";"acquire";"ORGANIZATION";"Deja News";1.0
+16447;"ORGANIZATION";"Google";"O";"acquire";"ORGANIZATION";"Urchin Software";1.0
+16448;"ORGANIZATION";"Google";"O";"partner with";"ORGANIZATION";"NASA Ames Research Center";1.0
+16449;"ORGANIZATION";"NORAD";"ORGANIZATION";"track";"ORGANIZATION";"Santa";1.0
+16450;"ORGANIZATION";"Federal Energy Regulatory Commission FERC";"O";"grant";"ORGANIZATION";"Google";1.0
+16451;"ORGANIZATION";"Google";"O";"sell manufacturing operation to";"ORGANIZATION";"Flextronics";1.0
+16452;"ORGANIZATION";"Google";"O";"sell motorola home business division to";"ORGANIZATION";"Arris Group";1.0
+16453;"ORGANIZATION";"Google";"O";"acquire";"PERSON";"Waze";1.0
+16454;"PERSON";"Sundar Pichai";"O";"ceo of";"ORGANIZATION";"Google";1.0
+16455;"ORGANIZATION";"Paris Civil Court";"O";"rule against";"ORGANIZATION";"Google";1.0
+16456;"ORGANIZATION";"Custom";"ORGANIZATION";"search";"ORGANIZATION";"Business Edition";1.0
+16457;"PERSON";"Jack Marshall";"O";"be of";"ORGANIZATION";"Wall Street Journal";1.0
+16458;"ORGANIZATION";"Agence France Presse";"O";"sue";"ORGANIZATION";"Google";1.0
+16459;"ORGANIZATION";"Google";"O";"announce";"PERSON";"Google Wallet";1.0
+16460;"ORGANIZATION";"Google";"O";"launch";"ORGANIZATION";"Google Shopping Express";1.0
+16461;"ORGANIZATION";"Google";"O";"move in";"LOCATION";"New York City";1.0
+16462;"LOCATION";"Eighth Avenue";"O";"be in";"LOCATION";"Manhattan";1.0
+16463;"PERSON";"Sergey";"O";"ask";"PERSON";"Dennis Hwang";1.0
+16464;"ORGANIZATION";"Google";"O";"announce";"PERSON";"Gmail Motion";1.0
+16465;"ORGANIZATION";"Google";"O";"form";"ORGANIZATION";"google.org";1.0
+16466;"ORGANIZATION";"Google";"O";"hire";"PERSON";"Larry Brilliant";1.0
+16467;"ORGANIZATION";"Google";"O";"pay in";"LOCATION";"United Kingdom";1.0
+16468;"PERSON";"Matt Brittin";"O";"be vice president of";"ORGANIZATION";"Google";1.0
+16469;"PERSON";"Jim Inhofe";"O";"be senator of";"LOCATION";"Oklahoma";1.0
+16470;"PERSON";"Sundar Pichai";"O";"be ceo of";"ORGANIZATION";"Google";1.0
+16471;"PERSON";"David Brooks";"O";"be columnist of";"ORGANIZATION";"New York Times";1.0
+16472;"ORGANIZATION";"Google";"O";"have";"LOCATION";"New America";1.0
+16473;"PERSON";"David Elliot";"O";"argue before";"ORGANIZATION";"Ninth Circuit";1.0
+16474;"ORGANIZATION";"Tencent";"O";"invest in";"LOCATION";"Sogou";1.0
+16475;"ORGANIZATION";"UOL";"O";"be rank by";"PERSON";"Alexa";1.0
+16476;"ORGANIZATION";"UOL";"O";"be establish by";"ORGANIZATION";"Grupo Folha";1.0
+16477;"ORGANIZATION";"UOL";"O";"join";"ORGANIZATION";"Brasil Online";1.0
+16478;"ORGANIZATION";"UOL";"O";"buy";"PERSON";"Digiwerb";1.0
+16479;"ORGANIZATION";"UOL";"O";"buy";"ORGANIZATION";"Diveo Broadband Network";1.0
+16480;"ORGANIZATION";"UOL";"O";"release";"ORGANIZATION";"UOL Viagens";1.0
+16481;"PERSON";"Jiang Qing";"O";"be wife of";"PERSON";"Mao";1.0
+16482;"PERSON";"Mao";"O";"have";"PERSON";"Hua Guofeng";1.0
+16483;"LOCATION";"Shanghai";"O";"with";"PERSON";"Jiefang Daily";1.0
+16484;"ORGANIZATION";"Guangming Daily";"O";"partner with";"ORGANIZATION";"Southern Newspaper Group";1.0
+16485;"LOCATION";"Beijing";"O";"in";"LOCATION";"Haidian District";1.0
+16486;"LOCATION";"Baidu";"O";"be establish by";"PERSON";"Robin Li";1.0
+16487;"PERSON";"Baidu Baike";"O";"be similar however to";"ORGANIZATION";"Wikipedia";1.0
+16488;"PERSON";"ng";"O";"will lead";"ORGANIZATION";"Baidu Research";1.0
+16489;"LOCATION";"Baidu";"O";"partner with";"ORGANIZATION";"Continental";1.0
+16490;"ORGANIZATION";"Microsoft";"O";"have";"PERSON";"Bing";1.0
+16491;"LOCATION";"NetEase";"O";"have";"PERSON";"Youdao";1.0
+16492;"ORGANIZATION";"Alibaba";"O";"have";"LOCATION";"Taobao";1.0
+16493;"ORGANIZATION";"Google";"O";"have move to";"LOCATION";"Hong Kong";0.13527078413555235
+16494;"PERSON";"Hudong";"O";"submit complaint to";"ORGANIZATION";"State Administration";1.0
+16495;"LOCATION";"Baidu";"O";"use tactic in";"LOCATION";"Brazil";1.0
+16496;"PERSON";"Instagram";"O";"be acquire by";"ORGANIZATION";"Facebook";1.0
+16497;"ORGANIZATION";"Facebook";"O";"buy";"ORGANIZATION";"Instagram";1.0
+16498;"ORGANIZATION";"Federal Trade Commission";"O";"be in";"LOCATION";"U.S";1.0
+16499;"PERSON";"White";"O";"leave";"ORGANIZATION";"Instagram";1.0
+16500;"PERSON";"Nick Drewe";"O";"be of";"ORGANIZATION";"Daily beast";1.0
+16501;"ORGANIZATION";"YouTube";"O";"be found by";"PERSON";"Chad Hurley";1.0
+16502;"PERSON";"Hurley";"O";"have study design at";"ORGANIZATION";"Indiana University";1.0
+16503;"PERSON";"Karim";"O";"study computer science together at";"ORGANIZATION";"University";1.0
+16504;"PERSON";"Jawed Karim";"O";"be at";"LOCATION";"San Diego Zoo";1.0
+16505;"PERSON";"SimilarWeb";"O";"list";"ORGANIZATION";"YouTube";1.0
+16506;"PERSON";"Susan Wojcicki";"O";"ceo of";"ORGANIZATION";"YouTube";1.0
+16507;"ORGANIZATION";"YouTube";"O";"launch";"ORGANIZATION";"YouTube gaming";1.0
+16508;"PERSON";"Barack Obama";"O";"be president of";"LOCATION";"US";1.0
+16509;"ORGANIZATION";"YouTube";"O";"launch";"ORGANIZATION";"YouTube";1.0
+16510;"LOCATION";"Los Angeles";"O";"be at";"ORGANIZATION";"YouTube Space";1.0
+16511;"PERSON";"Iman Crosson";"O";"be impersonator of";"PERSON";"Obama";1.0
+16512;"ORGANIZATION";"YouTube";"O";"have";"ORGANIZATION";"Google";1.0
+16513;"ORGANIZATION";"House of Commons";"O";"be of";"LOCATION";"United Kingdom";1.0
+16514;"PERSON";"Jawed Karim";"O";"be co-founder of";"ORGANIZATION";"YouTube";1.0
+16515;"LOCATION";"Silicon Island";"O";"be blog of";"ORGANIZATION";"Newsday";1.0
+16516;"LOCATION";"Iran";"O";"block";"ORGANIZATION";"YouTube";1.0
+16517;"PERSON";"John Birt";"O";"be director general of";"ORGANIZATION";"BBC";1.0
+16518;"LOCATION";"Scotland";"O";"write by";"ORGANIZATION";"BBC Nations";1.0
+16519;"ORGANIZATION";"House of Lords";"O";"be in";"LOCATION";"Westminster";1.0
+16520;"ORGANIZATION";"National Assembly";"O";"be for";"LOCATION";"Wales";1.0
+16521;"ORGANIZATION";"Panjabi";"ORGANIZATION";"hit";"PERSON";"Yngve";1.0
+16522;"ORGANIZATION";"BBC";"O";"make";"ORGANIZATION";"BBC News Website";1.0
+16523;"LOCATION";"Japan Dome";"O";"be yahoo! of";"LOCATION";"Fukuoka";1.0
+16524;"PERSON";"Hiroshi Mikitani";"O";"be 's";"ORGANIZATION";"Rakuten";1.0
+16525;"ORGANIZATION";"Rakuten";"O";"withdraw from";"ORGANIZATION";"Keidanren";1.0
+16526;"ORGANIZATION";"Yahoo! Mail";"O";"contrary to";"ORGANIZATION";"tb";1.0
+16527;"PERSON";"Andreessen Horowitz";"O";"have";"PERSON";"Lars Dalgaard";1.0
+16528;"PERSON";"Satya Nadella";"O";"be ceo of";"ORGANIZATION";"Microsoft";1.0
+16529;"PERSON";"Jeff Weiner";"O";"be ceo of";"ORGANIZATION";"LinkedIn";1.0
+16530;"ORGANIZATION";"LinkedIn";"O";"be block in";"LOCATION";"Russia";1.0
+16531;"ORGANIZATION";"Amazon.com";"O";"to";"ORGANIZATION";"Dynamo";1.0
+16532;"ORGANIZATION";"Netflix";"O";"close";"ORGANIZATION";"Red Envelope Entertainment";1.0
+16533;"ORGANIZATION";"Netflix";"O";"file with";"ORGANIZATION";"Federal Election Commission";1.0
+16534;"ORGANIZATION";"Netflix";"O";"sign music publishing deal with";"ORGANIZATION";"BMG Rights Management";1.0
+16535;"ORGANIZATION";"BMG";"O";"will oversee rights outside of";"LOCATION";"United States";1.0
+16536;"ORGANIZATION";"Netflix";"O";"acquire";"PERSON";"Millarworld";1.0
+16537;"ORGANIZATION";"Netflix";"O";"leverage";"PERSON";"millar";1.0
+16538;"ORGANIZATION";"Netflix";"O";"agree with";"ORGANIZATION";"Warner Bros";1.0
+16539;"ORGANIZATION";"Epix";"O";"sign streaming deal with";"ORGANIZATION";"Netflix";1.0
+16540;"PERSON";"Alice";"O";"be in";"LOCATION";"Wonderland";1.0
+16541;"ORGANIZATION";"Time Warner";"O";"with";"ORGANIZATION";"Turner Broadcasting System";1.0
+16542;"ORGANIZATION";"TNT";"O";"as well as";"LOCATION";"Dallas";1.0
+16543;"ORGANIZATION";"Netflix";"O";"hire";"PERSON";"Kelly Bennett";1.0
+16544;"ORGANIZATION";"Netflix";"O";"cite";"ORGANIZATION";"Amazon.com";1.0
+16545;"ORGANIZATION";"Amazon";"O";"stream movie show through";"ORGANIZATION";"Amazon Video";1.0
+16546;"ORGANIZATION";"Netflix";"O";"compete with";"PERSON";"Viaplay";1.0
+16547;"ORGANIZATION";"Netflix";"O";"compete with";"PERSON";"hooq";1.0
+16548;"ORGANIZATION";"Netflix";"O";"compete with";"ORGANIZATION";"Infinity";1.0
+16549;"PERSON";"Jeff Bewkes";"O";"be ceo of";"ORGANIZATION";"Time Warner";1.0
+16550;"ORGANIZATION";"House";"ORGANIZATION";"be";"ORGANIZATION";"New Black";1.0
+16551;"ORGANIZATION";"Netflix";"O";"have";"PERSON";"Neil Hunt";1.0
+16552;"PERSON";"Kevin Spacey";"O";"speak at";"ORGANIZATION";"Edinburgh International Television Festival";1.0
+16553;"LOCATION";"Altaba";"O";"be successor company of";"ORGANIZATION";"Yahoo";1.0
+16554;"PERSON";"David Filo";"O";"in";"LOCATION";"Louisiana";1.0
+16555;"PERSON";"Carol Bartz";"O";"replace";"PERSON";"Yang";1.0
+16556;"ORGANIZATION";"Yahoo";"O";"outperform";"ORGANIZATION";"Google";1.0
+16557;"ORGANIZATION";"Wall Street Journal";"O";"have";"PERSON";"Douglas MacMillan";1.0
+16558;"PERSON";"Marissa Mayer";"O";"be ceo of";"ORGANIZATION";"Yahoo";1.0
+16559;"LOCATION";"Russia";"O";"of";"ORGANIZATION";"Federal Security Service";1.0
+16560;"PERSON";"Koprol";"O";"be acquire by";"ORGANIZATION";"Yahoo";1.0
+16561;"PERSON";"MyBlogLog";"O";"be discontinue by";"ORGANIZATION";"Yahoo";1.0
+16562;"ORGANIZATION";"World Organization";"O";"sue yahoo on behalf of";"PERSON";"Wang";1.0
+16563;"ORGANIZATION";"Yahoo";"O";"be criticize by";"ORGANIZATION";"electronic Frontier Foundation";1.0
+16564;"ORGANIZATION";"SoftBank";"O";"own in";"LOCATION";"Europe";1.0
+16565;"ORGANIZATION";"Yahoo";"O";"be in";"LOCATION";"USA";1.0
+16566;"ORGANIZATION";"MSN";"O";"be base in";"LOCATION";"United States";1.0
+16567;"PERSON";"Bing";"O";"be service of";"ORGANIZATION";"Microsoft";1.0
+16568;"ORGANIZATION";"Microsoft";"O";"have acquire";"ORGANIZATION";"Farecast";1.0
+16569;"ORGANIZATION";"Microsoft";"O";"rebrand service to";"ORGANIZATION";"MSN Travel";1.0
+16570;"ORGANIZATION";"Nine Network";"O";"be in";"LOCATION";"Australia";1.0
+16571;"ORGANIZATION";"Microsoft";"O";"discontinue portal for";"LOCATION";"China";1.0
+16572;"PERSON";"Harold";"O";"run";"PERSON";"Alfred";1.0
+16573;"PERSON";"dacre";"O";"editor of";"ORGANIZATION";"Daily Mail";1.0
+16574;"ORGANIZATION";"UKIP";"O";"be challenger to";"ORGANIZATION";"Labour Party";1.0
+16575;"LOCATION";"Russia";"O";"from";"LOCATION";"Serbia";1.0
+16576;"PERSON";"Ralph Miliband";"O";"have arrive in";"LOCATION";"UK";1.0
+16577;"PERSON";"Eric Wemple";"O";"be at";"ORGANIZATION";"Washington Post";1.0
+16578;"PERSON";"James Comey";"O";"be director of";"ORGANIZATION";"FBI";1.0
+16579;"LOCATION";"Thailand";"O";"of";"PERSON";"Prince";1.0
+16580;"PERSON";"Ted Cruz";"O";"be from";"LOCATION";"Texas";1.0
+16581;"ORGANIZATION";"Broadcasting House";"O";"be in";"LOCATION";"London";1.0
+16582;"ORGANIZATION";"BBC";"O";"be establish under";"ORGANIZATION";"Royal Charter";1.0
+16583;"ORGANIZATION";"BBC";"O";"have";"ORGANIZATION";"BBC World News";1.0
+16584;"ORGANIZATION";"BBC";"O";"have ban broadcast from";"ORGANIZATION";"Labour Party";1.0
+16585;"ORGANIZATION";"BFC";"O";"be for";"ORGANIZATION";"British Falsehood Company";1.0
+16586;"PERSON";"Blake";"O";"from";"LOCATION";"Jerusalem";1.0
+16587;"PERSON";"Foort";"O";"work for";"ORGANIZATION";"BBC";1.0
+16588;"ORGANIZATION";"BBC";"O";"move out of";"LOCATION";"London";0.15377660881103794
+16589;"LOCATION";"Torquay";"O";"be with";"ORGANIZATION";"BBC";1.0
+16590;"ORGANIZATION";"BBC News";"O";"become";"ORGANIZATION";"BBC News Channel";1.0
+16591;"ORGANIZATION";"New Broadcasting House";"O";"be in";"LOCATION";"Manchester";1.0
+16592;"LOCATION";"United Kingdom";"O";"be besides";"LOCATION";"England";1.0
+16593;"ORGANIZATION";"BBC";"O";"be major prosecute authority in";"LOCATION";"England";1.0
+16594;"PERSON";"Boris Johnson";"O";"be by";"ORGANIZATION";"conservative";1.0
+16595;"ORGANIZATION";"Broadcasting House";"O";"be in";"LOCATION";"Portland Place";1.0
+16596;"ORGANIZATION";"BBC Television";"O";"be base at";"ORGANIZATION";"BBC Television Centre";1.0
+16597;"LOCATION";"Shepherd";"O";"around";"PERSON";"Bush";1.0
+16598;"LOCATION";"Cymru Wales";"O";"be to";"ORGANIZATION";"BBC";1.0
+16599;"LOCATION";"Northern Ireland";"O";"be to";"ORGANIZATION";"BBC";1.0
+16600;"LOCATION";"Quarry Hill";"O";"be in";"LOCATION";"Leeds";1.0
+16601;"ORGANIZATION";"BBC";"O";"have";"PERSON";"Zarin Patel";1.0
+16602;"ORGANIZATION";"Siemens";"O";"be such as";"ORGANIZATION";"Digital Media Initiative";1.0
+16603;"ORGANIZATION";"BBC";"O";"also provide";"LOCATION";"Channel Islands";1.0
+16604;"ORGANIZATION";"BBC";"O";"have provide radio programming to";"ORGANIZATION";"british Forces Broadcasting Service";1.0
+16605;"ORGANIZATION";"BBC Radio";"O";"be also carry in";"LOCATION";"United States";1.0
+16606;"ORGANIZATION";"BBC";"O";"be patron of";"ORGANIZATION";"Radio Academy";1.0
+16607;"ORGANIZATION";"BBC Symphony Chorus";"O";"base in";"LOCATION";"London";1.0
+16608;"ORGANIZATION";"BBC Scottish Symphony Orchestra";"O";"be in";"LOCATION";"Glasgow";1.0
+16609;"ORGANIZATION";"BBC Philharmonic";"O";"be in";"LOCATION";"Manchester";1.0
+16610;"ORGANIZATION";"BBC Concert Orchestra";"O";"be in";"LOCATION";"Cardiff";1.0
+16611;"ORGANIZATION";"Ulster Orchestra";"O";"be in";"LOCATION";"Belfast";1.0
+16612;"ORGANIZATION";"BBC";"O";"have";"ORGANIZATION";"Red Button Service";1.0
+16613;"ORGANIZATION";"BBC Worldwide Limited";"O";"be wholly own commercial subsidiary of";"ORGANIZATION";"BBC";1.0
+16614;"ORGANIZATION";"BBC America";"O";"be with";"ORGANIZATION";"BBC Worldwide";1.0
+16615;"LOCATION";"New Zealand";"O";"be on";"ORGANIZATION";"TVNZ";1.0
+16616;"PERSON";"Steve Ballmer";"O";"be by";"ORGANIZATION";"Microsoft";1.0
+16617;"PERSON";"Bing";"O";"cause confusion as";"PERSON";"Bing";1.0
+16618;"PERSON";"Bing";"O";"have market share in";"LOCATION";"United States";1.0
+16619;"PERSON";"Bing reward";"O";"launch by";"ORGANIZATION";"Microsoft";0.5119940500029766
+16620;"PERSON";"Colbert";"O";"mostly mention";"PERSON";"Bing";1.0
+16621;"ORGANIZATION";"Mozilla Firefox";"O";"make deal with";"ORGANIZATION";"Microsoft";1.0
+16622;"PERSON";"Bing";"O";"have replace";"ORGANIZATION";"Google";1.0
+16623;"ORGANIZATION";"Microsoft";"O";"pay";"ORGANIZATION";"Verizon Wireless";1.0
+16624;"PERSON";"Bing";"O";"return result as";"ORGANIZATION";"Google";1.0
+16625;"ORGANIZATION";"Tumblr";"O";"found by";"PERSON";"David Karp";0.4275869228611644
+16626;"PERSON";"Fred Seibert";"O";"with";"ORGANIZATION";"Frederator Studios";1.0
+16627;"ORGANIZATION";"Tumblr";"O";"agreement for";"ORGANIZATION";"Yahoo! Inc";0.6168570343436987
+16628;"LOCATION";"New York City";"O";"in";"LOCATION";"Silicon Alley";1.0
+16629;"PERSON";"Nicole Lapin";"O";"be of";"ORGANIZATION";"Bloomberg West";1.0
+16630;"PERSON";"John Malloy";"O";"be from";"ORGANIZATION";"BlueRun Ventures";1.0
+16631;"ORGANIZATION";"PayPal";"O";"acquire";"ORGANIZATION";"Fraud Sciences";1.0
+16632;"ORGANIZATION";"PayPal";"O";"process donation to";"PERSON";"Wikileaks";1.0
+16633;"PERSON";"Marcus";"O";"join";"ORGANIZATION";"PayPal";1.0
+16634;"PERSON";"David Marcus";"O";"succeed";"PERSON";"Scott Thompson";1.0
+16635;"PERSON";"Marcus";"O";"be succeed by";"PERSON";"Dan Schulman";1.0
+16636;"ORGANIZATION";"eBay";"O";"would spin off";"ORGANIZATION";"PayPal";1.0
+16637;"PERSON";"John Donahoe";"O";"be ceo of";"ORGANIZATION";"eBay";1.0
+16638;"ORGANIZATION";"PayPal";"O";"acquire";"LOCATION";"Xoom";1.0
+16639;"LOCATION";"Xoom";"O";"to";"LOCATION";"U.S";1.0
+16640;"ORGANIZATION";"PayPal";"O";"have operate across";"ORGANIZATION";"European Union";1.0
+16641;"PERSON";"Meg Whitman";"O";"be by";"ORGANIZATION";"eBay";1.0
+16642;"ORGANIZATION";"PayPal";"O";"cease operation in";"LOCATION";"Crimea";1.0
+16643;"ORGANIZATION";"Paypal";"O";"cease operation in";"LOCATION";"Turkey";1.0
+16644;"LOCATION";"UK";"O";"with";"ORGANIZATION";"Financial Services Authority";1.0
+16645;"LOCATION";"India";"O";"have";"ORGANIZATION";"Central Bank stop some PayPal Services";1.0
+16646;"PERSON";"Alpana Killawalla";"O";"be spokesman of";"ORGANIZATION";"Reserve Bank of India";1.0
+16647;"ORGANIZATION";"PayPal";"O";"have";"ORGANIZATION";"MasterCard";1.0
+16648;"ORGANIZATION";"PayPal";"O";"block account for";"LOCATION";"Iran";0.8633716821581413
+16649;"ORGANIZATION";"Bank Corporation";"O";"sue";"ORGANIZATION";"PayPal";1.0
+16650;"ORGANIZATION";"AT&T Corporation";"O";"file suit against";"ORGANIZATION";"eBay";1.0
+16651;"PERSON";"Zuckerberg";"O";"attend";"ORGANIZATION";"Harvard University";1.0
+16652;"PERSON";"Zuckerberg";"O";"tell";"ORGANIZATION";"Crimson";1.0
+16653;"ORGANIZATION";"crimson";"O";"be about";"PERSON";"Facemash";1.0
+16654;"PERSON";"Cameron Winklevoss";"O";"be senior of";"ORGANIZATION";"Harvard";1.0
+16655;"PERSON";"Divya Narendra";"O";"accuse";"PERSON";"Zuckerberg";1.0
+16656;"PERSON";"Chris Hughes";"O";"join";"PERSON";"Zuckerberg";1.0
+16657;"ORGANIZATION";"Facebook";"O";"move to";"LOCATION";"Palo Alto";0.15377660881103794
+16658;"PERSON";"Peter Thiel";"O";"be co-founder of";"ORGANIZATION";"PayPal";1.0
+16659;"ORGANIZATION";"eBay";"O";"become after";"ORGANIZATION";"Google";1.0
+16660;"ORGANIZATION";"Facebook";"O";"announce";"PERSON";"App Center";1.0
+16661;"ORGANIZATION";"Facebook";"O";"unveil";"ORGANIZATION";"Facebook Home";1.0
+16662;"ORGANIZATION";"Poor";"O";"placement of";"ORGANIZATION";"Facebook";0.9190224900887743
+16663;"ORGANIZATION";"Tsinghua University";"O";"be in";"LOCATION";"Beijing";1.0
+16664;"ORGANIZATION";"Facebook";"O";"be ban in";"LOCATION";"China";1.0
+16665;"ORGANIZATION";"Facebook";"O";"of";"ORGANIZATION";"ctr";1.0
+16666;"LOCATION";"Dublin";"O";"be in";"LOCATION";"Ireland";1.0
+16667;"LOCATION";"Fitzrovia";"O";"be in";"LOCATION";"London";1.0
+16668;"ORGANIZATION";"Facebook";"O";"launch";"ORGANIZATION";"Facebook Pages";1.0
+16669;"ORGANIZATION";"Facebook";"O";"launch facebook stories in";"LOCATION";"Ireland";1.0
+16670;"ORGANIZATION";"Facebook";"O";"launch";"ORGANIZATION";"Facebook Beacon";1.0
+16671;"PERSON";"Mark Zuckerberg";"O";"be founder of";"ORGANIZATION";"Facebook";1.0
+16672;"ORGANIZATION";"Facebook";"O";"file paperwork with";"ORGANIZATION";"Federal Election Commission";1.0
+16673;"ORGANIZATION";"Facebook";"O";"team up with";"ORGANIZATION";"ABC";1.0
+16674;"PERSON";"Mark Zuckerberg";"O";"respond to";"PERSON";"Trump";1.0
+16675;"PERSON";"Mark Zuckerberg";"O";"be founder of";"ORGANIZATION";"Facebook";1.0
+16676;"PERSON";"Rania";"O";"be of";"LOCATION";"Jordan";1.0
+16677;"PERSON";"Shashi Tharoor";"O";"be for";"ORGANIZATION";"United Nations";1.0
+16678;"ORGANIZATION";"Google";"O";"have";"PERSON";"Cui Jin";1.0
+16679;"LOCATION";"Sohu";"O";"have";"PERSON";"Carol Yu";1.0
+16680;"PERSON";"Charles Chao";"O";"be ceo of";"PERSON";"Sina";1.0
+16681;"PERSON";"Sina";"O";"access";"PERSON";"Sina Weibo";1.0
+16682;"PERSON";"Gigi Leung";"O";"be singer of";"LOCATION";"Hong Kong";1.0
+16683;"LOCATION";"WordPress.com";"O";"be block in";"LOCATION";"China";1.0
+16684;"ORGANIZATION";"AccuWeather";"O";"be found by";"PERSON";"Joel N";1.0
+16685;"ORGANIZATION";"AccuWeather";"O";"be headquarter in";"LOCATION";"State College";1.0
+16686;"LOCATION";"Rockefeller Center";"O";"be in";"LOCATION";"New York City";1.0
+16687;"ORGANIZATION";"AccuWeather";"O";"acquire";"ORGANIZATION";"WeatherData";1.0
+16688;"ORGANIZATION";"KFWB";"O";"be in";"LOCATION";"Los Angeles";1.0
+16689;"PERSON";"Jon Nese";"O";"be from";"ORGANIZATION";"Penn State University";1.0
+16690;"ORGANIZATION";"Yandex Labs";"O";"be own division of";"ORGANIZATION";"Yandex";1.0
+16691;"PERSON";"Yandex";"O";"open office in";"LOCATION";"Ukraine";1.0
+16692;"PERSON";"Yandex";"O";"found";"ORGANIZATION";"Yandex Labs";1.0
+16693;"ORGANIZATION";"Yandex";"O";"launch search engine in";"LOCATION";"Turkey";1.0
+16694;"ORGANIZATION";"eBay";"O";"be found by";"PERSON";"Pierre Omidyar";1.0
+16695;"ORGANIZATION";"eBay";"O";"be simply side hobby for";"PERSON";"Omidyar";1.0
+16696;"ORGANIZATION";"eBay";"O";"be charge by";"ORGANIZATION";"United States Department";1.0
+16697;"ORGANIZATION";"eBay";"O";"also notably fail in";"LOCATION";"China";1.0
+16698;"LOCATION";"North Campus";"O";"be in";"LOCATION";"San Jose";1.0
+16699;"ORGANIZATION";"eBay";"O";"sign";"ORGANIZATION";"Oregon Business climate declaration";1.0
+16700;"ORGANIZATION";"Ticketmaster";"O";"file lawsuit against";"ORGANIZATION";"StubHub";1.0
+16701;"ORGANIZATION";"eBay";"O";"sue";"PERSON";"Craigslist";1.0
+16702;"PERSON";"Michael Jacobson";"O";"be spokesman of";"ORGANIZATION";"eBay";1.0
+16703;"ORGANIZATION";"eBay";"O";"acquire";"PERSON";"Corrigon";1.0
+16704;"ORGANIZATION";"Carey School of Business";"O";"be at";"ORGANIZATION";"Arizona State University";1.0
+16705;"LOCATION";"UK";"O";"have";"ORGANIZATION";"GCHQ";1.0
+16706;"ORGANIZATION";"eBay for Charity";"O";"be in";"LOCATION";"UK";1.0
+16707;"ORGANIZATION";"Smith & Wollensky Steakhouse";"O";"be in";"LOCATION";"New York";1.0
+16708;"PERSON";"Jenkins";"O";"come from";"LOCATION";"Amazon";1.0
+16709;"PERSON";"Pinterest";"O";"acquire";"PERSON";"Livestar";1.0
+16710;"PERSON";"Pinterest";"O";"acquire";"PERSON";"Hackermeter";1.0
+16711;"PERSON";"Pinterest";"O";"acquire team from";"ORGANIZATION";"Hike Labs";1.0
+16712;"PERSON";"Tim Kendall";"O";"be president of";"PERSON";"pinterest";1.0
+16713;"ORGANIZATION";"Pinterest Analytics";"O";"be like";"ORGANIZATION";"Google Analytics";1.0
+16714;"PERSON";"Piqora";"O";"have";"ORGANIZATION";"Pinterest Trends";1.0
+16715;"PERSON";"Sarah Tavel";"O";"be of";"ORGANIZATION";"Bessemer Venture Partners";1.0
+16716;"ORGANIZATION";"Fortune Magazine";"O";"list";"LOCATION";"Pinterest";1.0
+16717;"LOCATION";"China";"O";"block";"LOCATION";"Pinterest";1.0
+16718;"ORGANIZATION";"New York Times";"O";"base in";"LOCATION";"New York City";0.7066314182850015
+16719;"ORGANIZATION";"New York Times";"O";"be found as";"ORGANIZATION";"New-York Daily Times";1.0
+16720;"PERSON";"Horace Greeley";"O";"of";"ORGANIZATION";"New York Tribune";1.0
+16721;"PERSON";"Charles Ransom Miller";"O";"buy";"ORGANIZATION";"Times";1.0
+16722;"PERSON";"William Randolph Hearst";"O";"have";"ORGANIZATION";"New York Journal";1.0
+16723;"PERSON";"James Gordon Bennett";"O";"be of";"ORGANIZATION";"New York Herald";1.0
+16724;"ORGANIZATION";"Imperial Russian Navy";"O";"of";"ORGANIZATION";"Baltic Fleet";1.0
+16725;"ORGANIZATION";"New York Times";"O";"publish international herald tribune in";"LOCATION";"Paris";1.0
+16726;"PERSON";"Neil Sheehan";"O";"be of";"ORGANIZATION";"New York Times";1.0
+16727;"LOCATION";"Nassau Street";"O";"be in";"LOCATION";"New York City";1.0
+16728;"ORGANIZATION";"Times Tower";"O";"be on";"LOCATION";"Broadway";1.0
+16729;"ORGANIZATION";"New York Times";"O";"move business headquarters from";"LOCATION";"West 43rd Street";1.0
+16730;"LOCATION";"Eighth Avenue";"O";"be from";"ORGANIZATION";"Port Authority Bus Terminal";1.0
+16731;"PERSON";"Anne McCormick";"O";"write to";"PERSON";"Arthur Hays Sulzberger";1.0
+16732;"ORGANIZATION";"New York Times";"O";"hire";"PERSON";"Kathleen McLaughlin";1.0
+16733;"PERSON";"Adolph Ochs";"O";"buy";"ORGANIZATION";"New York Times";1.0
+16734;"ORGANIZATION";"New York Times";"O";"";"PERSON";"Margaret m";1.0
+16735;"PERSON";"Rudy Giuliani";"O";"be of";"LOCATION";"New York City";1.0
+16736;"PERSON";"George Pataki";"O";"be state governor of";"LOCATION";"New York";1.0
+16737;"ORGANIZATION";"Times";"O";"hire";"PERSON";"Mark von Hagen";1.0
+16738;"PERSON";"Jayson Blair";"O";"be reporter of";"ORGANIZATION";"New York Times";1.0
+16739;"PERSON";"Suzanne Smalley";"O";"be of";"ORGANIZATION";"Newsweek";1.0
+16740;"ORGANIZATION";"Simon Wiesenthal Center";"O";"have criticize";"ORGANIZATION";"New York Times";1.0
+16741;"ORGANIZATION";"New York Times";"O";"";"PERSON";"Clark Hoyt";1.0
+16742;"PERSON";"Bill Keller";"O";"be executive editor of";"ORGANIZATION";"New York Times";1.0
+16743;"ORGANIZATION";"PBS Frontline";"O";"interview";"PERSON";"Lichtblau";1.0
+16744;"PERSON";"Andrew m";"O";"be by";"LOCATION";"New York";1.0
+16745;"PERSON";"Richard Bernstein";"O";"be reporter of";"ORGANIZATION";"New York Times";1.0
+16746;"PERSON";"Mark Thompson";"O";"be ceo of";"ORGANIZATION";"New York Times Company";1.0
+16747;"ORGANIZATION";"Times";"O";"be examine on";"PERSON";"Catholics";1.0
+16748;"PERSON";"Donald Trump";"O";"have frequently criticize and";"ORGANIZATION";"New York Times";1.0
+16749;"PERSON";"Trump";"O";"have refer to";"ORGANIZATION";"Times";1.0
+16750;"PERSON";"Mark Thompson";"O";"be editor of";"ORGANIZATION";"New York Times";1.0
+16751;"PERSON";"Sanders";"O";"receive as";"PERSON";"Jeb Bush";1.0
+16752;"PERSON";"Daniel de Vise";"O";"be of";"ORGANIZATION";"Washington Post";1.0
+16753;"PERSON";"Brooke Gladstone";"O";"be 's";"ORGANIZATION";"WNYC";1.0
+16754;"ORGANIZATION";"CNN USA Today ABC Radio National Journal";"O";"be realclearpolitics huffpost/ny daily news buzzfeed/daily beast of";"ORGANIZATION";"Hill Regionals Newsmax CBN ABC News Washington Post Politico Fox News Radio CSM/NY Post Daily Mail BBC/OAN Reuters NY Times Chicago Tribune VOA";1.0
+16755;"ORGANIZATION";"UBS Global Media Conference";"O";"be in";"LOCATION";"New York";1.0
+16756;"PERSON";"Craig Newmark";"O";"receive award from";"ORGANIZATION";"FBI";1.0
+16757;"ORGANIZATION";"Samsung";"O";"be found by";"PERSON";"Lee Byung-chul";1.0
+16758;"PERSON";"Lee";"O";"move to";"LOCATION";"Seoul";0.15377660881103794
+16759;"PERSON";"Lee";"O";"found";"ORGANIZATION";"Cheil Mojik";1.0
+16760;"PERSON";"Lee";"O";"establish";"ORGANIZATION";"Samsung";1.0
+16761;"PERSON";"Lee Byung-chull";"O";"be founder of";"ORGANIZATION";"Samsung";1.0
+16762;"ORGANIZATION";"Samsung Group";"O";"be separate into";"ORGANIZATION";"Samsung Group";1.0
+16763;"ORGANIZATION";"Samsung";"O";"acquire";"PERSON";"Hanguk Jeonja Tongsin";1.0
+16764;"ORGANIZATION";"Petronas Towers";"O";"be in";"LOCATION";"Malaysia";1.0
+16765;"LOCATION";"Taipei 101";"O";"be in";"LOCATION";"Taiwan";1.0
+16766;"ORGANIZATION";"Samsung";"O";"stake of";"ORGANIZATION";"Sony";0.9323128292305141
+16767;"ORGANIZATION";"Samsung Motor";"O";"be sell to";"ORGANIZATION";"Renault";1.0
+16768;"ORGANIZATION";"Renault Samsung";"O";"be own by";"ORGANIZATION";"Renault";1.0
+16769;"ORGANIZATION";"Samsung";"O";"open computer programming laboratory in";"LOCATION";"Warsaw";1.0
+16770;"ORGANIZATION";"Samsung";"O";"pay";"ORGANIZATION";"Apple";1.0
+16771;"PERSON";"Samtron";"O";"become";"ORGANIZATION";"Samsung";1.0
+16772;"ORGANIZATION";"Samsung Hub";"O";"be the of";"LOCATION";"Japan";1.0
+16773;"PERSON";"Samsung Bioepis";"O";"be venture between";"ORGANIZATION";"Samsung Biologics";1.0
+16774;"ORGANIZATION";"Samsung Corning Precision Glass";"O";"be joint venture between";"ORGANIZATION";"Samsung";1.0
+16775;"LOCATION";"Japan";"O";"have";"ORGANIZATION";"Toray Industries";1.0
+16776;"ORGANIZATION";"Toshiba";"O";"be of";"LOCATION";"Japan";1.0
+16777;"ORGANIZATION";"GE Samsung Lighting";"O";"be venture between";"ORGANIZATION";"Samsung";1.0
+16778;"ORGANIZATION";"Global Steel Exchange";"O";"form between";"ORGANIZATION";"Samsung";0.47688117191929424
+16779;"ORGANIZATION";"S-LCD Corporation";"O";"be joint venture between";"ORGANIZATION";"Samsung Electronics";1.0
+16780;"PERSON";"Corning";"O";"be maker of";"ORGANIZATION";"Gorilla Glass";1.0
+16781;"ORGANIZATION";"Samsung Medical Center";"O";"incorporate";"ORGANIZATION";"Samsung Seoul Hospital";1.0
+16782;"ORGANIZATION";"chelsea";"O";"be football club of";"ORGANIZATION";"Premier League";1.0
+16783;"ORGANIZATION";"Samsung Electronics";"O";"spend";"LOCATION";"U.S.";1.0
+16784;"ORGANIZATION";"Samsung";"O";"be principal partner of";"ORGANIZATION";"Sydney Opera House";1.0
+16785;"ORGANIZATION";"Frankfurt Universe";"O";"be of";"ORGANIZATION";"german football League";1.0
+16786;"ORGANIZATION";"Fair Trade Commission";"O";"be of";"LOCATION";"Taiwan";1.0
+16787;"PERSON";"HEG";"O";"sue";"ORGANIZATION";"China Labor Watch";1.0
+16788;"LOCATION";"England";"O";"v";"LOCATION";"Ukraine";1.0
+16789;"PERSON";"Denise Coates";"O";"pay executive in";"LOCATION";"UK";1.0
+16790;"PERSON";"Andreessen Horowitz";"O";"be investor of";"ORGANIZATION";"GitHub";1.0
+16791;"PERSON";"GitHub";"O";"open office in";"LOCATION";"Japan";1.0
+16792;"PERSON";"GitHub";"O";"be block in";"LOCATION";"Russia";1.0
+16793;"PERSON";"GitHub";"O";"be block in";"LOCATION";"India";1.0
+16794;"PERSON";"Chris Wanstrath";"O";"be ceo of";"ORGANIZATION";"GitHub";1.0
+16795;"PERSON";"Oxley";"O";"have name";"PERSON";"Octopuss";1.0
+16796;"PERSON";"GitHub";"O";"want";"PERSON";"Octopuss";1.0
+16797;"PERSON";"GitHub";"O";"rename octopuss to";"PERSON";"Octocat";1.0
+16798;"ORGANIZATION";"Avito";"O";"be in";"LOCATION";"Russia";1.0
+16799;"ORGANIZATION";"Tencent";"O";"file copyright lawsuit against";"PERSON";"Chen Shoufu";1.0
+16800;"ORGANIZATION";"Tencent";"O";"have partner with";"ORGANIZATION";"aol";1.0
+16801;"ORGANIZATION";"Royal Court of Justice";"O";"be in";"LOCATION";"London";1.0
+16802;"ORGANIZATION";"Pyra Labs";"O";"be acquire by";"ORGANIZATION";"Google";1.0
+16803;"PERSON";"Koum";"O";"rely from";"ORGANIZATION";"yahoo!";1.0
+16804;"PERSON";"Alex Fishman";"O";"be in";"LOCATION";"West San Jose";1.0
+16805;"ORGANIZATION";"Apple";"O";"in";"LOCATION";"U.S";1.0
+16806;"PERSON";"Jim Goetz";"O";"be partner of";"ORGANIZATION";"Sequoia";1.0
+16807;"PERSON";"Mark Zuckerberg";"O";"be ceo of";"ORGANIZATION";"Facebook";1.0
+16808;"ORGANIZATION";"National payment Corporation of India";"ORGANIZATION";"of corporation be";"ORGANIZATION";"NPCI";1.0
+16809;"PERSON";"Mark Zuckerberg";"O";"be founder of";"ORGANIZATION";"Facebook";1.0
+16810;"PERSON";"Mark Zuckerberg";"O";"be ceo of";"ORGANIZATION";"Facebook";1.0
+16811;"PERSON";"Quora";"O";"be co-found by";"PERSON";"Adam D'Angelo";1.0
+16812;"PERSON";"Scoble";"O";"criticize";"PERSON";"Quora";1.0
+16813;"LOCATION";"Ukraine";"O";"be in addition to";"LOCATION";"Russia";1.0
+16814;"PERSON";"Vyacheslav Mirilashvili";"O";"son 's";"PERSON";"Mikhael Mirilashvili";1.0
+16815;"PERSON";"Durov";"O";"leave";"LOCATION";"Russia";1.0
+16816;"LOCATION";"Kiev";"O";"be capital of";"LOCATION";"Ukraine";1.0
+16817;"ORGANIZATION";"GoodGame Agency";"O";"be divest by";"LOCATION";"Amazon";1.0
+16818;"LOCATION";"Moscone Center";"O";"be in";"LOCATION";"San Francisco";1.0
+16819;"LOCATION";"California";"O";"be at";"ORGANIZATION";"Long Beach Convention and Entertainment Center";1.0
+16820;"ORGANIZATION";"Wikipedia";"O";"be own by";"ORGANIZATION";"Wikimedia Foundation";1.0
+16821;"LOCATION";"Wales";"O";"found";"ORGANIZATION";"Wikipedia";1.0
+16822;"ORGANIZATION";"Rey Juan Carlos University";"O";"be in";"LOCATION";"Madrid";1.0
+16823;"PERSON";"Katherine Ward";"O";"state";"ORGANIZATION";"Wikipedia";1.0
+16824;"ORGANIZATION";"Congress";"O";"be in";"LOCATION";"United States";1.0
+16825;"PERSON";"Subodh Varma";"O";"report for";"ORGANIZATION";"Economic Times";1.0
+16826;"ORGANIZATION";"Harvard";"O";"at";"ORGANIZATION";"Berkman Center for Internet and Security";1.0
+16827;"PERSON";"Jimmy Wales";"O";"be co-founder of";"ORGANIZATION";"Wikipedia";1.0
+16828;"PERSON";"Seigenthaler";"O";"describe";"ORGANIZATION";"Wikipedia";1.0
+16829;"PERSON";"Jimmy Wales";"O";"be co-founder of";"ORGANIZATION";"Wikipedia";1.0
+16830;"PERSON";"Jimmy Wales";"O";"have describe";"ORGANIZATION";"Wikipedia";1.0
+16831;"PERSON";"Michael Gorman";"O";"be of";"ORGANIZATION";"american Library Association";1.0
+16832;"PERSON";"Amin Azzam";"O";"be at";"ORGANIZATION";"University of San Francisco";1.0
+16833;"ORGANIZATION";"American National biography online";"O";"outperform";"ORGANIZATION";"Wikipedia";1.0
+16834;"PERSON";"Andrew Orlowski";"O";"be critic of";"ORGANIZATION";"Wikipedia";1.0
+16835;"PERSON";"Yaacov Lawrence";"O";"be of";"ORGANIZATION";"Kimmel Cancer Center";1.0
+16836;"PERSON";"Mark Graham";"O";"be of";"ORGANIZATION";"Oxford Internet Institute";1.0
+16837;"PERSON";"Taha Yasseri";"O";"be of";"ORGANIZATION";"University of Oxford";1.0
+16838;"ORGANIZATION";"Wikipedia";"O";"shut down within";"LOCATION";"Germany";1.0
+16839;"ORGANIZATION";"Wikipedia";"O";"be host by";"ORGANIZATION";"Wikimedia Foundation";1.0
+16840;"ORGANIZATION";"Wikimedia Foundation";"O";"name";"PERSON";"Lila Tretikov";1.0
+16841;"PERSON";"Jay Walsh";"O";"be of";"ORGANIZATION";"Wikimedia";1.0
+16842;"ORGANIZATION";"Wikimedia Foundation";"O";"be such as";"ORGANIZATION";"Wikimedia Blog";1.0
+16843;"PERSON";"Tom Simonite";"O";"be of";"ORGANIZATION";"MIT Technology Review";1.0
+16844;"ORGANIZATION";"Wikipedia";"O";"receive quadriga mission along with";"PERSON";"Boris Tadi?";1.0
+16845;"PERSON";"José Lages";"O";"be of";"ORGANIZATION";"University of Franche-Comté";1.0
+16846;"PERSON";"Drew Houston";"O";"be by";"ORGANIZATION";"MIT";1.0
+16847;"PERSON";"Jason Hiner";"O";"be for";"ORGANIZATION";"ZDNet";1.0
+16848;"PERSON";"Edward Snowden";"O";"be whistleblower of";"ORGANIZATION";"NSA";1.0
+16849;"ORGANIZATION";"Apple";"O";"become";"LOCATION";"U.S";1.0
+16850;"PERSON";"Wozniak";"O";"leave";"ORGANIZATION";"Apple";1.0
+16851;"PERSON";"Sculley";"O";"be replace by";"PERSON";"Michael Spindler";1.0
+16852;"PERSON";"Spindler";"O";"be replace by";"PERSON";"Gil Amelio";1.0
+16853;"ORGANIZATION";"Apple";"O";"join";"ORGANIZATION";"Microsoft";1.0
+16854;"ORGANIZATION";"Dell";"O";"have";"PERSON";"Michael Dell";1.0
+16855;"PERSON";"Phil Schiller";"O";"be of";"ORGANIZATION";"Worldwide Product Marketing";1.0
+16856;"ORGANIZATION";"Apple";"O";"have";"PERSON";"Phil Schiller";1.0
+16857;"ORGANIZATION";"Samsung";"O";"pay";"ORGANIZATION";"Apple";1.0
+16858;"ORGANIZATION";"Apple";"O";"recruit";"PERSON";"Paul Deneve";1.0
+16859;"PERSON";"Angela Ahrendts";"O";"be executive of";"ORGANIZATION";"Burberry";1.0
+16860;"PERSON";"Vint Cerf";"O";"be alongside";"ORGANIZATION";"Google";1.0
+16861;"PERSON";"cook";"O";"meet with";"PERSON";"Abdullah Gül";1.0
+16862;"PERSON";"dre";"ORGANIZATION";"beat";"ORGANIZATION";"Electronics";1.0
+16863;"ORGANIZATION";"Apple";"O";"have partner with";"ORGANIZATION";"Nike";1.0
+16864;"ORGANIZATION";"Apple";"O";"overtake";"ORGANIZATION";"Nokia";1.0
+16865;"PERSON";"Jonathan Ive";"O";"be designer of";"ORGANIZATION";"Apple";1.0
+16866;"ORGANIZATION";"llc";"O";"be own subsidiary of";"ORGANIZATION";"Apple Inc";1.0
+16867;"LOCATION";"Apple Park";"O";"be in";"LOCATION";"Cupertino";1.0
+16868;"ORGANIZATION";"Apple Store";"O";"be in";"LOCATION";"Union Square";1.0
+16869;"ORGANIZATION";"Barcelona Cologne Apple";"O";"be in";"LOCATION";"Hong Kong";1.0
+16870;"ORGANIZATION";"Samsung";"O";"even surpass";"ORGANIZATION";"Apple";1.0
+16871;"ORGANIZATION";"ZDNet";"O";"have";"PERSON";"Adrian Kingsley-Hughes";1.0
+16872;"ORGANIZATION";"Apple";"O";"tell";"ORGANIZATION";"CNBC";1.0
+16873;"ORGANIZATION";"Apple";"O";"disagree with";"ORGANIZATION";"BBC";1.0
+16874;"ORGANIZATION";"Apple";"O";"become";"LOCATION";"U.S";1.0
+16875;"ORGANIZATION";"Department of the Treasury";"O";"be of";"LOCATION";"United States of America";1.0
+16876;"ORGANIZATION";"IRS";"O";"be of";"LOCATION";"United States";1.0
+16877;"ORGANIZATION";"Apple";"O";"receive state aid from";"LOCATION";"Ireland";1.0
+16878;"ORGANIZATION";"EU";"O";"order";"ORGANIZATION";"Apple";1.0
+16879;"PERSON";"Haiyan";"O";"be in";"LOCATION";"Philippines";1.0
+16880;"PERSON";"Sina";"O";"own";"PERSON";"Sina Weibo";1.0
+16881;"ORGANIZATION";"Sina Corp";"O";"also own";"PERSON";"Sina Weibo";1.0
+16882;"PERSON";"Sina";"O";"be most popular company in";"LOCATION";"China";1.0
+16883;"PERSON";"Sina Weibo";"O";"be equivalent to";"PERSON";"Tencent Weibo";1.0
+16884;"PERSON";"Milner";"O";"have";"ORGANIZATION";"DST";1.0
+16885;"PERSON";"Mark Zuckerberg";"O";"be founder of";"ORGANIZATION";"Facebook";1.0
+16886;"ORGANIZATION";"Microsoft Online Services";"O";"be host by";"ORGANIZATION";"Microsoft";1.0
+16887;"LOCATION";"California";"O";"be in";"LOCATION";"United States";1.0
+16888;"LOCATION";"Adobe Creek";"O";"be in";"LOCATION";"Los Altos";1.0
+16889;"ORGANIZATION";"Adobe Systems Inc";"O";"add";"ORGANIZATION";"Ares Software Corp";1.0
+16890;"ORGANIZATION";"Altsys";"O";"be buy by";"ORGANIZATION";"Macromedia";1.0
+16891;"ORGANIZATION";"Adobe";"O";"acquire";"ORGANIZATION";"Macromedia";1.0
+16892;"LOCATION";"Northern District";"O";"be of";"LOCATION";"California";1.0
+16893;"ORGANIZATION";"Priceline Group";"O";"be by";"ORGANIZATION";"United";1.0
+16894;"ORGANIZATION";"IHG";"O";"make proposal to";"ORGANIZATION";"OFT";1.0
+16895;"PERSON";"Williams";"O";"later ascribe to";"PERSON";"Noah Glass";1.0
+16896;"ORGANIZATION";"Newsweek";"O";"have";"PERSON";"Steven Levy";1.0
+16897;"ORGANIZATION";"News Corp.";"O";"from";"ORGANIZATION";"Fox Audience Network";1.0
+16898;"PERSON";"Omid Kordestani";"O";"be chief business officer of";"ORGANIZATION";"Google";1.0
+16899;"PERSON";"Nicola Stott";"O";"be astronaut of";"LOCATION";"US";1.0
+16900;"ORGANIZATION";"Twitter";"O";"lead";"ORGANIZATION";"Facebook";1.0
+16901;"ORGANIZATION";"Twitter";"O";"be back by";"ORGANIZATION";"Union Square Ventures";1.0
+16902;"PERSON";"Barack Obama";"O";"be president of";"LOCATION";"US";1.0
+16903;"PERSON";"Dzhokhar Tsarnaev";"O";"be of";"LOCATION";"Boston Marathon";1.0
+16904;"PERSON";"Milo Yiannopoulos";"O";"be of";"ORGANIZATION";"Breitbart News";1.0
+16905;"PERSON";"Dvorak";"O";"describe";"ORGANIZATION";"Twitter";1.0
+16906;"PERSON";"Steve Dotto";"O";"be columnist of";"ORGANIZATION";"Vancouver Sun";1.0
+16907;"PERSON";"Andy Carvin";"O";"give";"PERSON";"Schorr";1.0
+16908;"LOCATION";"United Kingdom";"O";"have";"ORGANIZATION";"GCHQ";1.0
+16909;"PERSON";"Matt groen";"O";"be with";"PERSON";"Simpsons";1.0
+16910;"LOCATION";"Reddit";"O";"roommate";"PERSON";"Steve Huffman";1.0
+16911;"LOCATION";"Reddit";"O";"be base in";"LOCATION";"San Francisco";1.0
+16912;"LOCATION";"Reddit";"O";"be found in";"LOCATION";"Medford";1.0
+16913;"LOCATION";"Massachusetts";"O";"be by";"PERSON";"Steve Huffman";1.0
+16914;"ORGANIZATION";"Infogami";"O";"be company of";"PERSON";"Aaron Swartz";1.0
+16915;"PERSON";"Ohanian";"O";"form";"PERSON";"Hipmunk";1.0
+16916;"LOCATION";"Reddit";"O";"announce";"PERSON";"Redditmade";1.0
+16917;"PERSON";"Pao";"O";"be replace by";"PERSON";"Steve Huffman";1.0
+16918;"LOCATION";"Reddit";"O";"be rewrite in";"LOCATION";"Python";1.0
+16919;"PERSON";"Swartz";"O";"be employee of";"LOCATION";"Reddit";1.0
+16920;"LOCATION";"Reddit";"O";"slowly move to";"PERSON";"Apache Cassandra";1.0
+16921;"LOCATION";"Reddit";"O";"outsource reddit search engine to";"PERSON";"Flaptor";1.0
+16922;"LOCATION";"Reddit";"O";"have";"ORGANIZATION";"director of Communications";1.0
+16923;"PERSON";"Stephen Colbert";"O";"satirical rally in";"LOCATION";"D.C";0.8383718910301193
+16924;"PERSON";"Steve Huffman";"O";"be ceo of";"LOCATION";"Reddit";1.0
+16925;"PERSON";"Andy Krieg";"O";"take over list from";"PERSON";"Hank Driskill";1.0
+16926;"PERSON";"Huong Hoang";"O";"be of";"LOCATION";"Texas";1.0
+16927;"ORGANIZATION";"Court of Appeals";"O";"be for";"ORGANIZATION";"Ninth Circuit";1.0
+16928;"ORGANIZATION";"Alibaba";"O";"have";"ORGANIZATION";"IPO";1.0
+16929;"ORGANIZATION";"Alibaba";"O";"'s share be";"ORGANIZATION";"baba";1.0
+16930;"ORGANIZATION";"Alibaba Group";"O";"raise total from";"ORGANIZATION";"SoftBank";1.0
+16931;"LOCATION";"Taobao";"O";"establish";"LOCATION";"Taobao mall";1.0
+16932;"ORGANIZATION";"Alibaba Group";"O";"establish";"ORGANIZATION";"Alibaba Cloud Computing";1.0
+16933;"ORGANIZATION";"Alibaba Group";"O";"reorganise";"LOCATION";"Taobao";1.0
+16934;"ORGANIZATION";"ipo";"O";"be in";"LOCATION";"United States";1.0
+16935;"ORGANIZATION";"Alibaba Group";"O";"abandon";"LOCATION";"Hong Kong";1.0
+16936;"ORGANIZATION";"Alibaba Group";"O";"go in";"LOCATION";"US";1.0
+16937;"ORGANIZATION";"Evergrande Football Club";"O";"be in";"LOCATION";"Guangzhou";1.0
+16938;"ORGANIZATION";"Alibaba";"O";"have";"LOCATION";"Taobao";1.0
+16939;"ORGANIZATION";"Alibaba";"O";"'s share be";"ORGANIZATION";"baba";1.0
+16940;"ORGANIZATION";"Alibaba Group";"O";"invest in";"LOCATION";"Snapdeal";1.0
+16941;"ORGANIZATION";"Alibaba Group";"O";"be along with";"ORGANIZATION";"Ant Financial";1.0
+16942;"ORGANIZATION";"Alibaba";"O";"buy";"ORGANIZATION";"South China morning post";1.0
+16943;"ORGANIZATION";"Alibaba";"O";"official partner of";"ORGANIZATION";"New York Fashion week";1.0
+16944;"PERSON";"Li Ka-shing";"O";"with";"ORGANIZATION";"CK Hutchison Holdings";1.0
+16945;"LOCATION";"Alibaba.com";"O";"go at";"ORGANIZATION";"Hong Kong Stock Exchange";1.0
+16946;"ORGANIZATION";"Alibaba Group";"O";"spin off";"LOCATION";"Alipay";1.0
+16947;"ORGANIZATION";"Alibaba";"O";"acquire";"ORGANIZATION";"South China morning post";1.0
+16948;"ORGANIZATION";"Ali Venture Capital";"O";"share of";"ORGANIZATION";"China Unicom";1.0
+16949;"PERSON";"Patrick Campbell";"O";"be of";"LOCATION";"Sierra Leone";1.0
+16950;"ORGANIZATION";"Office";"O";"add back";"LOCATION";"Taobao";1.0
+16951;"LOCATION";"Amazon";"O";"be of";"LOCATION";"Japan";1.0
+16952;"ORGANIZATION";"Rakuten";"O";"expand outside";"LOCATION";"Japan";1.0
+16953;"ORGANIZATION";"Rakuten tv";"O";"be in";"LOCATION";"Spain";1.0
+16954;"PERSON";"Rakuten Kobo";"O";"be in";"LOCATION";"Canada";1.0
+16955;"ORGANIZATION";"Rakuten";"O";"establish";"ORGANIZATION";"Rakuten Institute";1.0
+16956;"LOCATION";"Japan";"O";"be with";"ORGANIZATION";"Rakuten Ichiba Taiwan";1.0
+16957;"ORGANIZATION";"Rakuten";"O";"have move in";"LOCATION";"Austria";1.0
+16958;"ORGANIZATION";"Bitnet Technologies";"O";"be in";"LOCATION";"San francisco-based";1.0
+16959;"ORGANIZATION";"Rakuten";"O";"shut down retailing website in";"LOCATION";"UK";1.0
+16960;"ORGANIZATION";"Rakuten";"O";"partner with";"ORGANIZATION";"Blackstorm Labs";1.0
+16961;"ORGANIZATION";"Golden State warrior";"O";"be of";"ORGANIZATION";"NBA";1.0
+16962;"ORGANIZATION";"Rakuten";"O";"acquire e-commerce firm ikeda since";"ORGANIZATION";"Rakuten Brazil";1.0
+16963;"LOCATION";"Russia";"O";"have";"LOCATION";"Amazon";1.0
+16964;"ORGANIZATION";"Ebates Inc";"O";"be rebate site operator of";"LOCATION";"US";1.0
+16965;"ORGANIZATION";"Rakuten";"O";"acquire";"PERSON";"Vissel Kobe";1.0
+16966;"PERSON";"pornhub";"O";"be launch in";"LOCATION";"Montreal";1.0
+16967;"PERSON";"pornhub";"O";"be buy by";"PERSON";"manwin";1.0
+16968;"PERSON";"David Holmes";"O";"be of";"PERSON";"PandoDaily";1.0
+16969;"PERSON";"pornhub";"O";"be block in";"LOCATION";"Russia";1.0
+16970;"PERSON";"Longmore";"O";"tell";"ORGANIZATION";"BBC";1.0
+16971;"ORGANIZATION";"Microsoft";"O";"be found by";"PERSON";"Paul Allen";1.0
+16972;"PERSON";"Steve Ballmer";"O";"replace";"PERSON";"Gates";1.0
+16973;"PERSON";"Gates";"O";"enrol at";"ORGANIZATION";"Harvard";1.0
+16974;"PERSON";"Allen";"O";"pursue degree at";"ORGANIZATION";"Washington State University";1.0
+16975;"ORGANIZATION";"Microsoft";"O";"move to";"LOCATION";"Redmond";0.15377660881103794
+16976;"ORGANIZATION";"Microsoft";"O";"once inform";"ORGANIZATION";"IBM";1.0
+16977;"ORGANIZATION";"Justice Department";"O";"file motion in";"ORGANIZATION";"Federal District Court";1.0
+16978;"ORGANIZATION";"Microsoft";"O";"later settle with";"LOCATION";"U.S";1.0
+16979;"ORGANIZATION";"Microsoft";"O";"be found member of";"ORGANIZATION";"Open Networking Foundation";1.0
+16980;"PERSON";"Steve Ballmer";"O";"be succeed by";"PERSON";"Satya Nadella";1.0
+16981;"ORGANIZATION";"Microsoft";"O";"acquire";"ORGANIZATION";"Services";1.0
+16982;"ORGANIZATION";"Microsoft";"O";"acquire";"PERSON";"Hexadite";1.0
+16983;"ORGANIZATION";"Microsoft";"O";"join";"ORGANIZATION";"Linux Foundation";1.0
+16984;"ORGANIZATION";"Microsoft";"O";"overtake";"ORGANIZATION";"Exxon Mobil";1.0
+16985;"PERSON";"Phil Radford";"O";"be of";"ORGANIZATION";"Greenpeace";1.0
+16986;"LOCATION";"Sydney";"O";"in";"LOCATION";"Pitt Street mall";1.0
+16987;"ORGANIZATION";"TOM Group";"O";"be from";"LOCATION";"Hong kong-based";1.0
+16988;"ORGANIZATION";"Naver";"O";"be also constantly refer as";"ORGANIZATION";"Google";1.0
+16989;"PERSON";"manwin";"O";"acquire redtube.com from";"ORGANIZATION";"Bright Imperial Ltd";1.0

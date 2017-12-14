@@ -56,9 +56,8 @@ public class CoreDemo {
 
             for (String textSentence : textSentences) {
                 System.out.println("Sentence: "+ numSentences++);
-                process_sentences_core(textSentence.split("\\, "));
+                annotation_extractor(textSentence.split("\\, "), databaseConnection);
             }
-
 
         }
 

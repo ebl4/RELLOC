@@ -47,8 +47,8 @@ public class FetchURLData {
     public Set<String> getLinks(String URL, String[] args) throws IOException {
         Set<String> linkSet = new HashSet<String>();
         org.jsoup.nodes.Document document = Jsoup.connect(URL).get();
-        Elements links = document.body().
-                getElementsByClass("wikitable").select("td:eq(0)").select("a[href]");
+        Elements links = document.body().getElementsByTag("ul").select("li").select("a[href]");
+                //getElementsByClass("wikitable").select("td:eq(0)").select("a[href]");
 
         /*
         Extract only name cites links, not geohack information
@@ -58,6 +58,10 @@ public class FetchURLData {
                 linkSet.add(link.attr("abs:href"));
                 //System.out.println("test");
             }
+        }
+
+        for (String link : linkSet){
+            System.out.println(link);
         }
 
          return linkSet;
@@ -80,8 +84,8 @@ public class FetchURLData {
 
         FetchURLData fetchURLData = new FetchURLData();
         //fetchURLData.getData("https://en.wikipedia.org/wiki/New_York_City");
-        fetchURLData.getLinks("https://en.wikipedia.org/wiki/List_of_most_popular_websites",
-                new String[]{"https://tools.wmflabs.org/geohack/geohack", "List_of_most_popular_websites", "index.php?"});
+        fetchURLData.getLinks("https://en.wikipedia.org/wiki/List_of_online_databases",
+                new String[]{"https://tools.wmflabs.org/geohack/geohack", "List_of_online_databases", "index.php?", "Template", "Special", "Category", "Help", "Portal", "Wikipedia:"});
 
 //        String text = fetchURLData.getData("https://en.wikipedia.org/wiki/Academia.edu");
 //        System.out.println(text);

@@ -1,0 +1,223 @@
+"id";"subject_type";"subject_value";"relation_type";"relation_value";"object_type";"object_value";"confidence"
+17605;"PERSON";"Yves Edwards";"O";"be veteran of";"ORGANIZATION";"MMA";1.0
+17606;"PERSON";"Sherdog";"O";"have affiliate with";"ORGANIZATION";"ESPN";1.0
+17607;"PERSON";"Johnson";"O";"have";"PERSON";"Perl";1.0
+17608;"ORGANIZATION";"Video Arcade Preservation Society";"O";"'s statistics be";"ORGANIZATION";"vaps";1.0
+17609;"ORGANIZATION";"American Chemical Society";"O";"lobby";"LOCATION";"U.S";1.0
+17610;"LOCATION";"Metropolitan";"O";"be in";"LOCATION";"New York City";1.0
+17611;"ORGANIZATION";"Open Security Foundation";"O";"be conceive by";"PERSON";"Chris Sullo";1.0
+17612;"ORGANIZATION";"FIZ Karlsruhe";"O";"be in";"LOCATION";"Europe";1.0
+17613;"ORGANIZATION";"National Institute of Standards and Technology";"ORGANIZATION";"of institute be";"ORGANIZATION";"NIST";1.0
+17614;"ORGANIZATION";"NewsKnowledge";"O";"be base in";"LOCATION";"Zürich";1.0
+17615;"ORGANIZATION";"Turner Broadcasting System";"O";"on";"ORGANIZATION";"TNT";1.0
+17616;"ORGANIZATION";"MGM/UA";"O";"sign deal with";"ORGANIZATION";"turner";1.0
+17617;"ORGANIZATION";"Turner Broadcasting System";"O";"merge with";"ORGANIZATION";"Time Warner";1.0
+17618;"ORGANIZATION";"MGM";"O";"pay";"ORGANIZATION";"Warner Bros";1.0
+17619;"PERSON";"Camille";"O";"be film of";"PERSON";"Rudolph Valentino";1.0
+17620;"PERSON";"Ajit Pai";"O";"be chairman of";"ORGANIZATION";"FCC";1.0
+17621;"ORGANIZATION";"wgbh-tv";"O";"be member station of";"ORGANIZATION";"Boston PBS";1.0
+17622;"ORGANIZATION";"Paramount";"O";"currently own by";"ORGANIZATION";"Viacom";1.0
+17623;"ORGANIZATION";"Sony";"O";"be through";"ORGANIZATION";"Sony Pictures Television";1.0
+17624;"PERSON";"Smith";"O";"go to";"LOCATION";"Washington";1.0
+17625;"ORGANIZATION";"Turner Classic movie";"O";"be through";"ORGANIZATION";"Warner Home Video";1.0
+17626;"ORGANIZATION";"TCM";"O";"be carry on";"ORGANIZATION";"Shaw Cable";1.0
+17627;"ORGANIZATION";"Rogers Cable";"O";"offer";"ORGANIZATION";"TCM";1.0
+17628;"ORGANIZATION";"D&B Hoovers";"O";"be found by";"PERSON";"Gary Hoover";1.0
+17629;"PERSON";"Hoover";"O";"be start by";"PERSON";"Gary Hoover";1.0
+17630;"ORGANIZATION";"Storage Area Network";"O";"be in";"LOCATION";"Cologne";1.0
+17631;"ORGANIZATION";"Institute for Humanities Computing";"O";"be at";"ORGANIZATION";"University of Cologne";1.0
+17632;"LOCATION";"Berlin";"O";"be zu of";"PERSON";"antikensammlung der Staatlichen Museen";1.0
+17633;"LOCATION";"Bibliotheca Alexandrina";"O";"be in";"LOCATION";"Egypt";1.0
+17634;"LOCATION";"San Francisco";"O";"in";"LOCATION";"Richmond District";1.0
+17635;"ORGANIZATION";"American University";"O";"be in";"LOCATION";"Cairo";1.0
+17636;"ORGANIZATION";"University of Illinois";"O";"be at";"ORGANIZATION";"Urbana-Champaign";1.0
+17637;"PERSON";"John Perry Barlow";"O";"identify";"PERSON";"Bob Weir";1.0
+17638;"ORGANIZATION";"Congress";"O";"be in";"LOCATION";"United States";1.0
+17639;"PERSON";"Pavel Rychlý";"O";"be from";"ORGANIZATION";"natural language Processing Laboratory";1.0
+17640;"ORGANIZATION";"Masaryk University";"O";"be in";"LOCATION";"Brno";1.0
+17641;"ORGANIZATION";"National Library of Medicine";"ORGANIZATION";"of library be";"ORGANIZATION";"NLM";1.0
+17642;"PERSON";"Cheney";"O";"be in";"LOCATION";"Kansas City";1.0
+17643;"PERSON";"Andrade";"O";"be to";"LOCATION";"Zúñíga";1.0
+17644;"ORGANIZATION";"true West Magazine";"O";"be such as";"LOCATION";"shooting usa";1.0
+17645;"PERSON";"Archie Bahm";"O";"be at";"ORGANIZATION";"University of New Mexico";1.0
+17646;"ORGANIZATION";"State University of New York";"O";"be at";"LOCATION";"Buffalo";1.0
+17647;"PERSON";"Jim Tipton";"O";"be by";"LOCATION";"Salt Lake City";1.0
+17648;"LOCATION";"SeatGuru.com";"O";"be incorporate in";"LOCATION";"Seattle";1.0
+17649;"ORGANIZATION";"Mandel School of Applied Social Sciences";"O";"be in";"LOCATION";"Cleveland";1.0
+17650;"ORGANIZATION";"Mandel School of Applied Social Sciences";"O";"be at";"ORGANIZATION";"Case Western Reserve University";1.0
+17651;"PERSON";"Henry IV";"O";"again move to";"LOCATION";"Collège de Clermont";0.15377660881103794
+17652;"PERSON";"Abbé Louvois";"O";"be succeed by";"PERSON";"Abbé Bignon";1.0
+17653;"ORGANIZATION";"ProQuest LLC";"O";"be";"LOCATION";"Ann Arbor";1.0
+17654;"ORGANIZATION";"ProQuest";"O";"be part of";"ORGANIZATION";"Cambridge Information Group";1.0
+17655;"ORGANIZATION";"University Microfilms";"O";"be to";"ORGANIZATION";"Xerox University Microfilms";1.0
+17656;"ORGANIZATION";"University Publications of America";"ORGANIZATION";"of publications be";"ORGANIZATION";"UPA";1.0
+17657;"ORGANIZATION";"ProQuest";"O";"acquire";"LOCATION";"Ebrary";1.0
+17658;"ORGANIZATION";"ProQuest";"O";"acquire";"ORGANIZATION";"Ebook Library";1.0
+17659;"ORGANIZATION";"ProQuest";"O";"acquire";"ORGANIZATION";"Alexander Street Press";1.0
+17660;"PERSON";"Andy Krieg";"O";"take over list from";"PERSON";"Hank Driskill";1.0
+17661;"PERSON";"Huong Hoang";"O";"be of";"LOCATION";"Texas";1.0
+17662;"ORGANIZATION";"Court of Appeals";"O";"be for";"ORGANIZATION";"Ninth Circuit";1.0
+17663;"ORGANIZATION";"GMD";"O";"be host at";"ORGANIZATION";"Max Planck Institute of molecular plant Physiology";1.0
+17664;"ORGANIZATION";"CBG";"O";"be found by";"PERSON";"Alan Light";1.0
+17665;"PERSON";"cat yronwode";"O";"succeed";"PERSON";"Bishoff";1.0
+17666;"PERSON";"Krause";"O";"bring on";"PERSON";"John Jackson Miller";1.0
+17667;"ORGANIZATION";"CBG";"O";"host column in addition to";"PERSON";"Don";1.0
+17668;"ORGANIZATION";"cbg";"O";"reprint installment by";"PERSON";"Will Eisner";1.0
+17669;"PERSON";"Infobase";"O";"buy";"ORGANIZATION";"film";1.0
+17670;"ORGANIZATION";"european Commission";"O";"of";"ORGANIZATION";"Seventh Framework Programme";1.0
+17671;"ORGANIZATION";"european molecular Biology Laboratory";"O";"be in";"LOCATION";"Heidelberg";1.0
+17672;"ORGANIZATION";"Google";"O";"acquire usenet discussion group archive from";"ORGANIZATION";"Deja.com";1.0
+17673;"ORGANIZATION";"Index Medicus";"O";"be of";"ORGANIZATION";"National Library of Medicine";1.0
+17674;"ORGANIZATION";"Wikipedia";"O";"be own by";"ORGANIZATION";"Wikimedia Foundation";1.0
+17675;"LOCATION";"Wales";"O";"found";"ORGANIZATION";"Wikipedia";1.0
+17676;"ORGANIZATION";"Rey Juan Carlos University";"O";"be in";"LOCATION";"Madrid";1.0
+17677;"PERSON";"Katherine Ward";"O";"state";"ORGANIZATION";"Wikipedia";1.0
+17678;"ORGANIZATION";"Congress";"O";"be in";"LOCATION";"United States";1.0
+17679;"PERSON";"Subodh Varma";"O";"report for";"ORGANIZATION";"Economic Times";1.0
+17680;"ORGANIZATION";"Harvard";"O";"at";"ORGANIZATION";"Berkman Center for Internet and Security";1.0
+17681;"PERSON";"Jimmy Wales";"O";"be co-founder of";"ORGANIZATION";"Wikipedia";1.0
+17682;"PERSON";"Seigenthaler";"O";"describe";"ORGANIZATION";"Wikipedia";1.0
+17683;"PERSON";"Jimmy Wales";"O";"be co-founder of";"ORGANIZATION";"Wikipedia";1.0
+17684;"PERSON";"Jimmy Wales";"O";"have describe";"ORGANIZATION";"Wikipedia";1.0
+17685;"PERSON";"Michael Gorman";"O";"be of";"ORGANIZATION";"american Library Association";1.0
+17686;"PERSON";"Amin Azzam";"O";"be at";"ORGANIZATION";"University of San Francisco";1.0
+17687;"ORGANIZATION";"American National biography online";"O";"outperform";"ORGANIZATION";"Wikipedia";1.0
+17688;"PERSON";"Andrew Orlowski";"O";"be critic of";"ORGANIZATION";"Wikipedia";1.0
+17689;"PERSON";"Yaacov Lawrence";"O";"be of";"ORGANIZATION";"Kimmel Cancer Center";1.0
+17690;"PERSON";"Mark Graham";"O";"be of";"ORGANIZATION";"Oxford Internet Institute";1.0
+17691;"PERSON";"Taha Yasseri";"O";"be of";"ORGANIZATION";"University of Oxford";1.0
+17692;"ORGANIZATION";"Wikipedia";"O";"shut down within";"LOCATION";"Germany";1.0
+17693;"ORGANIZATION";"Wikipedia";"O";"be host by";"ORGANIZATION";"Wikimedia Foundation";1.0
+17694;"ORGANIZATION";"Wikimedia Foundation";"O";"name";"PERSON";"Lila Tretikov";1.0
+17695;"PERSON";"Jay Walsh";"O";"be of";"ORGANIZATION";"Wikimedia";1.0
+17696;"ORGANIZATION";"Wikimedia Foundation";"O";"be such as";"ORGANIZATION";"Wikimedia Blog";1.0
+17697;"PERSON";"Tom Simonite";"O";"be of";"ORGANIZATION";"MIT Technology Review";1.0
+17698;"ORGANIZATION";"Wikipedia";"O";"receive quadriga mission along with";"PERSON";"Boris Tadi?";1.0
+17699;"PERSON";"José Lages";"O";"be of";"ORGANIZATION";"University of Franche-Comté";1.0
+17700;"ORGANIZATION";"rcdb";"O";"be start by";"PERSON";"Duane Marden";1.0
+17701;"ORGANIZATION";"rcdb";"O";"be start by";"PERSON";"Duane Marden";1.0
+17702;"PERSON";"Mark Smith";"O";"be of";"ORGANIZATION";"Broadway League";1.0
+17703;"ORGANIZATION";"Elsevier Information Systems";"O";"be in";"LOCATION";"Frankfurt";1.0
+17704;"ORGANIZATION";"cushing Library Science fiction and Fantasy Research Collection and Institute for Scientific Computation";"O";"be at";"ORGANIZATION";"Texas A&M University";1.0
+17705;"PERSON";"Ron Burkle";"O";"by";"ORGANIZATION";"Yucaipa Equity Fund";1.0
+17706;"PERSON";"Sloane";"O";"be involve in";"ORGANIZATION";"oeis";1.0
+17707;"PERSON";"Charles Greathouse";"O";"be editor-in-chief of";"ORGANIZATION";"OEIS";1.0
+17708;"ORGANIZATION";"University of";"ORGANIZATION";"be of";"LOCATION";"Michigan";1.0
+17709;"ORGANIZATION";"Expedia";"O";"be of";"ORGANIZATION";"Microsoft";1.0
+17710;"PERSON";"Spencer Rascoff";"O";"be current ceo of";"ORGANIZATION";"Zillow";1.0
+17711;"ORGANIZATION";"Zillow";"O";"team with";"ORGANIZATION";"Microsoft";1.0
+17712;"ORGANIZATION";"Zillow";"O";"power";"ORGANIZATION";"AOL Real Estate";1.0
+17713;"PERSON";"ZabaSearch";"O";"be found by";"PERSON";"Nick Matzorkis";1.0
+17714;"PERSON";"Zabasearch";"O";"be sell to";"LOCATION";"Intelius";1.0
+17715;"ORGANIZATION";"Macrovision";"O";"acquire";"ORGANIZATION";"AMG";1.0
+17716;"PERSON";"Leitch";"O";"be of";"LOCATION";"Royal Botanic Gardens";1.0
+17717;"PERSON";"Ryan Gregory";"O";"be of";"ORGANIZATION";"University of Guelph";1.0
+17718;"ORGANIZATION";"National Center for Biotechnology Information";"ORGANIZATION";"for center be";"ORGANIZATION";"NCBI";1.0
+17719;"PERSON";"BoardGameGeek";"O";"be found by";"PERSON";"Scott Alden";1.0
+17720;"LOCATION";"Michigan";"O";"be by";"PERSON";"Michael Erlewine";1.0
+17721;"PERSON";"Rovi";"O";"sell consumer access to";"ORGANIZATION";"Media Network";1.0
+17722;"ORGANIZATION";"OpenLink Software";"O";"be with";"PERSON";"Kingsley Uyi Idehen";1.0
+17723;"PERSON";"Orri Erling";"O";"manager at";"ORGANIZATION";"OpenLink Software";1.0
+17724;"ORGANIZATION";"DuPont";"O";"be from";"LOCATION";"USA";1.0
+17725;"PERSON";"Andrews";"O";"be succeed by";"PERSON";"Clare Hart";1.0
+17726;"ORGANIZATION";"Taxonomy Warehouse";"O";"be own by";"ORGANIZATION";"Dow Jones";1.0
+17727;"PERSON";"Rupert Murdoch";"O";"to";"ORGANIZATION";"News Corp.";1.0
+17728;"ORGANIZATION";"Google";"O";"be found by";"PERSON";"Larry Page";1.0
+17729;"PERSON";"Sundar Pichai";"O";"ceo of";"ORGANIZATION";"Google";1.0
+17730;"LOCATION";"Menlo Park";"O";"in friend be";"PERSON";"Susan Wojcicki";1.0
+17731;"PERSON";"Jeff Bezos";"O";"be founder of";"ORGANIZATION";"Amazon.com";1.0
+17732;"PERSON";"David Cheriton";"O";"be computer science professor of";"ORGANIZATION";"Stanford University";1.0
+17733;"PERSON";"Eric Schmidt";"O";"work together at";"ORGANIZATION";"Google";1.0
+17734;"ORGANIZATION";"Google";"O";"have";"ORGANIZATION";"IPO";1.0
+17735;"LOCATION";"Amphitheatre Parkway";"O";"be in";"LOCATION";"Mountain View";1.0
+17736;"ORGANIZATION";"Google";"O";"buy property from";"ORGANIZATION";"SGI";1.0
+17737;"PERSON";"Rachel Potvin";"O";"be engineering manager of";"ORGANIZATION";"Google";1.0
+17738;"ORGANIZATION";"Google";"O";"acquire";"ORGANIZATION";"Deja News";1.0
+17739;"ORGANIZATION";"Google";"O";"acquire";"ORGANIZATION";"Urchin Software";1.0
+17740;"ORGANIZATION";"Google";"O";"partner with";"ORGANIZATION";"NASA Ames Research Center";1.0
+17741;"ORGANIZATION";"NORAD";"ORGANIZATION";"track";"ORGANIZATION";"Santa";1.0
+17742;"ORGANIZATION";"Federal Energy Regulatory Commission FERC";"O";"grant";"ORGANIZATION";"Google";1.0
+17743;"ORGANIZATION";"Google";"O";"sell manufacturing operation to";"ORGANIZATION";"Flextronics";1.0
+17744;"ORGANIZATION";"Google";"O";"sell motorola home business division to";"ORGANIZATION";"Arris Group";1.0
+17745;"ORGANIZATION";"Google";"O";"acquire";"PERSON";"Waze";1.0
+17746;"PERSON";"Sundar Pichai";"O";"ceo of";"ORGANIZATION";"Google";1.0
+17747;"ORGANIZATION";"Paris Civil Court";"O";"rule against";"ORGANIZATION";"Google";1.0
+17748;"ORGANIZATION";"Custom";"ORGANIZATION";"search";"ORGANIZATION";"Business Edition";1.0
+17749;"PERSON";"Jack Marshall";"O";"be of";"ORGANIZATION";"Wall Street Journal";1.0
+17750;"ORGANIZATION";"Agence France Presse";"O";"sue";"ORGANIZATION";"Google";1.0
+17751;"ORGANIZATION";"Google";"O";"announce";"PERSON";"Google Wallet";1.0
+17752;"ORGANIZATION";"Google";"O";"launch";"ORGANIZATION";"Google Shopping Express";1.0
+17753;"ORGANIZATION";"Google";"O";"move in";"LOCATION";"New York City";1.0
+17754;"LOCATION";"Eighth Avenue";"O";"be in";"LOCATION";"Manhattan";1.0
+17755;"PERSON";"Sergey";"O";"ask";"PERSON";"Dennis Hwang";1.0
+17756;"ORGANIZATION";"Google";"O";"form";"ORGANIZATION";"google.org";1.0
+17757;"ORGANIZATION";"Google";"O";"hire";"PERSON";"Larry Brilliant";1.0
+17758;"ORGANIZATION";"Google";"O";"pay in";"LOCATION";"United Kingdom";1.0
+17759;"PERSON";"Matt Brittin";"O";"be vice president of";"ORGANIZATION";"Google";1.0
+17760;"PERSON";"Jim Inhofe";"O";"be senator of";"LOCATION";"Oklahoma";1.0
+17761;"PERSON";"Sundar Pichai";"O";"be ceo of";"ORGANIZATION";"Google";1.0
+17762;"PERSON";"David Brooks";"O";"be columnist of";"ORGANIZATION";"New York Times";1.0
+17763;"ORGANIZATION";"Google";"O";"have";"LOCATION";"New America";1.0
+17764;"PERSON";"David Elliot";"O";"argue before";"ORGANIZATION";"Ninth Circuit";1.0
+17765;"PERSON";"Mahmoud Ahmadinejad";"O";"be president of";"LOCATION";"Iran";1.0
+17766;"ORGANIZATION";"Chris Woodrich Wikipedia";"O";"be host by";"ORGANIZATION";"Wikimedia Foundation";1.0
+17767;"PERSON";"Simpson";"O";"be by";"PERSON";"Chris Turner";1.0
+17768;"ORGANIZATION";"better updated unofficial Simpsons Guide";"O";"be by";"PERSON";"Warren Martyn";1.0
+17769;"PERSON";"Jonathan Sarfati";"O";"be master of";"ORGANIZATION";"FIDE";1.0
+17770;"PERSON";"Maxim Dlugy";"O";"be president grandmaster of";"ORGANIZATION";"USCF";1.0
+17771;"ORGANIZATION";"british Library";"O";"of";"PERSON";"Lotte Hellinga";1.0
+17772;"ORGANIZATION";"LexisNexis";"O";"be product of";"ORGANIZATION";"Mead Data Central company";1.0
+17773;"ORGANIZATION";"MDC";"O";"acquire";"ORGANIZATION";"Michie Company";1.0
+17774;"PERSON";"Mead";"O";"sell lexisnexis system to";"ORGANIZATION";"Reed Elsevier";1.0
+17775;"ORGANIZATION";"Supreme Court";"O";"agree with";"PERSON";"mead";1.0
+17776;"PERSON";"Michael Brauser";"O";"be of";"LOCATION";"Boca Raton";1.0
+17777;"ORGANIZATION";"Seisint";"O";"house";"ORGANIZATION";"Multistate Anti-Terrorism Information Exchange";1.0
+17778;"ORGANIZATION";"LexisNexis UK";"O";"be found by";"PERSON";"Henry Butterworth";1.0
+17779;"ORGANIZATION";"IAC";"O";"be acquire by";"ORGANIZATION";"Gale Group";1.0
+17780;"PERSON";"Metacritic";"O";"be create by";"PERSON";"Jason Dietz";1.0
+17781;"PERSON";"Nick Wingfield";"O";"be of";"ORGANIZATION";"Wall Street Journal";1.0
+17782;"PERSON";"Jason Hall";"O";"be of";"ORGANIZATION";"Warner Bros";1.0
+17783;"ORGANIZATION";"Cooperación Internacional";"O";"be include";"ORGANIZATION";"Centro de Relaciones Internacionales";1.0
+17784;"ORGANIZATION";"cidob";"O";"be know as";"PERSON";"CIDOB Tercer Mundo";1.0
+17785;"PERSON";"Josep Ribera";"O";"head";"ORGANIZATION";"cidob";1.0
+17786;"ORGANIZATION";"Institute of European integration study";"O";"be in";"LOCATION";"Mexico";1.0
+17787;"ORGANIZATION";"daughter of charity";"O";"be of";"PERSON";"Vincent de Paul";1.0
+17788;"ORGANIZATION";"central european University";"O";"be of";"LOCATION";"Budapest";1.0
+17789;"ORGANIZATION";"International Institute of Social study";"O";"be of";"LOCATION";"Rotterdam";1.0
+17790;"ORGANIZATION";"european Network of Information and Documentation";"O";"be on";"LOCATION";"Latin America";1.0
+17791;"ORGANIZATION";"Economic Commission";"O";"be for";"LOCATION";"Latin America";1.0
+17792;"ORGANIZATION";"Framework Programme for Research and Technological Development";"O";"be of";"ORGANIZATION";"European Union";1.0
+17793;"ORGANIZATION";"National Center for Biotechnology Information";"ORGANIZATION";"for center be";"ORGANIZATION";"NCBI";1.0
+17794;"ORGANIZATION";"NCBI";"O";"be part of";"ORGANIZATION";"National Library of Medicine";1.0
+17795;"ORGANIZATION";"NCBI";"O";"provide";"ORGANIZATION";"Entrez Programming Utilities";1.0
+17796;"ORGANIZATION";"Index Medicus";"O";"be of";"ORGANIZATION";"National Library of Medicine";1.0
+17797;"LOCATION";"Michigan";"O";"be by";"PERSON";"Michael Erlewine";1.0
+17798;"PERSON";"Rovi";"O";"sell consumer access to";"ORGANIZATION";"Media Network";1.0
+17799;"ORGANIZATION";"Shoichet Laboratory";"O";"be in";"ORGANIZATION";"Department of Pharmaceutical Chemistry";1.0
+17800;"ORGANIZATION";"Emory Elliott -lrb- University of California";"O";"be at";"LOCATION";"Riverside";1.0
+17801;"LOCATION";"South West";"O";"be of";"LOCATION";"England";1.0
+17802;"ORGANIZATION";"Intellectual Property and Science";"O";"be of";"ORGANIZATION";"Thomson Reuters";1.0
+17803;"PERSON";"pauly";"O";"recruit";"PERSON";"Rainer Froese";1.0
+17804;"ORGANIZATION";"Leibniz Institute of Marine Sciences";"O";"be in";"PERSON";"Kiel";1.0
+17805;"ORGANIZATION";"Index Medicus";"O";"be of";"ORGANIZATION";"National Library of Medicine";1.0
+17806;"ORGANIZATION";"ANC";"O";"be available from";"ORGANIZATION";"Linguistic Data Consortium";1.0
+17807;"ORGANIZATION";"PDC";"O";"partner with";"ORGANIZATION";"PhilPapers Foundation";1.0
+17808;"PERSON";"John English";"O";"have replace";"PERSON";"Cook";1.0
+17809;"PERSON";"Macdonald";"O";"be to";"PERSON";"Trudeau";1.0
+17810;"PERSON";"Sharecare";"O";"be found by";"PERSON";"Jeff Arnold";1.0
+17811;"ORGANIZATION";"Taiwan Electronic Periodical Services";"O";"be project by";"PERSON";"Airiti";1.0
+17812;"LOCATION";"Britain";"O";"have";"ORGANIZATION";"science and Engineering Research Council";1.0
+17813;"LOCATION";"Germany";"O";"have";"ORGANIZATION";"Research Foundation";1.0
+17814;"PERSON";"Jake";"O";"be use by";"ORGANIZATION";"Simon Fraser University";1.0
+17815;"ORGANIZATION";"fmd";"O";"be start by";"PERSON";"Stuart Howard";1.0
+17816;"ORGANIZATION";"Chemical Abstracts Service";"O";"be division of";"ORGANIZATION";"American Chemical Society";1.0
+17817;"ORGANIZATION";"CAS";"O";"be located in";"LOCATION";"Columbus";1.0
+17818;"PERSON";"Crane";"O";"director of";"ORGANIZATION";"Chemical Abstracts Service";1.0
+17819;"ORGANIZATION";"Office of Solid Waste and Emergency response";"ORGANIZATION";"be for";"ORGANIZATION";"center for program analysis";1.0
+17820;"PERSON";"Lee Giles";"O";"be at";"ORGANIZATION";"College of Information Sciences and Technology";1.0
+17821;"PERSON";"per Starbäck";"O";"be from";"LOCATION";"Sweden";1.0
+17822;"PERSON";"Harry Fluks";"O";"be from";"LOCATION";"Netherlands";1.0
+17823;"LOCATION";"Lucca";"O";"be with";"PERSON";"Don Rosa";1.0
+17824;"PERSON";"Mark Goldston";"O";"be ceo of";"ORGANIZATION";"United Online";1.0
+17825;"ORGANIZATION";"Center for Bibliographical Studies and Research";"O";"be at";"ORGANIZATION";"University of California";1.0
+17826;"ORGANIZATION";"University of Guelph";"O";"be in";"LOCATION";"Canada";1.0

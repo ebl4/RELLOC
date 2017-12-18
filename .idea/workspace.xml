@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cf2f6e2-3f40-4786-be5e-ca8705bae4ae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/CoreDemo.java" afterPath="$PROJECT_DIR$/core/src/main/java/CoreDemo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/core/target/" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="CoreDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/CoreDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1710">
-              <caret line="147" column="44" lean-forward="false" selection-start-line="147" selection-start-column="44" selection-end-line="147" selection-end-column="44" />
+            <state relative-caret-position="195">
+              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
               <folding>
                 <element signature="method#relation_mention_extractor#0;class#CoreDemo#0" expanded="false" />
                 <element signature="method#extractor#0;class#CoreDemo#0" expanded="false" />
@@ -293,7 +292,7 @@
       <workItem from="1512060978671" duration="8317000" />
       <workItem from="1513188898903" duration="249000" />
       <workItem from="1513205859364" duration="3108000" />
-      <workItem from="1513209172226" duration="2804000" />
+      <workItem from="1513209172226" duration="3305000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing URLs linkSet">
       <created>1504725763130</created>
@@ -306,7 +305,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29435000" />
+    <option name="totallyTimeSpent" value="29936000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -522,8 +521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/CoreDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="147" column="44" lean-forward="false" selection-start-line="147" selection-start-column="44" selection-end-line="147" selection-end-column="44" />
+        <state relative-caret-position="195">
+          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
           <folding>
             <element signature="method#relation_mention_extractor#0;class#CoreDemo#0" expanded="false" />
             <element signature="method#extractor#0;class#CoreDemo#0" expanded="false" />

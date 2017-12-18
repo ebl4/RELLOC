@@ -37,8 +37,8 @@ public class CoreDemo {
 
         //267 links from canada cities
         // ?? links from video hosts
-        Set<String> linkSet = fetchURLData.getLinks("https://en.wikipedia.org/wiki/List_of_most_popular_websites",
-                new String[]{"https://tools.wmflabs.org/geohack/geohack", "List_of_video_game_websites", "index.php?"});
+        Set<String> linkSet = fetchURLData.getLinks("https://en.wikipedia.org/wiki/List_of_blogs",
+                new String[]{"https://tools.wmflabs.org/geohack/geohack", "List_of_blogs", "index.php?"});
 
 //        text = fetchURLData.getData("https://en.wikipedia.org/wiki/New_York_City");
 //        text = fetchURLData.getData("https://en.wikipedia.org/wiki/Jersey_City,_New_Jersey");

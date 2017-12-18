@@ -1,0 +1,230 @@
+id,subject_type,subject_value,relation_type,relation_value,object_type,object_value,confidence
+16372,PERSON,"Nicola Stott",O,"be astronaut of",LOCATION,US,1
+16374,ORGANIZATION,Twitter,O,"be back by",LOCATION,"Union Square Ventures",1
+16375,PERSON,"Barack Obama",O,"be president of",LOCATION,US,1
+16376,PERSON,"Dzhokhar Tsarnaev",O,"be of",LOCATION,"Boston Marathon",1
+16381,LOCATION,"United Kingdom",O,have,ORGANIZATION,GCHQ,1
+16383,ORGANIZATION,Walmart,O,"be in",LOCATION,"United States",1
+16384,LOCATION,Centroamérica,O,"be as",ORGANIZATION,"Walmart de México",1
+16385,ORGANIZATION,Asda,O,"be in",LOCATION,"United Kingdom",1
+16386,ORGANIZATION,"Seiyu Group",O,"be in",LOCATION,Japan,1
+16387,ORGANIZATION,Walmart,O,"be profitable retailer in",LOCATION,U.S.,1
+16388,LOCATION,"Walnut Street",O,"be in",ORGANIZATION,Rogers,1
+16390,ORGANIZATION,"Walmart Supercenter",O,"open in",LOCATION,Washington,1
+16392,ORGANIZATION,Walmart,O,have,LOCATION,U.S,1
+16393,LOCATION,"Crossgates Commons",O,"be in",LOCATION,Albany,1
+16394,LOCATION,"Midtown Center",O,"be in",LOCATION,Bentonville,1
+16397,ORGANIZATION,Walmart,O,"be in",LOCATION,Mexico,1
+16398,ORGANIZATION,Walmart,O,"have operate in",LOCATION,Canada,1
+16399,LOCATION,Mexico,O,"be of",ORGANIZATION,Walmart,1
+16401,LOCATION,"United States",O,"located in",LOCATION,California,0.5042369960287225
+16403,LOCATION,"Great Value",O,"be in",LOCATION,U.S,1
+16404,ORGANIZATION,Walmart,O,acquire,LOCATION,Moosejaw,1
+16405,ORGANIZATION,Walmart,O,have,LOCATION,U.S,1
+16406,ORGANIZATION,Walmart,O,"do in",LOCATION,UK,1
+16409,ORGANIZATION,Walmart,O,"be largest employer in",LOCATION,"United States",1
+16412,LOCATION,Zhejiang,O,"be by",ORGANIZATION,"Alibaba Group",1
+16414,ORGANIZATION,"Alibaba Group",O,"open store in",LOCATION,Beijing,1
+16415,ORGANIZATION,Alibaba,O,"launch weibo for",LOCATION,Taobao,1
+16416,PERSON,Ma,O,introduce,LOCATION,Taobao,1
+16419,ORGANIZATION,Costco,O,"be from",LOCATION,USA,1
+16424,ORGANIZATION,Noble,O,sue,LOCATION,Amazon,1
+16425,ORGANIZATION,Walmart,O,sue,LOCATION,Amazon,1
+16426,ORGANIZATION,"Marks & Spencer",O,"be merchant of",LOCATION,UK,1
+16427,ORGANIZATION,audible,O,"subsidiary of",LOCATION,Amazon,1
+16428,ORGANIZATION,"Beijing Century Joyo Courier Services",O,"be subsidiary of",LOCATION,Amazon,1
+16429,PERSON,"Michael Snodgrass",O,"be in",LOCATION,"Grand Haven",1
+16430,LOCATION,"University Village",O,"be in",LOCATION,Seattle,1
+16434,ORGANIZATION,Amazon,O,"have visit in",LOCATION,Washington,1
+16435,PERSON,"Hiroyuki Nishimura",O,"together serve at",LOCATION,Niwango,1
+16438,LOCATION,"Menlo Park",O,"in friend be",PERSON,"Susan Wojcicki",1
+16443,LOCATION,"Amphitheatre Parkway",O,"be in",LOCATION,"Mountain View",1
+16461,ORGANIZATION,Google,O,"move in",LOCATION,"New York City",1
+16462,LOCATION,"Eighth Avenue",O,"be in",LOCATION,Manhattan,1
+16467,ORGANIZATION,Google,O,"pay in",LOCATION,"United Kingdom",1
+16469,PERSON,"Jim Inhofe",O,"be senator of",LOCATION,Oklahoma,1
+16472,ORGANIZATION,Google,O,have,LOCATION,"New America",1
+16474,ORGANIZATION,Tencent,O,"invest in",LOCATION,Sogou,1
+16483,LOCATION,Shanghai,O,with,PERSON,"Jiefang Daily",1
+16485,LOCATION,Beijing,O,in,LOCATION,"Haidian District",1
+16486,LOCATION,Baidu,O,"be establish by",PERSON,"Robin Li",1
+16489,LOCATION,Baidu,O,"partner with",ORGANIZATION,Continental,1
+16491,LOCATION,NetEase,O,have,PERSON,Youdao,1
+16492,ORGANIZATION,Alibaba,O,have,LOCATION,Taobao,1
+16493,ORGANIZATION,Google,O,"have move to",LOCATION,"Hong Kong",0.13527078413555235
+16495,LOCATION,Baidu,O,"use tactic in",LOCATION,Brazil,1
+16498,ORGANIZATION,"Federal Trade Commission",O,"be in",LOCATION,U.S,1
+16504,PERSON,"Jawed Karim",O,"be at",LOCATION,"San Diego Zoo",1
+16508,PERSON,"Barack Obama",O,"be president of",LOCATION,US,1
+16510,LOCATION,"Los Angeles",O,"be at",ORGANIZATION,"YouTube Space",1
+16513,ORGANIZATION,"House of Commons",O,"be of",LOCATION,"United Kingdom",1
+16515,LOCATION,"Silicon Island",O,"be blog of",ORGANIZATION,Newsday,1
+16516,LOCATION,Iran,O,block,ORGANIZATION,YouTube,1
+16518,LOCATION,Scotland,O,"write by",ORGANIZATION,"BBC Nations",1
+16519,ORGANIZATION,"House of Lords",O,"be in",LOCATION,Westminster,1
+16520,ORGANIZATION,"National Assembly",O,"be for",LOCATION,Wales,1
+16523,LOCATION,"Japan Dome",O,"be yahoo! of",LOCATION,Fukuoka,1
+16530,ORGANIZATION,LinkedIn,O,"be block in",LOCATION,Russia,1
+16535,ORGANIZATION,BMG,O,"will oversee rights outside of",LOCATION,"United States",1
+16540,PERSON,Alice,O,"be in",LOCATION,Wonderland,1
+16542,ORGANIZATION,TNT,O,"as well as",LOCATION,Dallas,1
+16553,LOCATION,Altaba,O,"be successor company of",ORGANIZATION,Yahoo,1
+16554,PERSON,"David Filo",O,in,LOCATION,Louisiana,1
+16559,LOCATION,Russia,O,of,ORGANIZATION,"Federal Security Service",1
+16564,ORGANIZATION,SoftBank,O,"own in",LOCATION,Europe,1
+16565,ORGANIZATION,Yahoo,O,"be in",LOCATION,USA,1
+16566,ORGANIZATION,MSN,O,"be base in",LOCATION,"United States",1
+16570,ORGANIZATION,"Nine Network",O,"be in",LOCATION,Australia,1
+16571,ORGANIZATION,Microsoft,O,"discontinue portal for",LOCATION,China,1
+16575,LOCATION,Russia,O,from,LOCATION,Serbia,1
+16576,PERSON,"Ralph Miliband",O,"have arrive in",LOCATION,UK,1
+16579,LOCATION,Thailand,O,of,PERSON,Prince,1
+16580,PERSON,"Ted Cruz",O,"be from",LOCATION,Texas,1
+16581,ORGANIZATION,"Broadcasting House",O,"be in",LOCATION,London,1
+16586,PERSON,Blake,O,from,LOCATION,Jerusalem,1
+16588,ORGANIZATION,BBC,O,"move out of",LOCATION,London,0.15377660881103794
+16589,LOCATION,Torquay,O,"be with",ORGANIZATION,BBC,1
+16591,ORGANIZATION,"New Broadcasting House",O,"be in",LOCATION,Manchester,1
+16592,LOCATION,"United Kingdom",O,"be besides",LOCATION,England,1
+16593,ORGANIZATION,BBC,O,"be major prosecute authority in",LOCATION,England,1
+16595,ORGANIZATION,"Broadcasting House",O,"be in",LOCATION,"Portland Place",1
+16597,LOCATION,Shepherd,O,around,PERSON,Bush,1
+16598,LOCATION,"Cymru Wales",O,"be to",ORGANIZATION,BBC,1
+16599,LOCATION,"Northern Ireland",O,"be to",ORGANIZATION,BBC,1
+16600,LOCATION,"Quarry Hill",O,"be in",LOCATION,Leeds,1
+16603,ORGANIZATION,BBC,O,"also provide",LOCATION,"Channel Islands",1
+16605,ORGANIZATION,"BBC Radio",O,"be also carry in",LOCATION,"United States",1
+16607,ORGANIZATION,"BBC Symphony Chorus",O,"base in",LOCATION,London,1
+16608,ORGANIZATION,"BBC Scottish Symphony Orchestra",O,"be in",LOCATION,Glasgow,1
+16609,ORGANIZATION,"BBC Philharmonic",O,"be in",LOCATION,Manchester,1
+16610,ORGANIZATION,"BBC Concert Orchestra",O,"be in",LOCATION,Cardiff,1
+16611,ORGANIZATION,"Ulster Orchestra",O,"be in",LOCATION,Belfast,1
+16615,LOCATION,"New Zealand",O,"be on",ORGANIZATION,TVNZ,1
+16618,PERSON,Bing,O,"have market share in",LOCATION,"United States",1
+16628,LOCATION,"New York City",O,in,LOCATION,"Silicon Alley",1
+16638,ORGANIZATION,PayPal,O,acquire,LOCATION,Xoom,1
+16639,LOCATION,Xoom,O,to,LOCATION,U.S,1
+16642,ORGANIZATION,PayPal,O,"cease operation in",LOCATION,Crimea,1
+16643,ORGANIZATION,Paypal,O,"cease operation in",LOCATION,Turkey,1
+16644,LOCATION,UK,O,with,ORGANIZATION,"Financial Services Authority",1
+16645,LOCATION,India,O,have,ORGANIZATION,"Central Bank stop some PayPal Services",1
+16648,ORGANIZATION,PayPal,O,"block account for",LOCATION,Iran,0.8633716821581413
+16657,ORGANIZATION,Facebook,O,"move to",LOCATION,"Palo Alto",0.15377660881103794
+16663,ORGANIZATION,"Tsinghua University",O,"be in",LOCATION,Beijing,1
+16664,ORGANIZATION,Facebook,O,"be ban in",LOCATION,China,1
+16666,LOCATION,Dublin,O,"be in",LOCATION,Ireland,1
+16667,LOCATION,Fitzrovia,O,"be in",LOCATION,London,1
+16669,ORGANIZATION,Facebook,O,"launch facebook stories in",LOCATION,Ireland,1
+16676,PERSON,Rania,O,"be of",LOCATION,Jordan,1
+16679,LOCATION,Sohu,O,have,PERSON,"Carol Yu",1
+16682,PERSON,"Gigi Leung",O,"be singer of",LOCATION,"Hong Kong",1
+16683,LOCATION,WordPress.com,O,"be block in",LOCATION,China,1
+16685,ORGANIZATION,AccuWeather,O,"be headquarter in",LOCATION,"State College",1
+16686,LOCATION,"Rockefeller Center",O,"be in",LOCATION,"New York City",1
+16688,ORGANIZATION,KFWB,O,"be in",LOCATION,"Los Angeles",1
+16691,PERSON,Yandex,O,"open office in",LOCATION,Ukraine,1
+16693,ORGANIZATION,Yandex,O,"launch search engine in",LOCATION,Turkey,1
+16697,ORGANIZATION,eBay,O,"also notably fail in",LOCATION,China,1
+16698,LOCATION,"North Campus",O,"be in",LOCATION,"San Jose",1
+16705,LOCATION,UK,O,have,ORGANIZATION,GCHQ,1
+16706,ORGANIZATION,"eBay for Charity",O,"be in",LOCATION,UK,1
+16707,ORGANIZATION,"Smith & Wollensky Steakhouse",O,"be in",LOCATION,"New York",1
+16708,PERSON,Jenkins,O,"come from",LOCATION,Amazon,1
+16716,ORGANIZATION,"Fortune Magazine",O,list,LOCATION,Pinterest,1
+16717,LOCATION,China,O,block,LOCATION,Pinterest,1
+16718,ORGANIZATION,"New York Times",O,"base in",LOCATION,"New York City",0.7066314182850015
+16725,ORGANIZATION,"New York Times",O,"publish international herald tribune in",LOCATION,Paris,1
+16727,LOCATION,"Nassau Street",O,"be in",LOCATION,"New York City",1
+16728,ORGANIZATION,"Times Tower",O,"be on",LOCATION,Broadway,1
+16729,ORGANIZATION,"New York Times",O,"move business headquarters from",LOCATION,"West 43rd Street",1
+16730,LOCATION,"Eighth Avenue",O,"be from",ORGANIZATION,"Port Authority Bus Terminal",1
+16735,PERSON,"Rudy Giuliani",O,"be of",LOCATION,"New York City",1
+16736,PERSON,"George Pataki",O,"be state governor of",LOCATION,"New York",1
+16744,PERSON,"Andrew m",O,"be by",LOCATION,"New York",1
+16755,ORGANIZATION,"UBS Global Media Conference",O,"be in",LOCATION,"New York",1
+16758,PERSON,Lee,O,"move to",LOCATION,Seoul,0.15377660881103794
+16764,ORGANIZATION,"Petronas Towers",O,"be in",LOCATION,Malaysia,1
+16765,LOCATION,"Taipei 101",O,"be in",LOCATION,Taiwan,1
+16769,ORGANIZATION,Samsung,O,"open computer programming laboratory in",LOCATION,Warsaw,1
+16772,ORGANIZATION,"Samsung Hub",O,"be the of",LOCATION,Japan,1
+16775,LOCATION,Japan,O,have,ORGANIZATION,"Toray Industries",1
+16776,ORGANIZATION,Toshiba,O,"be of",LOCATION,Japan,1
+16783,ORGANIZATION,"Samsung Electronics",O,spend,LOCATION,U.S.,1
+16786,ORGANIZATION,"Fair Trade Commission",O,"be of",LOCATION,Taiwan,1
+16788,LOCATION,England,O,v,LOCATION,Ukraine,1
+16789,PERSON,"Denise Coates",O,"pay executive in",LOCATION,UK,1
+16791,PERSON,GitHub,O,"open office in",LOCATION,Japan,1
+16792,PERSON,GitHub,O,"be block in",LOCATION,Russia,1
+16793,PERSON,GitHub,O,"be block in",LOCATION,India,1
+16798,ORGANIZATION,Avito,O,"be in",LOCATION,Russia,1
+16801,ORGANIZATION,"Royal Court of Justice",O,"be in",LOCATION,London,1
+16804,PERSON,"Alex Fishman",O,"be in",LOCATION,"West San Jose",1
+16805,ORGANIZATION,Apple,O,in,LOCATION,U.S,1
+16813,LOCATION,Ukraine,O,"be in addition to",LOCATION,Russia,1
+16815,PERSON,Durov,O,leave,LOCATION,Russia,1
+16816,LOCATION,Kiev,O,"be capital of",LOCATION,Ukraine,1
+16817,ORGANIZATION,"GoodGame Agency",O,"be divest by",LOCATION,Amazon,1
+16818,LOCATION,"Moscone Center",O,"be in",LOCATION,"San Francisco",1
+16819,LOCATION,California,O,"be at",ORGANIZATION,"Long Beach Convention and Entertainment Center",1
+16821,LOCATION,Wales,O,found,ORGANIZATION,Wikipedia,1
+16822,ORGANIZATION,"Rey Juan Carlos University",O,"be in",LOCATION,Madrid,1
+16824,ORGANIZATION,Congress,O,"be in",LOCATION,"United States",1
+16838,ORGANIZATION,Wikipedia,O,"shut down within",LOCATION,Germany,1
+16849,ORGANIZATION,Apple,O,become,LOCATION,U.S,1
+16867,LOCATION,"Apple Park",O,"be in",LOCATION,Cupertino,1
+16868,ORGANIZATION,"Apple Store",O,"be in",LOCATION,"Union Square",1
+16869,ORGANIZATION,"Barcelona Cologne Apple",O,"be in",LOCATION,"Hong Kong",1
+16874,ORGANIZATION,Apple,O,become,LOCATION,U.S,1
+16875,ORGANIZATION,"Department of the Treasury",O,"be of",LOCATION,"United States of America",1
+16876,ORGANIZATION,IRS,O,"be of",LOCATION,"United States",1
+16877,ORGANIZATION,Apple,O,"receive state aid from",LOCATION,Ireland,1
+16879,PERSON,Haiyan,O,"be in",LOCATION,Philippines,1
+16882,PERSON,Sina,O,"be most popular company in",LOCATION,China,1
+16887,LOCATION,California,O,"be in",LOCATION,"United States",1
+16888,LOCATION,"Adobe Creek",O,"be in",LOCATION,"Los Altos",1
+16892,LOCATION,"Northern District",O,"be of",LOCATION,California,1
+16899,PERSON,"Nicola Stott",O,"be astronaut of",LOCATION,US,1
+16902,PERSON,"Barack Obama",O,"be president of",LOCATION,US,1
+16903,PERSON,"Dzhokhar Tsarnaev",O,"be of",LOCATION,"Boston Marathon",1
+16908,LOCATION,"United Kingdom",O,have,ORGANIZATION,GCHQ,1
+16910,LOCATION,Reddit,O,roommate,PERSON,"Steve Huffman",1
+16911,LOCATION,Reddit,O,"be base in",LOCATION,"San Francisco",1
+16912,LOCATION,Reddit,O,"be found in",LOCATION,Medford,1
+16913,LOCATION,Massachusetts,O,"be by",PERSON,"Steve Huffman",1
+16916,LOCATION,Reddit,O,announce,PERSON,Redditmade,1
+16918,LOCATION,Reddit,O,"be rewrite in",LOCATION,Python,1
+16919,PERSON,Swartz,O,"be employee of",LOCATION,Reddit,1
+16920,LOCATION,Reddit,O,"slowly move to",PERSON,"Apache Cassandra",1
+16921,LOCATION,Reddit,O,"outsource reddit search engine to",PERSON,Flaptor,1
+16922,LOCATION,Reddit,O,have,ORGANIZATION,"director of Communications",1
+16923,PERSON,"Stephen Colbert",O,"satirical rally in",LOCATION,D.C,0.8383718910301193
+16924,PERSON,"Steve Huffman",O,"be ceo of",LOCATION,Reddit,1
+16926,PERSON,"Huong Hoang",O,"be of",LOCATION,Texas,1
+16931,LOCATION,Taobao,O,establish,LOCATION,"Taobao mall",1
+16933,ORGANIZATION,"Alibaba Group",O,reorganise,LOCATION,Taobao,1
+16934,ORGANIZATION,ipo,O,"be in",LOCATION,"United States",1
+16935,ORGANIZATION,"Alibaba Group",O,abandon,LOCATION,"Hong Kong",1
+16936,ORGANIZATION,"Alibaba Group",O,"go in",LOCATION,US,1
+16937,ORGANIZATION,"Evergrande Football Club",O,"be in",LOCATION,Guangzhou,1
+16938,ORGANIZATION,Alibaba,O,have,LOCATION,Taobao,1
+16940,ORGANIZATION,"Alibaba Group",O,"invest in",LOCATION,Snapdeal,1
+16945,LOCATION,Alibaba.com,O,"go at",ORGANIZATION,"Hong Kong Stock Exchange",1
+16946,ORGANIZATION,"Alibaba Group",O,"spin off",LOCATION,Alipay,1
+16949,PERSON,"Patrick Campbell",O,"be of",LOCATION,"Sierra Leone",1
+16950,ORGANIZATION,Office,O,"add back",LOCATION,Taobao,1
+16951,LOCATION,Amazon,O,"be of",LOCATION,Japan,1
+16952,ORGANIZATION,Rakuten,O,"expand outside",LOCATION,Japan,1
+16953,ORGANIZATION,"Rakuten tv",O,"be in",LOCATION,Spain,1
+16954,PERSON,"Rakuten Kobo",O,"be in",LOCATION,Canada,1
+16956,LOCATION,Japan,O,"be with",ORGANIZATION,"Rakuten Ichiba Taiwan",1
+16957,ORGANIZATION,Rakuten,O,"have move in",LOCATION,Austria,1
+16958,ORGANIZATION,"Bitnet Technologies",O,"be in",LOCATION,"San francisco-based",1
+16959,ORGANIZATION,Rakuten,O,"shut down retailing website in",LOCATION,UK,1
+16963,LOCATION,Russia,O,have,LOCATION,Amazon,1
+16964,ORGANIZATION,"Ebates Inc",O,"be rebate site operator of",LOCATION,US,1
+16966,PERSON,pornhub,O,"be launch in",LOCATION,Montreal,1
+16969,PERSON,pornhub,O,"be block in",LOCATION,Russia,1
+16975,ORGANIZATION,Microsoft,O,"move to",LOCATION,Redmond,0.15377660881103794
+16978,ORGANIZATION,Microsoft,O,"later settle with",LOCATION,U.S,1
+16986,LOCATION,Sydney,O,in,LOCATION,"Pitt Street mall",1
+16987,ORGANIZATION,"TOM Group",O,"be from",LOCATION,"Hong kong-based",1
